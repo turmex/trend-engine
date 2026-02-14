@@ -17,12 +17,18 @@ from typing import Any
 
 import requests
 
-# Try to import transcript API (optional — graceful fallback)
+# Try to import optional libraries (graceful fallback)
 try:
     from youtube_transcript_api import YouTubeTranscriptApi
     _HAS_TRANSCRIPT_API = True
 except ImportError:
     _HAS_TRANSCRIPT_API = False
+
+try:
+    import feedparser
+    _HAS_FEEDPARSER = True
+except ImportError:
+    _HAS_FEEDPARSER = False
 
 _HEADERS = {
     "User-Agent": (
@@ -157,6 +163,66 @@ def _match_keywords(text: str, keywords: set[str]) -> list[str]:
     return [kw for kw in keywords if kw in text_lower]
 
 
+def _fetch_blog_posts(
+    blog_rss_url: str,
+    days_back: int = 7,
+) -> list[dict[str, Any]]:
+    """Fetch recent blog posts from an RSS feed.
+
+    Args:
+        blog_rss_url: URL of the RSS/Atom feed.
+        days_back: Only include posts from the last N days.
+
+    Returns:
+        List of dicts with title, url, published, snippet.
+        Returns empty list on any error.
+    """
+    if not _HAS_FEEDPARSER:
+        return []
+
+    try:
+        resp = requests.get(blog_rss_url, timeout=5, headers=_HEADERS)
+        if resp.status_code != 200:
+            return []
+
+        feed = feedparser.parse(resp.content)
+    except Exception:
+        return []
+
+    posts: list[dict[str, Any]] = []
+    now = time.time()
+    cutoff = now - (days_back * 86400)
+
+    for entry in feed.get("entries", []):
+        # Parse published date
+        published_parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+        if published_parsed:
+            try:
+                entry_time = time.mktime(published_parsed)
+                if entry_time < cutoff:
+                    continue
+            except (ValueError, OverflowError):
+                pass  # Include posts with unparseable dates
+
+        title = entry.get("title", "")
+        url = entry.get("link", "")
+        published = entry.get("published", entry.get("updated", ""))
+
+        # Build snippet from description/summary
+        description = entry.get("summary", entry.get("description", ""))
+        # Strip HTML tags for a clean snippet
+        snippet = re.sub(r"<[^>]+>", "", description)[:200].strip()
+
+        posts.append({
+            "title": title,
+            "url": url,
+            "published": published,
+            "snippet": snippet,
+        })
+
+    return posts
+
+
 # Keywords to match against video titles and transcripts
 _RELEVANCE_KEYWORDS = {
     # Pain conditions
@@ -213,6 +279,7 @@ def collect_competitor_videos(
         return None
 
     all_videos: list[dict[str, Any]] = []
+    all_blog_posts: list[dict[str, Any]] = []
     channels_with_content = 0
     transcript_count = 0
 
@@ -270,11 +337,30 @@ def collect_competitor_videos(
         if channel_videos > 0:
             channels_with_content += 1
 
+        # Fetch blog posts if the channel has an RSS feed
+        blog_rss = config.get("blog_rss")
+        if blog_rss:
+            print(f"[Competitors] Checking blog for {channel_name}...")
+            raw_posts = _fetch_blog_posts(blog_rss, days_back=days_back)
+            for post in raw_posts:
+                text = f"{post['title']} {post['snippet']}"
+                matched = _match_keywords(text, _RELEVANCE_KEYWORDS)
+                all_blog_posts.append({
+                    "channel": channel_name,
+                    "category": category,
+                    "title": post["title"],
+                    "url": post["url"],
+                    "published": post["published"],
+                    "snippet": post["snippet"],
+                    "matched_keywords": matched,
+                    "source": "blog",
+                })
+
         # Small delay between channels to be polite
         time.sleep(0.5)
 
-    if not all_videos:
-        print("[Competitors] No recent videos found.")
+    if not all_videos and not all_blog_posts:
+        print("[Competitors] No recent videos or blog posts found.")
         return None
 
     # Separate relevant videos (title keyword match)
@@ -295,13 +381,18 @@ def collect_competitor_videos(
             by_category[cat] = []
         by_category[cat].append(v)
 
+    relevant_blog_posts = [p for p in all_blog_posts if p["matched_keywords"]]
+
     result = {
         "videos": all_videos,
+        "blog_posts": all_blog_posts,
         "summary": {
             "total_channels_checked": len(channels),
             "channels_with_new_content": channels_with_content,
             "total_new_videos": len(all_videos),
             "relevant_videos": len(relevant),
+            "total_blog_posts": len(all_blog_posts),
+            "relevant_blog_posts": len(relevant_blog_posts),
             "top_topics": top_topics,
         },
         "by_category": by_category,
@@ -309,6 +400,9 @@ def collect_competitor_videos(
 
     print(f"[Competitors] Found {len(all_videos)} new videos from "
           f"{channels_with_content} channels ({len(relevant)} relevant).")
+    if all_blog_posts:
+        print(f"[Competitors] Found {len(all_blog_posts)} blog posts "
+              f"({len(relevant_blog_posts)} relevant).")
     if top_topics:
         print(f"[Competitors] Hot topics: {', '.join(top_topics[:5])}")
 

@@ -333,7 +333,7 @@ def main():
             "PubMed" if not skip_pubmed else None,
             "Google News RSS",
             "Hacker News",
-            "YouTube Competitors" if competitor_data else None,
+            ("YouTube & Blog Competitors" if competitor_data and competitor_data.get("blog_posts") else "YouTube Competitors") if competitor_data else None,
         ],
     }
     meta["sources"] = [s for s in meta["sources"] if s]

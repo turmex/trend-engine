@@ -330,18 +330,24 @@ COMPETITOR_CHANNELS = {
     "Bob & Brad": {
         "handle": "@bobandbrad",
         "category": "physical_therapy",
+        "website": "https://www.bobandbrad.com",
+        "blog_rss": "https://www.bobandbrad.com/blog/rss.xml",
     },
     "Athlean-X (Jeff Cavaliere)": {
         "handle": "@athleanx",
         "category": "physical_therapy",
+        "website": "https://athleanx.com",
     },
     "Squat University": {
         "handle": "@SquatUniversity",
         "category": "physical_therapy",
+        "website": "https://squatuniversity.com",
+        "blog_rss": "https://squatuniversity.com/feed/",
     },
     "AskDoctorJo": {
         "handle": "@AskDoctorJo",
         "category": "physical_therapy",
+        "website": "https://www.askdoctorjo.com",
     },
     "E3 Rehab": {
         "handle": "@E3Rehab",
@@ -352,6 +358,7 @@ COMPETITOR_CHANNELS = {
     "Yoga With Adriene": {
         "handle": "@yogawithadriene",
         "category": "yoga",
+        "website": "https://yogawithadriene.com",
     },
     "Boho Beautiful Yoga": {
         "handle": "@BohoBeautiful",
@@ -380,20 +387,26 @@ COMPETITOR_CHANNELS = {
     "Andrew Huberman": {
         "handle": "@hubermanlab",
         "category": "longevity",
+        "website": "https://www.hubermanlab.com",
     },
     "Peter Attia": {
         "handle": "@PeterAttiaMD",
         "category": "longevity",
+        "website": "https://peterattiamd.com",
+        "blog_rss": "https://peterattiamd.com/feed/",
     },
     "Foundation Training": {
         "handle": "@FoundationTraining",
         "category": "longevity",
+        "website": "https://www.foundationtraining.com",
     },
 
     # --- Fitness & Functional Movement ---
     "Fitness Blender": {
         "handle": "@fitnessblender",
         "category": "fitness",
+        "website": "https://www.fitnessblender.com",
+        "blog_rss": "https://www.fitnessblender.com/blog/rss",
     },
 }
 
