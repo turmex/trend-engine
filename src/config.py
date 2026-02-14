@@ -319,6 +319,86 @@ HELP_SEEKING_SIGNALS = [
 
 
 # ═══════════════════════════════════════════════════════════════════
+# COMPETITOR YOUTUBE CHANNELS
+# ═══════════════════════════════════════════════════════════════════
+# Monitored via free RSS feeds — no API key required.
+# channel_id: found via YouTube page source or analytics tools.
+# category: groups channels in the email report.
+
+COMPETITOR_CHANNELS = {
+    # --- Physical Therapy & Pain Management ---
+    "Bob & Brad": {
+        "handle": "@bobandbrad",
+        "category": "physical_therapy",
+    },
+    "Athlean-X (Jeff Cavaliere)": {
+        "handle": "@athleanx",
+        "category": "physical_therapy",
+    },
+    "Squat University": {
+        "handle": "@SquatUniversity",
+        "category": "physical_therapy",
+    },
+    "AskDoctorJo": {
+        "handle": "@AskDoctorJo",
+        "category": "physical_therapy",
+    },
+    "E3 Rehab": {
+        "handle": "@E3Rehab",
+        "category": "physical_therapy",
+    },
+
+    # --- Yoga & Flexibility ---
+    "Yoga With Adriene": {
+        "handle": "@yogawithadriene",
+        "category": "yoga",
+    },
+    "Boho Beautiful Yoga": {
+        "handle": "@BohoBeautiful",
+        "category": "yoga",
+    },
+    "Yoga With Kassandra": {
+        "handle": "@yogawithkassandra",
+        "category": "yoga",
+    },
+
+    # --- Running & Sports Injury ---
+    "The Run Experience": {
+        "handle": "@TheRunExperience",
+        "category": "running",
+    },
+    "James Dunne (Kinetic Revolution)": {
+        "handle": "@JamesDunne",
+        "category": "running",
+    },
+    "Sage Canaday": {
+        "handle": "@SageCanaday",
+        "category": "running",
+    },
+
+    # --- Longevity & Health Science ---
+    "Andrew Huberman": {
+        "handle": "@hubermanlab",
+        "category": "longevity",
+    },
+    "Peter Attia": {
+        "handle": "@PeterAttiaMD",
+        "category": "longevity",
+    },
+    "Foundation Training": {
+        "handle": "@FoundationTraining",
+        "category": "longevity",
+    },
+
+    # --- Fitness & Functional Movement ---
+    "Fitness Blender": {
+        "handle": "@fitnessblender",
+        "category": "fitness",
+    },
+}
+
+
+# ═══════════════════════════════════════════════════════════════════
 # API & EMAIL CONFIGURATION
 # ═══════════════════════════════════════════════════════════════════
 

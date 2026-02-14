@@ -58,7 +58,7 @@ def _setup_logging():
 from config import (
     KEYWORDS, SUBREDDITS, EXEC_SUBREDDITS,
     QUORA_SEARCH_QUERIES, WIKI_ARTICLES, TOPIC_SOLUTIONS,
-    EXERCISE_PROTOCOLS,
+    EXERCISE_PROTOCOLS, COMPETITOR_CHANNELS,
     EMAIL_CONFIG, ANTHROPIC_API_KEY,
     REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT,
     CLAUDE_MODEL, CLAUDE_MAX_TOKENS,
@@ -74,6 +74,7 @@ from collectors.wikipedia import collect_wikipedia_pageviews
 from collectors.pubmed import collect_pubmed
 from collectors.news import collect_rss_news
 from collectors.hackernews import collect_hacker_news_leads
+from collectors.youtube_competitors import collect_competitor_videos
 
 # ── Analysis ──
 from analysis.emerging import detect_emerging_signals, deduplicate_reddit_posts, detect_declining_signals
@@ -210,6 +211,10 @@ def main():
     logger.info("\n  --- Hacker News ---")
     hn_leads = collect_hacker_news_leads()
 
+    # YouTube Competitor Intelligence — always runs, free RSS
+    logger.info("\n  --- YouTube Competitors ---")
+    competitor_data = collect_competitor_videos(COMPETITOR_CHANNELS)
+
     # ────────────────────────────────────────────────────────
     # 3. DEDUPLICATE REDDIT POSTS
     # ────────────────────────────────────────────────────────
@@ -328,6 +333,7 @@ def main():
             "PubMed" if not skip_pubmed else None,
             "Google News RSS",
             "Hacker News",
+            "YouTube Competitors" if competitor_data else None,
         ],
     }
     meta["sources"] = [s for s in meta["sources"] if s]
@@ -335,6 +341,7 @@ def main():
     html = render_email(
         analysis, strategy, emerging, engagement_opps, meta,
         declining=declining, seasonal=seasonal, assessment=assessment,
+        competitor_data=competitor_data,
     )
 
     # Save HTML for debugging / CI artifact
@@ -359,6 +366,7 @@ def main():
         "news": news,
         "leads": leads,
         "hn_leads": hn_leads,
+        "competitor_data": competitor_data,
         "emerging_signals": emerging,
         "declining_signals": declining,
         "seasonal_context": seasonal,
@@ -388,6 +396,9 @@ def main():
     if declining:
         logger.info(f"  Declining: {', '.join(d['keyword'] for d in declining[:3])}")
     logger.info(f"  Engagement opps: {len(engagement_opps)}")
+    if competitor_data:
+        s = competitor_data.get("summary", {})
+        logger.info(f"  Competitors: {s.get('total_new_videos', 0)} videos from {s.get('channels_with_new_content', 0)} channels")
 
     logger.info("\n" + "=" * 60)
     logger.info(f"  Done. Brief #{meta['brief_number']}: '{theme}'")

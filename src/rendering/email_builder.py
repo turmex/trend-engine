@@ -419,6 +419,7 @@ def render_email(
     declining: List[Dict[str, Any]] | None = None,
     seasonal: Dict[str, Any] | None = None,
     assessment: Dict[str, Any] | None = None,
+    competitor_data: Dict[str, Any] | None = None,
 ) -> str:
     """Render the full weekly trend brief as HTML.
 
@@ -484,5 +485,6 @@ def render_email(
         declining=declining or [],
         seasonal=seasonal or {},
         assessment=assessment or {},
+        competitor_data=competitor_data or {},
         meta=meta or {},
     )

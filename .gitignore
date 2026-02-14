@@ -3,3 +3,9 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+data/
+Scrapling-main/
+.claude/
+formcoach-trend-brief-sample.html
+*.html
+node_modules/
