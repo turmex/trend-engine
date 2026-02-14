@@ -40,6 +40,31 @@ _HEADERS = {
 }
 
 
+def _parse_view_count(text: str) -> int:
+    """Parse YouTube view count text into an integer.
+
+    Handles formats: '1,234 views', '12K views', '1.2M views', 'No views', ''.
+    Returns 0 if unparseable.
+    """
+    if not text:
+        return 0
+    text = text.lower().replace(",", "").replace("views", "").strip()
+    if not text or text == "no":
+        return 0
+
+    multipliers = {"k": 1_000, "m": 1_000_000, "b": 1_000_000_000}
+    suffix = text[-1]
+    if suffix in multipliers:
+        try:
+            return int(float(text[:-1]) * multipliers[suffix])
+        except ValueError:
+            return 0
+    try:
+        return int(float(text))
+    except ValueError:
+        return 0
+
+
 def _parse_relative_date(text: str) -> int | None:
     """Parse YouTube's relative date (e.g. '3 days ago') into days.
 
@@ -124,12 +149,14 @@ def _fetch_channel_videos(
             days_ago = _parse_relative_date(published_text)
             view_text = (video.get("viewCountText", {})
                          .get("simpleText", ""))
+            view_count = _parse_view_count(view_text)
 
             videos.append({
                 "title": title,
                 "video_id": vid_id,
                 "published_text": published_text,
                 "days_ago": days_ago,
+                "views": view_count,
                 "views_text": view_text,
                 "url": f"https://www.youtube.com/watch?v={vid_id}",
             })
@@ -314,7 +341,7 @@ def collect_competitor_videos(
                 "title": title,
                 "url": url,
                 "published": rv.get("published_text", ""),
-                "views": rv.get("views_text", ""),
+                "views": rv.get("views", 0),
                 "matched_keywords": title_matches,
                 "transcript_snippet": None,
                 "transcript_keywords": None,

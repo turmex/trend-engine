@@ -36,7 +36,7 @@
             <div style="font-size:13px;font-weight:600;color:#1e293b;">
                 <a href="{{ video.url }}" style="color:#1e293b;text-decoration:none;">{{ video.title }}</a>
                 {% if video.views is defined and video.views %}
-                <span style="font-size:10px;font-weight:400;color:#6366f1;margin-left:6px;">{{ video.views | int | string }} views</span>
+                <span style="font-size:10px;font-weight:400;color:#6366f1;margin-left:6px;">{{ "{:,}".format(video.views) }} views</span>
                 {% endif %}
             </div>
             <div style="font-size:11px;color:#94a3b8;margin-top:2px;">
