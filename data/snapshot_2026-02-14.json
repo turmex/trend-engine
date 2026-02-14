@@ -1,6 +1,6 @@
 {
   "date": "2026-02-14",
-  "theme": "shoulder pain",
+  "theme": "knee pain",
   "google": {
     "neck pain": {
       "current": 80,
@@ -397,7 +397,206 @@
   },
   "rising_queries": null,
   "reddit": null,
-  "quora": null,
+  "quora": [
+    {
+      "question": "What are the best exercises for chronic back pain and sore ribs at the same time",
+      "url": "https://www.quora.com/What-are-the-best-exercises-for-chronic-back-pain-and-sore-ribs-at-the-same-time",
+      "source_query": "best exercises for chronic back pain",
+      "fingerprint": "what-are-the-best-exercises-for-chronic-back-pain-and-sore-ribs-at-the-same-time"
+    },
+    {
+      "question": "What are the best exercises for chronic back pain and sore ribs at the same time#:~:text=What are the best exercises,All related (31)",
+      "url": "https://www.quora.com/What-are-the-best-exercises-for-chronic-back-pain-and-sore-ribs-at-the-same-time#:~:text=What are the best exercises,All related (31)",
+      "source_query": "best exercises for chronic back pain",
+      "fingerprint": "what-are-the-best-exercises-for-chronic-back-pain-and-sore-ribs-at-the-same-timetextwhat-are-the-best-exercisesall-related-31"
+    },
+    {
+      "question": "Can exercise and physical therapy help alleviate chronic back pain and if so what types of exercises are recommended",
+      "url": "https://www.quora.com/Can-exercise-and-physical-therapy-help-alleviate-chronic-back-pain-and-if-so-what-types-of-exercises-are-recommended",
+      "source_query": "best exercises for chronic back pain",
+      "fingerprint": "can-exercise-and-physical-therapy-help-alleviate-chronic-back-pain-and-if-so-what-types-of-exercises-are-recommended"
+    },
+    {
+      "question": "What are effective ways to prevent back pain from prolonged sitting",
+      "url": "https://www.quora.com/What-are-effective-ways-to-prevent-back-pain-from-prolonged-sitting",
+      "source_query": "how to prevent lower back pain from sitting",
+      "fingerprint": "what-are-effective-ways-to-prevent-back-pain-from-prolonged-sitting"
+    },
+    {
+      "question": "What are effective ways to prevent back pain from prolonged sitting#:~:text=To relieve back pain from,chair, and maintain good posture.",
+      "url": "https://www.quora.com/What-are-effective-ways-to-prevent-back-pain-from-prolonged-sitting#:~:text=To relieve back pain from,chair, and maintain good posture.",
+      "source_query": "how to prevent lower back pain from sitting",
+      "fingerprint": "what-are-effective-ways-to-prevent-back-pain-from-prolonged-sittingtextto-relieve-back-pain-fromchair-and-maintain-good-posture"
+    },
+    {
+      "question": "Which simple exercises help reduce lower back pain from sitting too long",
+      "url": "https://www.quora.com/Which-simple-exercises-help-reduce-lower-back-pain-from-sitting-too-long",
+      "source_query": "how to prevent lower back pain from sitting",
+      "fingerprint": "which-simple-exercises-help-reduce-lower-back-pain-from-sitting-too-long"
+    },
+    {
+      "question": "Will strengthening my lower back muscles help with sciatica",
+      "url": "https://www.quora.com/Will-strengthening-my-lower-back-muscles-help-with-sciatica",
+      "source_query": "sciatica pain relief exercises",
+      "fingerprint": "will-strengthening-my-lower-back-muscles-help-with-sciatica"
+    },
+    {
+      "question": "Will strengthening my lower back muscles help with sciatica#:~:text=These therapies can have sciatica,movement like walking, stretching, swimming.",
+      "url": "https://www.quora.com/Will-strengthening-my-lower-back-muscles-help-with-sciatica#:~:text=These therapies can have sciatica,movement like walking, stretching, swimming.",
+      "source_query": "sciatica pain relief exercises",
+      "fingerprint": "will-strengthening-my-lower-back-muscles-help-with-sciaticatextthese-therapies-can-have-sciaticamovement-like-walking-stretching-swimming"
+    },
+    {
+      "question": "How do we crack our lower back from sciatica",
+      "url": "https://www.quora.com/How-do-we-crack-our-lower-back-from-sciatica",
+      "source_query": "sciatica pain relief exercises",
+      "fingerprint": "how-do-we-crack-our-lower-back-from-sciatica"
+    },
+    {
+      "question": "What has helped you to maintain correct posture while working on a desk",
+      "url": "https://www.quora.com/What-has-helped-you-to-maintain-correct-posture-while-working-on-a-desk",
+      "source_query": "posture correction for desk workers",
+      "fingerprint": "what-has-helped-you-to-maintain-correct-posture-while-working-on-a-desk"
+    },
+    {
+      "question": "What has helped you to maintain correct posture while working on a desk#:~:text=If your feet are dangling,,the rest of your body.",
+      "url": "https://www.quora.com/What-has-helped-you-to-maintain-correct-posture-while-working-on-a-desk#:~:text=If your feet are dangling,,the rest of your body.",
+      "source_query": "posture correction for desk workers",
+      "fingerprint": "what-has-helped-you-to-maintain-correct-posture-while-working-on-a-desktextif-your-feet-are-danglingthe-rest-of-your-body"
+    },
+    {
+      "question": "What are some simple habits or tools to fix bad posture and reduce back pain for people who work long hours at a desk",
+      "url": "https://www.quora.com/What-are-some-simple-habits-or-tools-to-fix-bad-posture-and-reduce-back-pain-for-people-who-work-long-hours-at-a-desk",
+      "source_query": "posture correction for desk workers",
+      "fingerprint": "what-are-some-simple-habits-or-tools-to-fix-bad-posture-and-reduce-back-pain-for-people-who-work-long-hours-at-a-desk"
+    },
+    {
+      "question": "Are sciatica and piriformis syndrome the same or similar",
+      "url": "https://www.quora.com/Are-sciatica-and-piriformis-syndrome-the-same-or-similar",
+      "source_query": "piriformis syndrome vs sciatica difference",
+      "fingerprint": "are-sciatica-and-piriformis-syndrome-the-same-or-similar"
+    },
+    {
+      "question": "Are sciatica and piriformis syndrome the same or similar#:~:text=Piriformis syndrome, occurs when the,conditions interfere with sciatic nerve.",
+      "url": "https://www.quora.com/Are-sciatica-and-piriformis-syndrome-the-same-or-similar#:~:text=Piriformis syndrome, occurs when the,conditions interfere with sciatic nerve.",
+      "source_query": "piriformis syndrome vs sciatica difference",
+      "fingerprint": "are-sciatica-and-piriformis-syndrome-the-same-or-similartextpiriformis-syndrome-occurs-when-theconditions-interfere-with-sciatic-nerve"
+    },
+    {
+      "question": "What is the difference between piriformis syndrome and sciatica Is there any treatment for either of these conditions other than surgery",
+      "url": "https://www.quora.com/What-is-the-difference-between-piriformis-syndrome-and-sciatica-Is-there-any-treatment-for-either-of-these-conditions-other-than-surgery",
+      "source_query": "piriformis syndrome vs sciatica difference",
+      "fingerprint": "what-is-the-difference-between-piriformis-syndrome-and-sciatica-is-there-any-treatment-for-either-of-these-conditions-other-than-surgery"
+    },
+    {
+      "question": "I m 15 and already have a forward head posture How do I fix this",
+      "url": "https://www.quora.com/I-m-15-and-already-have-a-forward-head-posture-How-do-I-fix-this",
+      "source_query": "how to fix forward head posture permanently",
+      "fingerprint": "i-m-15-and-already-have-a-forward-head-posture-how-do-i-fix-this"
+    },
+    {
+      "question": "I m 15 and already have a forward head posture How do I fix this#:~:text=1. Be mindful of your,posture.",
+      "url": "https://www.quora.com/I-m-15-and-already-have-a-forward-head-posture-How-do-I-fix-this#:~:text=1. Be mindful of your,posture.",
+      "source_query": "how to fix forward head posture permanently",
+      "fingerprint": "i-m-15-and-already-have-a-forward-head-posture-how-do-i-fix-thistext1-be-mindful-of-yourposture"
+    },
+    {
+      "question": "Is it normal to have a fatter looking chin in the process of correcting forward head posture My throat also feels uncomfortable Will these go away",
+      "url": "https://www.quora.com/Is-it-normal-to-have-a-fatter-looking-chin-in-the-process-of-correcting-forward-head-posture-My-throat-also-feels-uncomfortable-Will-these-go-away",
+      "source_query": "how to fix forward head posture permanently",
+      "fingerprint": "is-it-normal-to-have-a-fatter-looking-chin-in-the-process-of-correcting-forward-head-posture-my-throat-also-feels-uncomfortable-will-these-go-away"
+    },
+    {
+      "question": "Can I lift weights with thoracic outlet syndrome",
+      "url": "https://www.quora.com/Can-I-lift-weights-with-thoracic-outlet-syndrome",
+      "source_query": "best exercises for thoracic outlet syndrome",
+      "fingerprint": "can-i-lift-weights-with-thoracic-outlet-syndrome"
+    },
+    {
+      "question": "Can I lift weights with thoracic outlet syndrome#:~:text=However, any heavy compression exercise,right now, but not forever.",
+      "url": "https://www.quora.com/Can-I-lift-weights-with-thoracic-outlet-syndrome#:~:text=However, any heavy compression exercise,right now, but not forever.",
+      "source_query": "best exercises for thoracic outlet syndrome",
+      "fingerprint": "can-i-lift-weights-with-thoracic-outlet-syndrometexthowever-any-heavy-compression-exerciseright-now-but-not-forever"
+    },
+    {
+      "question": "What is a shoulder impingement and what are some good exercises for it",
+      "url": "https://www.quora.com/What-is-a-shoulder-impingement-and-what-are-some-good-exercises-for-it",
+      "source_query": "best exercises for thoracic outlet syndrome",
+      "fingerprint": "what-is-a-shoulder-impingement-and-what-are-some-good-exercises-for-it"
+    },
+    {
+      "question": "Why do my hips ache after an hour of sitting",
+      "url": "https://www.quora.com/Why-do-my-hips-ache-after-an-hour-of-sitting",
+      "source_query": "why does my hip hurt after sitting all day",
+      "fingerprint": "why-do-my-hips-ache-after-an-hour-of-sitting"
+    },
+    {
+      "question": "Why do my hips ache after an hour of sitting#:~:text=It's widely known that living,leads to hip flexor pain.",
+      "url": "https://www.quora.com/Why-do-my-hips-ache-after-an-hour-of-sitting#:~:text=It's widely known that living,leads to hip flexor pain.",
+      "source_query": "why does my hip hurt after sitting all day",
+      "fingerprint": "why-do-my-hips-ache-after-an-hour-of-sittingtextits-widely-known-that-livingleads-to-hip-flexor-pain"
+    },
+    {
+      "question": "When I sit or stand for long periods my right side hip hurts and travels down my leg what is it Laying makes it worse",
+      "url": "https://www.quora.com/When-I-sit-or-stand-for-long-periods-my-right-side-hip-hurts-and-travels-down-my-leg-what-is-it-Laying-makes-it-worse",
+      "source_query": "why does my hip hurt after sitting all day",
+      "fingerprint": "when-i-sit-or-stand-for-long-periods-my-right-side-hip-hurts-and-travels-down-my-leg-what-is-it-laying-makes-it-worse"
+    },
+    {
+      "question": "How long does it take to fix an anterior pelvic tilt Has anybody you know of successfully fixed it",
+      "url": "https://www.quora.com/How-long-does-it-take-to-fix-an-anterior-pelvic-tilt-Has-anybody-you-know-of-successfully-fixed-it",
+      "source_query": "how long does it take to fix anterior pelvic tilt",
+      "fingerprint": "how-long-does-it-take-to-fix-an-anterior-pelvic-tilt-has-anybody-you-know-of-successfully-fixed-it"
+    },
+    {
+      "question": "How long does it take to fix an anterior pelvic tilt Has anybody you know of successfully fixed it#:~:text=The runners lunge for 30,anterior pelvic tilt issues covered.",
+      "url": "https://www.quora.com/How-long-does-it-take-to-fix-an-anterior-pelvic-tilt-Has-anybody-you-know-of-successfully-fixed-it#:~:text=The runners lunge for 30,anterior pelvic tilt issues covered.",
+      "source_query": "how long does it take to fix anterior pelvic tilt",
+      "fingerprint": "how-long-does-it-take-to-fix-an-anterior-pelvic-tilt-has-anybody-you-know-of-successfully-fixed-ittextthe-runners-lunge-for-30anterior-pelvic-tilt-issues-covered"
+    },
+    {
+      "question": "How long does it take to fix an anterior pelvic tilt hyperlordosis",
+      "url": "https://www.quora.com/How-long-does-it-take-to-fix-an-anterior-pelvic-tilt-hyperlordosis",
+      "source_query": "how long does it take to fix anterior pelvic tilt",
+      "fingerprint": "how-long-does-it-take-to-fix-an-anterior-pelvic-tilt-hyperlordosis"
+    },
+    {
+      "question": "Are standing desks better for your back than regular desks",
+      "url": "https://www.quora.com/Are-standing-desks-better-for-your-back-than-regular-desks",
+      "source_query": "is a standing desk better than sitting for back pain",
+      "fingerprint": "are-standing-desks-better-for-your-back-than-regular-desks"
+    },
+    {
+      "question": "Are standing desks better for your back than regular desks#:~:text=One study showed that participants,for several weeks. Another study",
+      "url": "https://www.quora.com/Are-standing-desks-better-for-your-back-than-regular-desks#:~:text=One study showed that participants,for several weeks. Another study",
+      "source_query": "is a standing desk better than sitting for back pain",
+      "fingerprint": "are-standing-desks-better-for-your-back-than-regular-deskstextone-study-showed-that-participantsfor-several-weeks-another-study"
+    },
+    {
+      "question": "Is a standing desk really better for someone than a traditional sit down desk and does it help with productivity and focus as well as posture",
+      "url": "https://www.quora.com/Is-a-standing-desk-really-better-for-someone-than-a-traditional-sit-down-desk-and-does-it-help-with-productivity-and-focus-as-well-as-posture",
+      "source_query": "is a standing desk better than sitting for back pain",
+      "fingerprint": "is-a-standing-desk-really-better-for-someone-than-a-traditional-sit-down-desk-and-does-it-help-with-productivity-and-focus-as-well-as-posture"
+    },
+    {
+      "question": "How should a foam roller be used to relieve lower back pain",
+      "url": "https://www.quora.com/How-should-a-foam-roller-be-used-to-relieve-lower-back-pain",
+      "source_query": "best foam roller exercises for back pain relief",
+      "fingerprint": "how-should-a-foam-roller-be-used-to-relieve-lower-back-pain"
+    },
+    {
+      "question": "How should a foam roller be used to relieve lower back pain#:~:text=This self myofascial release technique can,and pain in your back.",
+      "url": "https://www.quora.com/How-should-a-foam-roller-be-used-to-relieve-lower-back-pain#:~:text=This self-myofascial release technique can,and pain in your back.",
+      "source_query": "best foam roller exercises for back pain relief",
+      "fingerprint": "how-should-a-foam-roller-be-used-to-relieve-lower-back-paintextthis-self-myofascial-release-technique-canand-pain-in-your-back"
+    },
+    {
+      "question": "How do I stretch my back using a foam roller",
+      "url": "https://www.quora.com/How-do-I-stretch-my-back-using-a-foam-roller",
+      "source_query": "best foam roller exercises for back pain relief",
+      "fingerprint": "how-do-i-stretch-my-back-using-a-foam-roller"
+    }
+  ],
   "wikipedia": {
     "Chronic_pain": {
       "current_week_avg": 424.71,
@@ -2287,6 +2486,12 @@
       "date": "Thu, 12 Feb 2026 16:32:38 GMT"
     },
     {
+      "title": "LeBron James sciatica recovery time: Expert medical analysis, definition of Lakers star's injury",
+      "source": "Yahoo Sports Canada",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdktLcThtTl9hZzQ2ODZxNFprSElEVUlYVnZZVldpejVrVmhzRkhaYmVJRHdQS1kyVmdWaG5VT2Q3blNyQnJFOTNaaENiNzdfS2JlbE9kVng2UE1sb2o4eHN3bkJ2MmxHVnFBVXFlRnROUXNqRWV3VktiVmlkZUxwcTF5aUN0Qk1KVGk4?oc=5",
+      "date": "Wed, 11 Feb 2026 16:04:37 GMT"
+    },
+    {
       "title": "Chronic back pain? Osteopath says your 'office posture' is ageing you - and the steps to fix it",
       "source": "HELLO! Magazine",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRjB1cTZjVkdqYzVUR3NLYmd0cnBsZTBRaFJSZ1d2Zm5xYU1QNHpDWDBYdUtnTWRNMHc5Q2xJNjRsQ21nT01SYmtiLU5tMks4Tnk3VXFlSnNiR1d1cUlud3U3R2cwcm9rM0ExMTBrYUZ6VFNLTVB6ZXlUQnhSRm1vMWlzbnhsOFU3c1A4SllsS2hZRkVwckU1enpnNUhlRGQySUVzN3lLZjh5OExTS3hTcWhB0gHAAUFVX3lxTE0wVzM0NU9IVE16OFp6X19DV1RCeV8tWlFQTjZSb2wzNDh1Y2FwckxJdUJ5cU1RTEZRbV83aUxERkNpbXRRT21IR2ZQUWJSMHpQNmRJdmQ3aWFldjQ5TE54NGxjX1J0UWNFMzBFbnZLcXVSemNFWFNXQlFjS3B3QXJTanV4RFJXWThocTFWNHdpUlVkdTFDWExqclBxNmF6UW9lbXVtMDdBWEdRYS1aQjFranZNcjk2QjlxandrSnFBTg?oc=5",
@@ -2305,16 +2510,10 @@
       "date": "Thu, 12 Feb 2026 21:26:57 GMT"
     },
     {
-      "title": "Los Angeles California's Dr. Austin Harris Advances Personalized Ketamine & Infusion Therapy for Mental Health, Chronic Pain, and Recovery",
-      "source": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYjdsamdMZlVIVng4MXJqTUVOdXVKTWsteENwSHAxYmZIV0x5Mnp0NnBSeTlYYXRiZjVTbXFQNEdhcnZtSVE5Vzk2RThwbUE2X29TLWloOWpMNFowSDl3U2NFZHhjLTNCa2MxSTl1MGJpVVBPakMzS1hVbExobXpZN1JYUzFHTm9BZkE?oc=5",
-      "date": "Fri, 13 Feb 2026 20:15:00 GMT"
-    },
-    {
-      "title": "Scientists Discover a New Way To Stop Pain Nerves From Invading the Spine",
-      "source": "SciTechDaily",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDNKQlpDSW5GdFdsSlZpOEVqcGxuQW10cjhUdmQyOFFvZ09YU243OU00SFhIWFNucHdJVDU2VnJRRm5pbmxxZ2JRWG93N3EtRDNSVFFONV9NVkc5c2VvQTdnUHRrVnQtaWlDLTlFUUQ1YndVRmVteG4zOWU2YUZmQkQ1WVFyRFNsLXBCaXFPcUNia0tpNHJxTlFIM1BCNXZ1?oc=5",
-      "date": "Tue, 10 Feb 2026 20:28:53 GMT"
+      "title": "Interventional Treatment Options for Pain: A PA's Perspective",
+      "source": "Pain Medicine News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVU93Uzk3VS1faGlQNjNFX1lYYjlSVjJBZGpESDEtQ2hHY0xUbkc2N2NUZGhycDJGTTlJTWxwbTQ3N05PREhnYVlmelZvT3pMTDdXMG5RZlBSNVJ1MUpoaWE1RU1NZG5ZSUxyVk40czZxaTZxZDUtT2dQSHd6TzBtb0tpbGV0SkdOYUZxcHBDbkFqM1BnRzNRSExWejZNeXlsRndsR0xQQnVHMC11WnVVRW1MY01NWkNw?oc=5",
+      "date": "Mon, 09 Feb 2026 23:00:01 GMT"
     }
   ],
   "leads": null,
@@ -2365,9 +2564,208 @@
         "daily_views": 86
       }
     ],
-    "new_quora_questions": [],
-    "is_first_run": true,
-    "summary": "4 Wikipedia breakouts"
+    "new_quora_questions": [
+      {
+        "question": "Is it normal to have a fatter looking chin in the process of correcting forward head posture My throat also feels uncomfortable Will these go away",
+        "url": "https://www.quora.com/Is-it-normal-to-have-a-fatter-looking-chin-in-the-process-of-correcting-forward-head-posture-My-throat-also-feels-uncomfortable-Will-these-go-away",
+        "fingerprint": "['away', 'chin', 'correcting', 'fatter', 'feels', 'forward', 'go', 'head', 'looking', 'normal', 'posture', 'process', 'these', 'throat', 'uncomfortable']",
+        "title": "Is it normal to have a fatter looking chin in the process of correcting forward head posture My throat also feels uncomfortable Will these go away"
+      },
+      {
+        "question": "Why do my hips ache after an hour of sitting#:~:text=It's widely known that living,leads to hip flexor pain.",
+        "url": "https://www.quora.com/Why-do-my-hips-ache-after-an-hour-of-sitting#:~:text=It's widely known that living,leads to hip flexor pain.",
+        "fingerprint": "['ache', 'flexor', 'hip', 'hips', 'hour', 'known', 'living,leads', 'pain.', \"sitting#:~:text=it's\", 'why', 'widely']",
+        "title": "Why do my hips ache after an hour of sitting#:~:text=It's widely known that living,leads to hip flexor pain."
+      },
+      {
+        "question": "Can I lift weights with thoracic outlet syndrome",
+        "url": "https://www.quora.com/Can-I-lift-weights-with-thoracic-outlet-syndrome",
+        "fingerprint": "['lift', 'outlet', 'syndrome', 'thoracic', 'weights']",
+        "title": "Can I lift weights with thoracic outlet syndrome"
+      },
+      {
+        "question": "What are effective ways to prevent back pain from prolonged sitting",
+        "url": "https://www.quora.com/What-are-effective-ways-to-prevent-back-pain-from-prolonged-sitting",
+        "fingerprint": "['back', 'effective', 'pain', 'prevent', 'prolonged', 'sitting', 'ways']",
+        "title": "What are effective ways to prevent back pain from prolonged sitting"
+      },
+      {
+        "question": "What has helped you to maintain correct posture while working on a desk",
+        "url": "https://www.quora.com/What-has-helped-you-to-maintain-correct-posture-while-working-on-a-desk",
+        "fingerprint": "['correct', 'desk', 'helped', 'maintain', 'posture', 'while', 'working']",
+        "title": "What has helped you to maintain correct posture while working on a desk"
+      },
+      {
+        "question": "How do we crack our lower back from sciatica",
+        "url": "https://www.quora.com/How-do-we-crack-our-lower-back-from-sciatica",
+        "fingerprint": "['back', 'crack', 'lower', 'sciatica']",
+        "title": "How do we crack our lower back from sciatica"
+      },
+      {
+        "question": "What are effective ways to prevent back pain from prolonged sitting#:~:text=To relieve back pain from,chair, and maintain good posture.",
+        "url": "https://www.quora.com/What-are-effective-ways-to-prevent-back-pain-from-prolonged-sitting#:~:text=To relieve back pain from,chair, and maintain good posture.",
+        "fingerprint": "['back', 'effective', 'from,chair,', 'good', 'maintain', 'pain', 'posture.', 'prevent', 'prolonged', 'relieve', 'sitting#:~:text=to', 'ways']",
+        "title": "What are effective ways to prevent back pain from prolonged sitting#:~:text=To relieve back pain from,chair, and maintain good posture."
+      },
+      {
+        "question": "Will strengthening my lower back muscles help with sciatica",
+        "url": "https://www.quora.com/Will-strengthening-my-lower-back-muscles-help-with-sciatica",
+        "fingerprint": "['back', 'help', 'lower', 'muscles', 'sciatica', 'strengthening']",
+        "title": "Will strengthening my lower back muscles help with sciatica"
+      },
+      {
+        "question": "What are the best exercises for chronic back pain and sore ribs at the same time",
+        "url": "https://www.quora.com/What-are-the-best-exercises-for-chronic-back-pain-and-sore-ribs-at-the-same-time",
+        "fingerprint": "['back', 'best', 'chronic', 'exercises', 'pain', 'ribs', 'same', 'sore', 'time']",
+        "title": "What are the best exercises for chronic back pain and sore ribs at the same time"
+      },
+      {
+        "question": "Which simple exercises help reduce lower back pain from sitting too long",
+        "url": "https://www.quora.com/Which-simple-exercises-help-reduce-lower-back-pain-from-sitting-too-long",
+        "fingerprint": "['back', 'exercises', 'help', 'long', 'lower', 'pain', 'reduce', 'simple', 'sitting']",
+        "title": "Which simple exercises help reduce lower back pain from sitting too long"
+      },
+      {
+        "question": "Are sciatica and piriformis syndrome the same or similar",
+        "url": "https://www.quora.com/Are-sciatica-and-piriformis-syndrome-the-same-or-similar",
+        "fingerprint": "['piriformis', 'same', 'sciatica', 'similar', 'syndrome']",
+        "title": "Are sciatica and piriformis syndrome the same or similar"
+      },
+      {
+        "question": "How long does it take to fix an anterior pelvic tilt Has anybody you know of successfully fixed it#:~:text=The runners lunge for 30,anterior pelvic tilt issues covered.",
+        "url": "https://www.quora.com/How-long-does-it-take-to-fix-an-anterior-pelvic-tilt-Has-anybody-you-know-of-successfully-fixed-it#:~:text=The runners lunge for 30,anterior pelvic tilt issues covered.",
+        "fingerprint": "['30,anterior', 'anterior', 'anybody', 'covered.', 'fix', 'fixed', 'issues', 'it#:~:text=the', 'know', 'long', 'lunge', 'pelvic', 'runners', 'successfully', 'take', 'tilt']",
+        "title": "How long does it take to fix an anterior pelvic tilt Has anybody you know of successfully fixed it#:~:text=The runners lunge for 30,anterior pelvic tilt issues covered."
+      },
+      {
+        "question": "What is the difference between piriformis syndrome and sciatica Is there any treatment for either of these conditions other than surgery",
+        "url": "https://www.quora.com/What-is-the-difference-between-piriformis-syndrome-and-sciatica-Is-there-any-treatment-for-either-of-these-conditions-other-than-surgery",
+        "fingerprint": "['between', 'conditions', 'difference', 'either', 'piriformis', 'sciatica', 'surgery', 'syndrome', 'these', 'treatment']",
+        "title": "What is the difference between piriformis syndrome and sciatica Is there any treatment for either of these conditions other than surgery"
+      },
+      {
+        "question": "I m 15 and already have a forward head posture How do I fix this#:~:text=1. Be mindful of your,posture.",
+        "url": "https://www.quora.com/I-m-15-and-already-have-a-forward-head-posture-How-do-I-fix-this#:~:text=1. Be mindful of your,posture.",
+        "fingerprint": "['15', 'already', 'fix', 'forward', 'head', 'm', 'mindful', 'posture', 'this#:~:text=1.', 'your,posture.']",
+        "title": "I m 15 and already have a forward head posture How do I fix this#:~:text=1. Be mindful of your,posture."
+      },
+      {
+        "question": "Can I lift weights with thoracic outlet syndrome#:~:text=However, any heavy compression exercise,right now, but not forever.",
+        "url": "https://www.quora.com/Can-I-lift-weights-with-thoracic-outlet-syndrome#:~:text=However, any heavy compression exercise,right now, but not forever.",
+        "fingerprint": "['compression', 'exercise,right', 'forever.', 'heavy', 'lift', 'now,', 'outlet', 'syndrome#:~:text=however,', 'thoracic', 'weights']",
+        "title": "Can I lift weights with thoracic outlet syndrome#:~:text=However, any heavy compression exercise,right now, but not forever."
+      },
+      {
+        "question": "Are standing desks better for your back than regular desks",
+        "url": "https://www.quora.com/Are-standing-desks-better-for-your-back-than-regular-desks",
+        "fingerprint": "['back', 'better', 'desks', 'regular', 'standing']",
+        "title": "Are standing desks better for your back than regular desks"
+      },
+      {
+        "question": "What are some simple habits or tools to fix bad posture and reduce back pain for people who work long hours at a desk",
+        "url": "https://www.quora.com/What-are-some-simple-habits-or-tools-to-fix-bad-posture-and-reduce-back-pain-for-people-who-work-long-hours-at-a-desk",
+        "fingerprint": "['back', 'bad', 'desk', 'fix', 'habits', 'hours', 'long', 'pain', 'people', 'posture', 'reduce', 'simple', 'tools', 'work']",
+        "title": "What are some simple habits or tools to fix bad posture and reduce back pain for people who work long hours at a desk"
+      },
+      {
+        "question": "When I sit or stand for long periods my right side hip hurts and travels down my leg what is it Laying makes it worse",
+        "url": "https://www.quora.com/When-I-sit-or-stand-for-long-periods-my-right-side-hip-hurts-and-travels-down-my-leg-what-is-it-Laying-makes-it-worse",
+        "fingerprint": "['down', 'hip', 'hurts', 'laying', 'leg', 'long', 'makes', 'periods', 'right', 'side', 'sit', 'stand', 'travels', 'worse']",
+        "title": "When I sit or stand for long periods my right side hip hurts and travels down my leg what is it Laying makes it worse"
+      },
+      {
+        "question": "Are sciatica and piriformis syndrome the same or similar#:~:text=Piriformis syndrome, occurs when the,conditions interfere with sciatic nerve.",
+        "url": "https://www.quora.com/Are-sciatica-and-piriformis-syndrome-the-same-or-similar#:~:text=Piriformis syndrome, occurs when the,conditions interfere with sciatic nerve.",
+        "fingerprint": "['interfere', 'nerve.', 'occurs', 'piriformis', 'same', 'sciatic', 'sciatica', 'similar#:~:text=piriformis', 'syndrome', 'syndrome,', 'the,conditions']",
+        "title": "Are sciatica and piriformis syndrome the same or similar#:~:text=Piriformis syndrome, occurs when the,conditions interfere with sciatic nerve."
+      },
+      {
+        "question": "Will strengthening my lower back muscles help with sciatica#:~:text=These therapies can have sciatica,movement like walking, stretching, swimming.",
+        "url": "https://www.quora.com/Will-strengthening-my-lower-back-muscles-help-with-sciatica#:~:text=These therapies can have sciatica,movement like walking, stretching, swimming.",
+        "fingerprint": "['back', 'help', 'lower', 'muscles', 'sciatica#:~:text=these', 'sciatica,movement', 'strengthening', 'stretching,', 'swimming.', 'therapies', 'walking,']",
+        "title": "Will strengthening my lower back muscles help with sciatica#:~:text=These therapies can have sciatica,movement like walking, stretching, swimming."
+      },
+      {
+        "question": "What is a shoulder impingement and what are some good exercises for it",
+        "url": "https://www.quora.com/What-is-a-shoulder-impingement-and-what-are-some-good-exercises-for-it",
+        "fingerprint": "['exercises', 'good', 'impingement', 'shoulder']",
+        "title": "What is a shoulder impingement and what are some good exercises for it"
+      },
+      {
+        "question": "How do I stretch my back using a foam roller",
+        "url": "https://www.quora.com/How-do-I-stretch-my-back-using-a-foam-roller",
+        "fingerprint": "['back', 'foam', 'roller', 'stretch', 'using']",
+        "title": "How do I stretch my back using a foam roller"
+      },
+      {
+        "question": "What has helped you to maintain correct posture while working on a desk#:~:text=If your feet are dangling,,the rest of your body.",
+        "url": "https://www.quora.com/What-has-helped-you-to-maintain-correct-posture-while-working-on-a-desk#:~:text=If your feet are dangling,,the rest of your body.",
+        "fingerprint": "['body.', 'correct', 'dangling,,the', 'desk#:~:text=if', 'feet', 'helped', 'maintain', 'posture', 'rest', 'while', 'working']",
+        "title": "What has helped you to maintain correct posture while working on a desk#:~:text=If your feet are dangling,,the rest of your body."
+      },
+      {
+        "question": "What are the best exercises for chronic back pain and sore ribs at the same time#:~:text=What are the best exercises,All related (31)",
+        "url": "https://www.quora.com/What-are-the-best-exercises-for-chronic-back-pain-and-sore-ribs-at-the-same-time#:~:text=What are the best exercises,All related (31)",
+        "fingerprint": "['(31)', 'back', 'best', 'chronic', 'exercises', 'exercises,all', 'pain', 'related', 'ribs', 'same', 'sore', 'time#:~:text=what']",
+        "title": "What are the best exercises for chronic back pain and sore ribs at the same time#:~:text=What are the best exercises,All related (31)"
+      },
+      {
+        "question": "I m 15 and already have a forward head posture How do I fix this",
+        "url": "https://www.quora.com/I-m-15-and-already-have-a-forward-head-posture-How-do-I-fix-this",
+        "fingerprint": "['15', 'already', 'fix', 'forward', 'head', 'm', 'posture']",
+        "title": "I m 15 and already have a forward head posture How do I fix this"
+      },
+      {
+        "question": "How long does it take to fix an anterior pelvic tilt Has anybody you know of successfully fixed it",
+        "url": "https://www.quora.com/How-long-does-it-take-to-fix-an-anterior-pelvic-tilt-Has-anybody-you-know-of-successfully-fixed-it",
+        "fingerprint": "['anterior', 'anybody', 'fix', 'fixed', 'know', 'long', 'pelvic', 'successfully', 'take', 'tilt']",
+        "title": "How long does it take to fix an anterior pelvic tilt Has anybody you know of successfully fixed it"
+      },
+      {
+        "question": "How long does it take to fix an anterior pelvic tilt hyperlordosis",
+        "url": "https://www.quora.com/How-long-does-it-take-to-fix-an-anterior-pelvic-tilt-hyperlordosis",
+        "fingerprint": "['anterior', 'fix', 'hyperlordosis', 'long', 'pelvic', 'take', 'tilt']",
+        "title": "How long does it take to fix an anterior pelvic tilt hyperlordosis"
+      },
+      {
+        "question": "Why do my hips ache after an hour of sitting",
+        "url": "https://www.quora.com/Why-do-my-hips-ache-after-an-hour-of-sitting",
+        "fingerprint": "['ache', 'hips', 'hour', 'sitting', 'why']",
+        "title": "Why do my hips ache after an hour of sitting"
+      },
+      {
+        "question": "How should a foam roller be used to relieve lower back pain",
+        "url": "https://www.quora.com/How-should-a-foam-roller-be-used-to-relieve-lower-back-pain",
+        "fingerprint": "['back', 'foam', 'lower', 'pain', 'relieve', 'roller', 'used']",
+        "title": "How should a foam roller be used to relieve lower back pain"
+      },
+      {
+        "question": "Are standing desks better for your back than regular desks#:~:text=One study showed that participants,for several weeks. Another study",
+        "url": "https://www.quora.com/Are-standing-desks-better-for-your-back-than-regular-desks#:~:text=One study showed that participants,for several weeks. Another study",
+        "fingerprint": "['another', 'back', 'better', 'desks', 'desks#:~:text=one', 'participants,for', 'regular', 'several', 'showed', 'standing', 'study', 'weeks.']",
+        "title": "Are standing desks better for your back than regular desks#:~:text=One study showed that participants,for several weeks. Another study"
+      },
+      {
+        "question": "Can exercise and physical therapy help alleviate chronic back pain and if so what types of exercises are recommended",
+        "url": "https://www.quora.com/Can-exercise-and-physical-therapy-help-alleviate-chronic-back-pain-and-if-so-what-types-of-exercises-are-recommended",
+        "fingerprint": "['alleviate', 'back', 'chronic', 'exercise', 'exercises', 'help', 'pain', 'physical', 'recommended', 'therapy', 'types']",
+        "title": "Can exercise and physical therapy help alleviate chronic back pain and if so what types of exercises are recommended"
+      },
+      {
+        "question": "Is a standing desk really better for someone than a traditional sit down desk and does it help with productivity and focus as well as posture",
+        "url": "https://www.quora.com/Is-a-standing-desk-really-better-for-someone-than-a-traditional-sit-down-desk-and-does-it-help-with-productivity-and-focus-as-well-as-posture",
+        "fingerprint": "['better', 'desk', 'down', 'focus', 'help', 'posture', 'productivity', 'sit', 'someone', 'standing', 'traditional', 'well']",
+        "title": "Is a standing desk really better for someone than a traditional sit down desk and does it help with productivity and focus as well as posture"
+      },
+      {
+        "question": "How should a foam roller be used to relieve lower back pain#:~:text=This self myofascial release technique can,and pain in your back.",
+        "url": "https://www.quora.com/How-should-a-foam-roller-be-used-to-relieve-lower-back-pain#:~:text=This self-myofascial release technique can,and pain in your back.",
+        "fingerprint": "['back', 'back.', 'can,and', 'foam', 'lower', 'myofascial', 'pain', 'pain#:~:text=this', 'release', 'relieve', 'roller', 'self', 'technique', 'used']",
+        "title": "How should a foam roller be used to relieve lower back pain#:~:text=This self myofascial release technique can,and pain in your back."
+      }
+    ],
+    "is_first_run": false,
+    "summary": "4 Wikipedia breakouts; 33 new Quora questions"
   },
   "declining_signals": [
     {
@@ -2415,111 +2813,107 @@
     "date": "2026-02-14"
   },
   "assessment": {
-    "assessment_name": "Apley Scratch Test",
-    "instructions": "Reach one hand over the top of your shoulder and down your back. Simultaneously reach the other hand behind your back and up. Try to touch your fingertips together. Measure the gap (or overlap) and then switch sides to compare.",
-    "what_it_reveals": "A gap larger than two inches \u2014 or a significant difference between sides \u2014 indicates restricted shoulder rotation. The tight side often points to the rotator cuff or lat that's driving the pain.",
-    "cta": "If your hands can't meet \u2014 or one side is noticeably tighter \u2014 the shoulder mobility drills in today's video address those exact restrictions.",
-    "matched_theme": "shoulder pain",
-    "input_theme": "shoulder pain"
+    "assessment_name": "Single-Leg Squat Test",
+    "instructions": "Stand on one leg near a wall or chair for safety. Slowly perform a shallow squat on that single leg, going down about 4-6 inches. Watch your knee in a mirror or have someone observe: does it cave inward, drift outward, or track straight over your toes?",
+    "what_it_reveals": "If your knee collapses inward (valgus), it signals weakness in the VMO (inner quad) and gluteus medius. This medial collapse is one of the most common drivers of runner's knee, IT band syndrome, and patellofemoral pain.",
+    "cta": "If your knee caved inward, the VMO and glute activation exercises in today's video target the exact muscles that need to fire to protect your knee.",
+    "matched_theme": "knee pain",
+    "input_theme": "knee pain"
   },
   "strategy_json": {
-    "theme_narrative": "This week 'shoulder pain' is trending across search, social, and health forums. Based on the data we collected, this is a high-opportunity topic for Bart's audience of desk workers, athletes, and chronic-pain patients.",
+    "theme_narrative": "This week 'knee pain' is trending across search, social, and health forums. Based on the data we collected, this is a high-opportunity topic for Bart's audience of desk workers, athletes, and chronic-pain patients.",
     "monday_video": {
-      "title": "Shoulder Pain \u2014 4 Exercises That Actually Work (2026)",
-      "hook": "'Shoulder Pain' searches are surging right now. Most advice online is wrong. Here's what actually works based on 15,000 hours of clinical experience.",
+      "title": "Knee Pain \u2014 3 Exercises That Actually Work (2026)",
+      "hook": "'Knee Pain' searches are surging right now. Most advice online is wrong. Here's what actually works based on 15,000 hours of clinical experience.",
       "talking_points": [
-        "Open with the data: 'shoulder pain' is trending because...",
+        "Open with the data: 'knee pain' is trending because...",
         "Explain the biomechanics: here's what's happening in the body",
         "Common mistakes: what most people do that makes it worse",
-        "The fix: walk through 4 exercises with form cues"
+        "The fix: walk through 3 exercises with form cues"
       ],
       "exercises": [
         {
-          "name": "Band pull-aparts",
+          "name": "Terminal knee extension",
           "form_cue": "[Bart: add specific form cue]"
         },
         {
-          "name": "External rotation",
+          "name": "Step-downs",
           "form_cue": "[Bart: add specific form cue]"
         },
         {
-          "name": "Face pulls",
-          "form_cue": "[Bart: add specific form cue]"
-        },
-        {
-          "name": "Sleeper stretch",
+          "name": "Quad foam roll",
           "form_cue": "[Bart: add specific form cue]"
         }
       ],
       "end_cta": "Try these today and tell me in the comments how you feel by Wednesday.",
       "platforms": {
         "youtube": {
-          "description": "Searches for shoulder pain are trending this week. In this video Bart Firch walks through 4 evidence-based exercises you can do at your desk or at home. Timestamps below. Full blog post: https://bartonfirch.com",
+          "description": "Searches for knee pain are trending this week. In this video Bart Firch walks through 3 evidence-based exercises you can do at your desk or at home. Timestamps below. Full blog post: https://bartonfirch.com",
           "tags": [
-            "shoulder pain",
-            "shoulder pain exercises",
+            "knee pain",
+            "knee pain exercises",
             "pain relief",
             "posture correction",
             "desk worker exercises",
-            "shoulder pain 2026",
+            "knee pain 2026",
             "corrective exercise",
             "mobility"
           ]
         },
-        "linkedin": "'Shoulder Pain' searches are surging. Most advice? Dangerously oversimplified. Here's what 15,000 hours of clinical work taught me.",
-        "instagram_reels": "'Shoulder Pain' is trending \u2014 here's the fix\n\n4 exercises you can do right now\n\nSave this. Try it today.\n\n#shoulderpain #posturecorrection #painrelief #mobility",
-        "tiktok": "shoulder pain is blowing up rn \u2014 here's what actually works #shoulderpain #fitness #health"
+        "linkedin": "'Knee Pain' searches are surging. Most advice? Dangerously oversimplified. Here's what 15,000 hours of clinical work taught me.",
+        "instagram_reels": "'Knee Pain' is trending \u2014 here's the fix\n\n3 exercises you can do right now\n\nSave this. Try it today.\n\n#kneepain #posturecorrection #painrelief #mobility",
+        "tiktok": "knee pain is blowing up rn \u2014 here's what actually works #kneepain #fitness #health"
       },
       "thumbnail": {
-        "text_overlay": "Shoulder Pain Fix",
-        "pose_suggestion": "Bart demonstrating the first exercise for shoulder pain",
+        "text_overlay": "Knee Pain Fix",
+        "pose_suggestion": "Bart demonstrating the first exercise for knee pain",
         "color_scheme": "Bold white text on dark background"
       },
-      "viewer_assessment": "Before starting these exercises, try this quick self-test to see where you stand. [Bart: add a 30-second assessment relevant to shoulder pain]"
+      "viewer_assessment": "Before starting these exercises, try this quick self-test to see where you stand. [Bart: add a 30-second assessment relevant to knee pain]"
     },
     "wednesday_post": {
-      "linkedin_draft": "Monday I shared a shoulder pain routine that resonated with a lot of you.\n\nReading through the comments, two things stood out:\n\n1. Most of you sit 8+ hours a day and feel it.\n2. You've tried stretching but nothing sticks.\n\nHere's why \u2014 and what to do instead.\n\n[Bart: add clinical detail about why static stretching alone doesn't fix shoulder pain]\n\nThe exercises I showed Monday work because they target the root cause, not just the symptom.\n\n[Bart: add 2-3 sentences of biomechanical explanation]\n\nIf you missed Monday's video, link in comments.",
-      "blog_title": "How to Fix Shoulder Pain: Evidence-Based Exercises",
-      "blog_meta_description": "Evidence-based shoulder pain exercises from 15K+ hours of clinical experience. Step-by-step guide with form cues.",
+      "linkedin_draft": "Monday I shared a knee pain routine that resonated with a lot of you.\n\nReading through the comments, two things stood out:\n\n1. Most of you sit 8+ hours a day and feel it.\n2. You've tried stretching but nothing sticks.\n\nHere's why \u2014 and what to do instead.\n\n[Bart: add clinical detail about why static stretching alone doesn't fix knee pain]\n\nThe exercises I showed Monday work because they target the root cause, not just the symptom.\n\n[Bart: add 2-3 sentences of biomechanical explanation]\n\nIf you missed Monday's video, link in comments.",
+      "blog_title": "How to Fix Knee Pain: Evidence-Based Exercises",
+      "blog_meta_description": "Evidence-based knee pain exercises from 15K+ hours of clinical experience. Step-by-step guide with form cues.",
       "medium_subtitle": "Data-driven exercise prescription",
       "cross_post_note": "Blog (bartonfirch.com) -> Medium (canonical) -> Substack",
-      "study_citation": "[Bart: cite a relevant PubMed study on shoulder pain if available from this week's brief]"
+      "study_citation": "[Bart: cite a relevant PubMed study on knee pain if available from this week's brief]"
     },
     "friday_card": {
-      "stat_headline": "'Shoulder Pain' searches are trending this month",
-      "tip": "Start with Band pull-aparts \u2014 30 seconds, twice a day.",
-      "engagement_ask": "You've had the shoulder pain exercises for 4 days. How does your body feel?",
+      "stat_headline": "'Knee Pain' searches are trending this month",
+      "tip": "Start with Terminal knee extension \u2014 30 seconds, twice a day.",
+      "engagement_ask": "You've had the knee pain exercises for 4 days. How does your body feel?",
       "platforms": {
-        "linkedin": "The data this week pointed to 'shoulder pain' as a breakout topic. Monday we covered the exercises. Wednesday we went deeper. Today \u2014 one stat and one tip to carry into the weekend.",
-        "pinterest": "Shoulder Pain exercises and stretches for pain relief. Evidence-based routine from a pain management coach with 15,000+ hours of clinical experience. Save this pin for your next desk break.",
-        "twitter": "1/ 'Shoulder Pain' is trending \u2014 here's one stat and one fix.\n\n2/ Tip: Band pull-aparts, 30 sec, 2x/day.\n\n3/ Full routine \u2192 https://bartonfirch.com"
+        "linkedin": "The data this week pointed to 'knee pain' as a breakout topic. Monday we covered the exercises. Wednesday we went deeper. Today \u2014 one stat and one tip to carry into the weekend.",
+        "pinterest": "Knee Pain exercises and stretches for pain relief. Evidence-based routine from a pain management coach with 15,000+ hours of clinical experience. Save this pin for your next desk break.",
+        "twitter": "1/ 'Knee Pain' is trending \u2014 here's one stat and one fix.\n\n2/ Tip: Terminal knee extension, 30 sec, 2x/day.\n\n3/ Full routine \u2192 https://bartonfirch.com"
       }
     },
     "seo_notes": {
-      "target_keyword": "shoulder pain exercises",
+      "target_keyword": "knee pain exercises",
       "secondary_keywords": [
-        "how to fix shoulder pain",
-        "shoulder pain stretches",
-        "best exercises for shoulder pain"
+        "how to fix knee pain",
+        "knee pain stretches",
+        "best exercises for knee pain"
       ],
       "schema_types": [
         "HowTo",
         "FAQPage"
       ],
       "ai_findability_tips": [
-        "Use Q&A format: 'What causes shoulder pain?' with a direct answer paragraph so LLMs and featured snippets can extract it",
+        "Use Q&A format: 'What causes knee pain?' with a direct answer paragraph so LLMs and featured snippets can extract it",
         "Include structured data (HowTo + FAQPage schema) for search engines and AI crawlers",
-        "Write definitive statements LLMs can quote as authoritative \u2014 e.g. 'The most effective exercise for shoulder pain is...'"
+        "Write definitive statements LLMs can quote as authoritative \u2014 e.g. 'The most effective exercise for knee pain is...'"
       ]
     },
     "engagement_replies": [
       {
         "post_title": "[Top engagement opportunity title]",
-        "suggested_reply": "Great question. From my clinical experience with shoulder pain, the most common mistake I see is jumping straight to stretching without addressing the underlying movement pattern. Try starting with Band pull-aparts \u2014 it targets the root cause rather than just the symptom."
+        "suggested_reply": "Great question. From my clinical experience with knee pain, the most common mistake I see is jumping straight to stretching without addressing the underlying movement pattern. Try starting with Terminal knee extension \u2014 it targets the root cause rather than just the symptom."
       }
     ]
   },
   "strategy_source": "fallback_template",
-  "brief_number": 1,
+  "brief_number": 2,
   "version": "1.5"
 }

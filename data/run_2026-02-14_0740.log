@@ -1,0 +1,274 @@
+07:40:45 [INFO] ============================================================
+07:40:45 [INFO]   Trend Engine V2.0
+07:40:45 [INFO] ============================================================
+07:40:45 [INFO] 
+[1/9] Loading prior snapshot...
+07:40:45 [INFO]   Prior theme: 'shoulder pain' from 2026-02-14
+07:40:45 [INFO] 
+[2/9] Collecting data...
+07:40:45 [INFO] 
+  --- Google Trends ---
+07:40:45 [INFO]   Rising queries skipped (use --with-rising to enable)
+07:40:45 [INFO] 
+  --- Reddit ---
+07:40:45 [INFO]   No Reddit API keys — using public JSON endpoints
+07:40:45 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:40:45 [DEBUG] https://www.reddit.com:443 "GET /r/ChronicPain/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:40:51 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:40:51 [DEBUG] https://www.reddit.com:443 "GET /r/backpain/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:40:57 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:40:57 [DEBUG] https://www.reddit.com:443 "GET /r/Sciatica/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:03 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:03 [DEBUG] https://www.reddit.com:443 "GET /r/Fibromyalgia/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:09 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:09 [DEBUG] https://www.reddit.com:443 "GET /r/PelvicFloor/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:15 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:15 [DEBUG] https://www.reddit.com:443 "GET /r/TMJ/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:21 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:21 [DEBUG] https://www.reddit.com:443 "GET /r/flexibility/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:27 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:27 [DEBUG] https://www.reddit.com:443 "GET /r/posture/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:33 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:33 [DEBUG] https://www.reddit.com:443 "GET /r/bodyweightfitness/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:39 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:39 [DEBUG] https://www.reddit.com:443 "GET /r/PhysicalTherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:45 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:45 [DEBUG] https://www.reddit.com:443 "GET /r/Fitness/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:51 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:51 [DEBUG] https://www.reddit.com:443 "GET /r/CrossFit/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:41:57 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:41:57 [DEBUG] https://www.reddit.com:443 "GET /r/powerlifting/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:03 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:04 [DEBUG] https://www.reddit.com:443 "GET /r/weightroom/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:10 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:10 [DEBUG] https://www.reddit.com:443 "GET /r/physicaltherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:16 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:16 [DEBUG] https://www.reddit.com:443 "GET /r/Ergonomics/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:22 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:22 [DEBUG] https://www.reddit.com:443 "GET /r/cycling/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:28 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:28 [DEBUG] https://www.reddit.com:443 "GET /r/golf/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:34 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:34 [DEBUG] https://www.reddit.com:443 "GET /r/yoga/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:40 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:40 [DEBUG] https://www.reddit.com:443 "GET /r/yogatherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:46 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:46 [DEBUG] https://www.reddit.com:443 "GET /r/ashtanga/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:52 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:52 [DEBUG] https://www.reddit.com:443 "GET /r/running/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:42:58 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:42:58 [DEBUG] https://www.reddit.com:443 "GET /r/AdvancedRunning/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:04 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:04 [DEBUG] https://www.reddit.com:443 "GET /r/Marathon/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:10 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:10 [DEBUG] https://www.reddit.com:443 "GET /r/ultrarunning/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:16 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:16 [DEBUG] https://www.reddit.com:443 "GET /r/longevity/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:22 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:22 [DEBUG] https://www.reddit.com:443 "GET /r/Biohackers/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:28 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:28 [DEBUG] https://www.reddit.com:443 "GET /r/QuantifiedSelf/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:34 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:34 [DEBUG] https://www.reddit.com:443 "GET /r/cancer/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:40 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:41 [DEBUG] https://www.reddit.com:443 "GET /r/CancerFighters/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:47 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:47 [DEBUG] https://www.reddit.com:443 "GET /r/breastcancer/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+07:43:47 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:47 [DEBUG] https://www.reddit.com:443 "GET /r/bayarea/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:43:53 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:53 [DEBUG] https://www.reddit.com:443 "GET /r/bayarea/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:43:59 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:43:59 [DEBUG] https://www.reddit.com:443 "GET /r/bayarea/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:05 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:05 [DEBUG] https://www.reddit.com:443 "GET /r/sanfrancisco/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:11 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:11 [DEBUG] https://www.reddit.com:443 "GET /r/sanfrancisco/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:17 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:17 [DEBUG] https://www.reddit.com:443 "GET /r/sanfrancisco/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:23 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:23 [DEBUG] https://www.reddit.com:443 "GET /r/SanJose/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:29 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:29 [DEBUG] https://www.reddit.com:443 "GET /r/SanJose/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:35 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:35 [DEBUG] https://www.reddit.com:443 "GET /r/SanJose/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:41 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:41 [DEBUG] https://www.reddit.com:443 "GET /r/fatFIRE/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:47 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:47 [DEBUG] https://www.reddit.com:443 "GET /r/fatFIRE/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:53 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:53 [DEBUG] https://www.reddit.com:443 "GET /r/fatFIRE/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:44:59 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:44:59 [DEBUG] https://www.reddit.com:443 "GET /r/startups/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:05 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:05 [DEBUG] https://www.reddit.com:443 "GET /r/startups/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:11 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:11 [DEBUG] https://www.reddit.com:443 "GET /r/startups/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:17 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:18 [DEBUG] https://www.reddit.com:443 "GET /r/experienceddevs/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:24 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:24 [DEBUG] https://www.reddit.com:443 "GET /r/experienceddevs/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:30 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:30 [DEBUG] https://www.reddit.com:443 "GET /r/experienceddevs/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:36 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:36 [DEBUG] https://www.reddit.com:443 "GET /r/consulting/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:42 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:42 [DEBUG] https://www.reddit.com:443 "GET /r/consulting/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:48 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+07:45:48 [DEBUG] https://www.reddit.com:443 "GET /r/consulting/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+07:45:54 [INFO] 
+  --- Quora ---
+07:45:54 [DEBUG] Starting new HTTPS connection (1): www.google.com:443
+07:45:54 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22best+exercises+for+chronic+back+pain%22&num=5 HTTP/1.1" 200 None
+07:46:05 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+to+prevent+lower+back+pain+from+sitting%22&num=5 HTTP/1.1" 200 None
+07:46:10 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22sciatica+pain+relief+exercises%22&num=5 HTTP/1.1" 200 None
+07:46:14 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22posture+correction+for+desk+workers%22&num=5 HTTP/1.1" 200 None
+07:46:19 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22piriformis+syndrome+vs+sciatica+difference%22&num=5 HTTP/1.1" 200 None
+07:46:24 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+to+fix+forward+head+posture+permanently%22&num=5 HTTP/1.1" 200 None
+07:46:29 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22best+exercises+for+thoracic+outlet+syndrome%22&num=5 HTTP/1.1" 200 None
+07:46:34 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22why+does+my+hip+hurt+after+sitting+all+day%22&num=5 HTTP/1.1" 200 None
+07:46:41 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+long+does+it+take+to+fix+anterior+pelvic+tilt%22&num=5 HTTP/1.1" 200 None
+07:46:48 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22is+a+standing+desk+better+than+sitting+for+back+pain%22&num=5 HTTP/1.1" 200 None
+07:46:55 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22best+foam+roller+exercises+for+back+pain+relief%22&num=5 HTTP/1.1" 200 None
+07:47:02 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+to+prevent+back+pain+as+a+nurse%22&num=5 HTTP/1.1" 302 466
+07:47:02 [DEBUG] https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fq%3Dsite%253Aquora.com%2B%2522how%2Bto%2Bprevent%2Bback%2Bpain%2Bas%2Ba%2Bnurse%2522%26num%3D5&q=EgRA7I3SGPbQwMwGIjB2nerF4Q2XRcQYejLsk-LiNfsriW51zLziX9v4pgrXPnlYMBp9BXWQA1BA1TafWHkyAnJSWgFD HTTP/1.1" 429 3391
+07:47:02 [INFO] 
+  --- Wikipedia ---
+07:47:02 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:02 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Chronic_pain/daily/2026013100/2026021300 HTTP/1.1" 200 239
+07:47:02 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:02 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Sciatica/daily/2026013100/2026021300 HTTP/1.1" 200 235
+07:47:03 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:03 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Fibromyalgia/daily/2026013100/2026021300 HTTP/1.1" 200 246
+07:47:03 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:03 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Low_back_pain/daily/2026013100/2026021300 HTTP/1.1" 200 239
+07:47:03 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:03 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Physical_therapy/daily/2026013100/2026021300 HTTP/1.1" 200 255
+07:47:03 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:03 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Ergonomics/daily/2026013100/2026021300 HTTP/1.1" 200 None
+07:47:04 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:04 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Kyphosis/daily/2026013100/2026021300 HTTP/1.1" 200 234
+07:47:04 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:04 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Piriformis_syndrome/daily/2026013100/2026021300 HTTP/1.1" 200 244
+07:47:04 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:04 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Thoracic_outlet_syndrome/daily/2026013100/2026021300 HTTP/1.1" 200 253
+07:47:04 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:04 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Plantar_fasciitis/daily/2026013100/2026021300 HTTP/1.1" 200 243
+07:47:04 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:05 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Rotator_cuff_tear/daily/2026013100/2026021300 HTTP/1.1" 200 245
+07:47:05 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:05 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Sacroiliac_joint_dysfunction/daily/2026013100/2026021300 HTTP/1.1" 200 245
+07:47:05 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:05 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Spinal_stenosis/daily/2026013100/2026021300 HTTP/1.1" 200 253
+07:47:05 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:05 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Scoliosis/daily/2026013100/2026021300 HTTP/1.1" 200 241
+07:47:05 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:06 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Spinal_disc_herniation/daily/2026013100/2026021300 HTTP/1.1" 200 247
+07:47:06 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:06 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Tension_headache/daily/2026013100/2026021300 HTTP/1.1" 200 246
+07:47:06 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:06 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Myofascial_pain_syndrome/daily/2026013100/2026021300 HTTP/1.1" 200 246
+07:47:06 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:06 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Carpal_tunnel_syndrome/daily/2026013100/2026021300 HTTP/1.1" 200 251
+07:47:06 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:06 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Lordosis/daily/2026013100/2026021300 HTTP/1.1" 200 236
+07:47:07 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:07 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Anterior_pelvic_tilt/daily/2026013100/2026021300 HTTP/1.1" 200 223
+07:47:07 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:07 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Posture/daily/2026013100/2026021300 HTTP/1.1" 200 223
+07:47:07 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:07 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Yoga_therapy/daily/2026013100/2026021300 HTTP/1.1" 200 209
+07:47:07 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:07 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Yoga_as_exercise/daily/2026013100/2026021300 HTTP/1.1" 200 247
+07:47:07 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:08 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Iliotibial_band_syndrome/daily/2026013100/2026021300 HTTP/1.1" 200 246
+07:47:08 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:08 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Achilles_tendinitis/daily/2026013100/2026021300 HTTP/1.1" 200 242
+07:47:08 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:08 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Patellofemoral_pain_syndrome/daily/2026013100/2026021300 HTTP/1.1" 200 252
+07:47:08 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:08 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Cancer-related_fatigue/daily/2026013100/2026021300 HTTP/1.1" 200 239
+07:47:08 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:09 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Exercise_and_cancer/daily/2026013100/2026021300 HTTP/1.1" 404 381
+07:47:09 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:09 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Blue_zone/daily/2026013100/2026021300 HTTP/1.1" 200 235
+07:47:09 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+07:47:09 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Longevity/daily/2026013100/2026021300 HTTP/1.1" 200 237
+07:47:09 [INFO] 
+  --- PubMed ---
+07:47:10 [INFO] 
+  --- News (Google RSS) ---
+07:47:10 [INFO] 
+  --- Hacker News ---
+07:47:10 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:10 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=standing+desk&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:10 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:11 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=standing+desk&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 31024
+07:47:11 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:11 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=office+chair&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:11 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:11 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=office+chair&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 6510
+07:47:12 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:12 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=back+pain&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:12 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:12 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=back+pain&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 27815
+07:47:13 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:13 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=RSI&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:13 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:13 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=RSI&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 11813
+07:47:14 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:14 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=posture&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:14 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:14 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=posture&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 16892
+07:47:14 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:14 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=carpal+tunnel&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:14 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:15 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=carpal+tunnel&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 448
+07:47:15 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+07:47:15 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=ergonomics&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 301 0
+07:47:15 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+07:47:15 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=ergonomics&tags=story&numericFilters=created_at_i%3E1770450430&hitsPerPage=5 HTTP/1.1" 200 7783
+07:47:15 [INFO] 
+[3/9] Deduplicating Reddit posts...
+07:47:15 [INFO] 
+[3.5/9] Filtering Reddit for relevance...
+07:47:15 [INFO] 
+[3.6/9] Filtering Hacker News for relevance...
+07:47:15 [INFO] 
+[4/9] Detecting emerging signals...
+07:47:15 [INFO]   4 Wikipedia breakouts; 33 new Quora questions
+07:47:15 [INFO] 
+[5/9] Building analysis...
+07:47:15 [INFO]   Theme: 'knee pain'
+07:47:15 [INFO]   Body-part groups: 16 (Shoulder leads)
+07:47:15 [INFO]   Engagement opportunities: 5
+07:47:15 [INFO]   Seasonal context: Winter Stiffness & Stress
+07:47:15 [INFO]   Declining signals: 4 topics losing steam
+07:47:15 [INFO]   Assessment: Single-Leg Squat Test (matched: knee pain)
+07:47:15 [INFO] 
+[6/9] Generating content strategy...
+07:47:15 [INFO]   Using Claude API...
+07:47:15 [DEBUG] Starting new HTTPS connection (1): api.anthropic.com:443
+07:48:43 [DEBUG] https://api.anthropic.com:443 "POST /v1/messages HTTP/1.1" 200 None
+07:48:43 [INFO]   Claude failed — falling back to template strategy
+07:48:43 [INFO] 
+[7/9] Rendering email...
+07:48:43 [INFO]   Brief #2 rendered (138,290 chars)
+07:48:43 [INFO] 
+[8/9] Delivering...
+07:48:43 [INFO] Connecting to SMTP smtp.gmail.com:587 (TLS=True)
+07:48:44 [INFO] Email sent successfully to davidmizrahi@gmail.com
+07:48:44 [INFO] 
+[9/9] Summary
+07:48:44 [INFO]   Theme: 'knee pain'
+07:48:44 [INFO]   Season: Winter Stiffness & Stress
+07:48:44 [INFO]   Assessment: Single-Leg Squat Test
+07:48:44 [INFO]   Strategy source: fallback_template
+07:48:44 [INFO]   Emerging: 4 Wikipedia breakouts; 33 new Quora questions
+07:48:44 [INFO]   Declining: restorative yoga, runner's knee, Longevity
+07:48:44 [INFO]   Engagement opps: 5
+07:48:44 [INFO] 
+============================================================
+07:48:44 [INFO]   Done. Brief #2: 'knee pain'
+07:48:44 [INFO] ============================================================
+07:48:44 [INFO]   Run log saved: /home/runner/work/trend-engine/trend-engine/data/run_2026-02-14_0740.log
