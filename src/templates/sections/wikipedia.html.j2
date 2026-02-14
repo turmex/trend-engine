@@ -1,0 +1,24 @@
+{% from "helpers.j2" import wow_badge %}
+{# ════ WIKIPEDIA ════ #}
+{% if analysis and analysis.wikipedia and analysis.wikipedia.pages %}
+<div style="padding:24px;">
+    <h2 style="font-size:17px;margin:0 0 4px;">Wikipedia -- Public Interest</h2>
+    <p style="font-size:12px;color:#6b7280;margin:0 0 12px;">How many people are researching these conditions</p>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+        <thead><tr style="background:#f8fafc;">
+            <th style="padding:8px 10px;text-align:left;font-weight:600;color:#475569;border-bottom:2px solid #e2e8f0;">Topic</th>
+            <th style="padding:8px;text-align:center;font-weight:600;color:#475569;border-bottom:2px solid #e2e8f0;">Daily Views</th>
+            <th style="padding:8px;text-align:center;font-weight:600;color:#475569;border-bottom:2px solid #e2e8f0;">WoW</th>
+        </tr></thead>
+        <tbody>
+        {% for page in analysis.wikipedia.pages %}
+        <tr>
+            <td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;">{{ page.title }}</td>
+            <td style="padding:8px;border-bottom:1px solid #f0f0f0;text-align:center;">{{ page.daily_views | default('-') }}/day</td>
+            <td style="padding:8px;border-bottom:1px solid #f0f0f0;text-align:center;">{{ wow_badge(page.wow_pct) }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}

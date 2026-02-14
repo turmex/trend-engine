@@ -1,0 +1,18 @@
+{% from "helpers.j2" import wow_badge %}
+{# ════ THEME BANNER ════ #}
+{% if strategy and strategy.theme_name %}
+<div style="background:#f0fdf4;border-left:4px solid #16a34a;padding:20px 24px;margin:0;">
+    <div style="font-size:11px;color:#16a34a;font-weight:700;text-transform:uppercase;letter-spacing:1px;">Theme of the Week</div>
+    <div style="font-size:24px;font-weight:700;color:#15803d;margin-top:6px;">{{ strategy.theme_name }}</div>
+    {% if strategy.theme_narrative %}
+    <div style="font-size:14px;color:#374151;margin-top:8px;line-height:1.6;">{{ strategy.theme_narrative }}</div>
+    {% endif %}
+    {# ── Seasonal context callout ── #}
+    {% if seasonal and seasonal.season_name %}
+    <div style="background:#fefce8;border:1px solid #fde68a;border-radius:6px;padding:10px 14px;margin-top:12px;">
+        <div style="font-size:11px;font-weight:700;color:#92400e;letter-spacing:0.3px;">SEASONAL CONTEXT: {{ seasonal.season_name | upper }}</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;line-height:1.5;">{{ seasonal.context_note }}</div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}

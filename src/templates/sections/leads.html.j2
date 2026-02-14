@@ -1,0 +1,53 @@
+{# ════ LEADS ════ #}
+{% set has_local = analysis is defined and analysis and analysis.local_leads is defined and analysis.local_leads %}
+{% set has_hn = analysis is defined and analysis and analysis.hn_leads is defined and analysis.hn_leads %}
+
+{% if has_local or has_hn %}
+<div style="padding:24px;">
+    <h2 style="font-size:17px;margin:0 0 12px;">Leads &amp; Outreach Opportunities</h2>
+
+    {# ── Local Leads ── #}
+    {% if has_local %}
+    <div style="margin-bottom:16px;">
+        <h3 style="font-size:15px;margin:0 0 8px;color:#475569;">Local Leads</h3>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;">
+            <tbody>
+            {% for lead in analysis.local_leads %}
+            <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;">
+                {% if lead.url %}
+                <a href="{{ lead.url }}" style="color:#2563eb;text-decoration:none;font-weight:500;">{{ lead.name | default(lead.title | default('Lead')) }}</a>
+                {% else %}
+                <span style="font-weight:500;">{{ lead.name | default(lead.title | default('Lead')) }}</span>
+                {% endif %}
+                {% if lead.description %}
+                <div style="font-size:11px;color:#9ca3af;margin-top:2px;">{{ lead.description }}</div>
+                {% endif %}
+            </td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
+    {# ── Hacker News Leads ── #}
+    {% if has_hn %}
+    <div>
+        <h3 style="font-size:15px;margin:0 0 8px;color:#475569;">Hacker News Leads</h3>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;">
+            <tbody>
+            {% for lead in analysis.hn_leads %}
+            <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;">
+                {% if lead.url %}
+                <a href="{{ lead.url }}" style="color:#2563eb;text-decoration:none;font-weight:500;">{{ lead.title }}</a>
+                {% else %}
+                <span style="font-weight:500;">{{ lead.title }}</span>
+                {% endif %}
+                <div style="font-size:11px;color:#9ca3af;margin-top:2px;">{% if lead.score is not none %}&#9650;{{ lead.score }}{% endif %}{% if lead.num_comments is not none %} &middot; {{ lead.num_comments }} comments{% endif %}</div>
+            </td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+</div>
+{% endif %}

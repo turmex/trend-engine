@@ -1,0 +1,37 @@
+{# ════ EXECUTIVE SUMMARY — TOP 3 ACTIONS ════ #}
+{% if executive_summary and executive_summary.actions %}
+<div style="background-color:#0d9488;padding:28px 24px;border-radius:8px;">
+    <h2 style="font-size:20px;font-weight:700;color:#ffffff;margin:0 0 4px;letter-spacing:0.5px;">TOP 3 ACTIONS THIS WEEK</h2>
+    <p style="font-size:13px;color:#ccfbf1;margin:0 0 20px;">Your 30-second scan &mdash; everything else is context.</p>
+    <table style="width:100%;border-collapse:collapse;">
+        <tbody>
+        {% for action in executive_summary.actions[:3] %}
+        <tr>
+            <td style="vertical-align:top;padding:10px 0;{% if not loop.last %}border-bottom:1px solid rgba(255,255,255,0.2);{% endif %}">
+                <table style="width:100%;border-collapse:collapse;">
+                    <tr>
+                        {# ── Priority number ── #}
+                        <td style="width:40px;vertical-align:top;padding-right:12px;">
+                            <div style="width:32px;height:32px;border-radius:50%;background-color:rgba(255,255,255,0.2);color:#ffffff;font-size:16px;font-weight:700;text-align:center;line-height:32px;">{{ action.priority }}</div>
+                        </td>
+                        {# ── Action text + metadata ── #}
+                        <td style="vertical-align:top;">
+                            <div style="font-size:14px;font-weight:600;color:#ffffff;line-height:1.4;">{{ action.action }}</div>
+                            <div style="margin-top:6px;">
+                                {% if action.day %}
+                                <span style="display:inline-block;background-color:rgba(255,255,255,0.2);color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;margin-right:8px;">{{ action.day }}</span>
+                                {% endif %}
+                                {% if action.time_est %}
+                                <span style="display:inline-block;font-size:11px;color:#ccfbf1;">&#9202; {{ action.time_est }}</span>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}

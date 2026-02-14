@@ -1,0 +1,31 @@
+{# ════ PUBMED — SCIENTIFIC AUTHORITY ════ #}
+{% if analysis and analysis.pubmed and analysis.pubmed.studies %}
+<div style="padding:24px;">
+    <h2 style="font-size:17px;margin:0 0 4px;">PubMed -- Scientific Authority</h2>
+    <p style="font-size:12px;color:#6b7280;margin:0 0 12px;">Recent research to cite in your content. Reference these in Wednesday's blog post for credibility.</p>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+        <tbody>
+        {% for study in analysis.pubmed.studies %}
+        <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;">
+            {% if loop.index <= 2 %}
+            <span style="background:#7c3aed;color:#fff;padding:1px 6px;border-radius:4px;font-size:10px;font-weight:600;margin-right:4px;">CITE IN BLOG</span>
+            {% endif %}
+            {% if study.url %}
+            <a href="{{ study.url }}" style="color:#2563eb;text-decoration:none;font-weight:500;">{{ study.title }}</a>
+            {% else %}
+            <span style="font-weight:500;">{{ study.title }}</span>
+            {% endif %}
+            <div style="font-size:11px;color:#9ca3af;margin-top:2px;">
+                {% if study.journal %}{{ study.journal }}{% endif %}
+                {% if study.date %} &middot; {{ study.date }}{% endif %}
+                {% if study.authors %} &middot; {{ study.authors }}{% endif %}
+            </div>
+            {% if study.summary %}
+            <div style="font-size:12px;color:#4b5563;margin-top:4px;">{{ study.summary }}</div>
+            {% endif %}
+        </td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}

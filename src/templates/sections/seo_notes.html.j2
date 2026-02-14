@@ -1,0 +1,25 @@
+{# ════ SEO & AI FINDABILITY ════ #}
+{% if strategy and strategy.seo_notes %}
+<div style="padding:24px;">
+    <h3 style="font-size:17px;margin:0 0 12px;">SEO &amp; AI Findability Notes</h3>
+    <div style="font-size:13px;line-height:1.6;">
+        {% if strategy.seo_notes.target_keyword %}
+        <div style="margin-bottom:8px;"><strong>Target keyword:</strong> {{ strategy.seo_notes.target_keyword }}</div>
+        {% endif %}
+        {% if strategy.seo_notes.secondary_keywords %}
+        <div style="margin-bottom:8px;"><strong>Secondary keywords:</strong> {{ strategy.seo_notes.secondary_keywords | join(', ') if strategy.seo_notes.secondary_keywords is iterable and strategy.seo_notes.secondary_keywords is not string else strategy.seo_notes.secondary_keywords }}</div>
+        {% endif %}
+        {% if strategy.seo_notes.schema_markup %}
+        <div style="margin-bottom:8px;"><strong>Schema markup:</strong> {{ strategy.seo_notes.schema_markup }}</div>
+        {% endif %}
+        {% if strategy.seo_notes.ai_tips %}
+        <div style="font-weight:700;margin-bottom:4px;">AI/LLM discoverability tips:</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;">
+            {% for tip in strategy.seo_notes.ai_tips %}
+            <li style="margin-bottom:4px;">{{ tip }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

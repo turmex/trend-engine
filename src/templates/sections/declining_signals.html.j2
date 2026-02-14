@@ -1,0 +1,33 @@
+{# ════ DECLINING SIGNALS — TOPICS TO AVOID ════ #}
+{% if declining %}
+<div style="background-color:#fef2f2;border-left:4px solid #dc2626;padding:20px 24px;border-radius:0 6px 6px 0;">
+    <h2 style="font-size:16px;font-weight:700;color:#991b1b;margin:0 0 4px;">Topics Losing Steam &mdash; Consider Avoiding</h2>
+    <p style="font-size:12px;color:#b91c1c;margin:0 0 14px;">These keywords are trending downward week-over-week. Investing content effort here may yield diminishing returns.</p>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+        <tbody>
+        {% for item in declining %}
+        <tr>
+            <td style="padding:8px 0;{% if not loop.last %}border-bottom:1px solid #fecaca;{% endif %}">
+                <table style="width:100%;border-collapse:collapse;">
+                    <tr>
+                        {# ── Keyword name ── #}
+                        <td style="vertical-align:middle;font-weight:600;color:#1e293b;">
+                            {{ item.keyword }}
+                        </td>
+                        {# ── WoW % change ── #}
+                        <td style="vertical-align:middle;text-align:right;width:80px;">
+                            <span style="color:#dc2626;font-weight:700;font-size:13px;">{{ item.wow_pct }}%</span>
+                        </td>
+                        {# ── Trend direction ── #}
+                        <td style="vertical-align:middle;text-align:right;width:90px;">
+                            <span style="display:inline-block;background-color:#fee2e2;color:#dc2626;font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;">{{ item.trend_direction }}</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}

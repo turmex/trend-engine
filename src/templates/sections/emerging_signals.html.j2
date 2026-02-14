@@ -1,0 +1,81 @@
+{% from "helpers.j2" import wow_badge %}
+{# ════ EMERGING SIGNALS ════ #}
+{% if emerging %}
+{% set has_rising = emerging.new_rising_queries is defined and emerging.new_rising_queries %}
+{% set has_reddit = emerging.new_reddit_topics is defined and emerging.new_reddit_topics %}
+{% set has_wiki = emerging.wikipedia_breakouts is defined and emerging.wikipedia_breakouts %}
+{% set has_quora = emerging.new_quora_questions is defined and emerging.new_quora_questions %}
+{% if has_rising or has_reddit or has_wiki or has_quora %}
+<div style="background:#fffbeb;border-left:4px solid #f59e0b;padding:20px 24px;margin:0;">
+    <h2 style="font-size:17px;margin:0 0 4px;color:#92400e;">Emerging Signals -- New This Week</h2>
+    {% if emerging.summary %}
+    <p style="font-size:12px;color:#78716c;margin:0 0 14px;">{{ emerging.summary }}</p>
+    {% endif %}
+
+    {# ── New Rising Search Queries ── #}
+    {% if has_rising %}
+    <div style="margin-bottom:12px;">
+        <div style="font-weight:700;font-size:13px;color:#92400e;margin-bottom:4px;">New Rising Search Queries</div>
+        <div style="font-size:11px;color:#78716c;margin-bottom:6px;">Google Trends queries that appeared this week but weren't trending last week</div>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;"><tbody>
+        {% for q in emerging.new_rising_queries %}
+        <tr><td style="padding:6px 10px;border-bottom:1px solid #fef3c7;">
+            <span style="font-weight:600;">"{{ q.query }}"</span>
+            {% if q.parent_keyword %}
+            <span style="font-size:11px;color:#92400e;"> &larr; from "{{ q.parent_keyword }}"{% if q.parent_score is not none %} (score: {{ q.parent_score }}){% endif %}</span>
+            {% endif %}
+        </td></tr>
+        {% endfor %}
+        </tbody></table>
+    </div>
+    {% endif %}
+
+    {# ── New Reddit Conversations ── #}
+    {% if has_reddit %}
+    <div style="margin-bottom:12px;">
+        <div style="font-weight:700;font-size:13px;color:#92400e;margin-bottom:4px;">New Reddit Conversations</div>
+        <div style="font-size:11px;color:#78716c;margin-bottom:6px;">Posts with topic keywords that didn't appear last week</div>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;"><tbody>
+        {% for post in emerging.new_reddit_topics %}
+        <tr><td style="padding:6px 10px;border-bottom:1px solid #fef3c7;">
+            <a href="{{ post.url | default('#') }}" style="color:#2563eb;text-decoration:none;font-weight:500;">{{ post.title }}</a>
+            <div style="font-size:11px;color:#78716c;">{{ post.subreddit | default('') }}{% if post.score is not none %} &middot; &#9650;{{ post.score }}{% endif %}{% if post.new_terms %} &middot; New terms: <strong>{{ post.new_terms | join(', ') }}</strong>{% endif %}</div>
+        </td></tr>
+        {% endfor %}
+        </tbody></table>
+    </div>
+    {% endif %}
+
+    {# ── Wikipedia Breakouts ── #}
+    {% if has_wiki %}
+    <div style="margin-bottom:12px;">
+        <div style="font-weight:700;font-size:13px;color:#92400e;margin-bottom:4px;">Wikipedia Breakouts</div>
+        <div style="font-size:11px;color:#78716c;margin-bottom:6px;">Sudden spikes in public research on health conditions</div>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;"><tbody>
+        {% for w in emerging.wikipedia_breakouts %}
+        <tr>
+            <td style="padding:6px 10px;border-bottom:1px solid #fef3c7;font-weight:500;">{{ w.title }}</td>
+            <td style="padding:6px;border-bottom:1px solid #fef3c7;text-align:center;">{{ w.daily_views | default('-') }}/day</td>
+            <td style="padding:6px;border-bottom:1px solid #fef3c7;text-align:center;">{{ wow_badge(w.wow_pct) }}</td>
+        </tr>
+        {% endfor %}
+        </tbody></table>
+    </div>
+    {% endif %}
+
+    {# ── New Quora Questions ── #}
+    {% if has_quora %}
+    <div>
+        <div style="font-weight:700;font-size:13px;color:#92400e;margin-bottom:4px;">New Quora Questions</div>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;"><tbody>
+        {% for q in emerging.new_quora_questions %}
+        <tr><td style="padding:6px 10px;border-bottom:1px solid #fef3c7;">
+            <a href="{{ q.url | default('#') }}" style="color:#2563eb;text-decoration:none;">{{ q.title }}</a>
+        </td></tr>
+        {% endfor %}
+        </tbody></table>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+{% endif %}

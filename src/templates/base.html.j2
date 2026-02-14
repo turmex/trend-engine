@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#f4f5f7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div style="max-width:680px;margin:20px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# HEADER                                                          #}
+{# ════════════════════════════════════════════════════════════════ #}
+<div style="background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);padding:32px 28px;">
+    <div style="font-size:11px;color:#64748b;text-transform:uppercase;letter-spacing:2px;">Trend Intelligence &middot; Brief #{{ meta.brief_number | default(1) }}</div>
+    <h1 style="color:#fff;margin:8px 0 0;font-size:26px;font-weight:700;">{% if meta.brief_number == 1 %}Here is your first data feed{% else %}Weekly Data Feed{% endif %}</h1>
+    <div style="color:#94a3b8;font-size:14px;margin-top:6px;">Week of {{ meta.date | default('') }}</div>
+</div>
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# FIRST-RUN BANNER (conditional)                                  #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% if meta.is_first_run is defined and meta.is_first_run %}
+<div style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 24px;margin:0;">
+    <div style="font-weight:700;color:#1e40af;font-size:14px;">Here is your first data feed.</div>
+    <div style="font-size:13px;color:#374151;margin-top:4px;line-height:1.5;">This is Brief #1 -- your baseline. Future briefs will show week-over-week changes, emerging signals, and increasingly personalized strategy recommendations. The system gets smarter every week as it learns your niche and audience response patterns.</div>
+</div>
+{% endif %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# THEME BANNER                                                    #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/theme_banner.html.j2" %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# EXECUTIVE SUMMARY — TOP 3 ACTIONS                               #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/executive_summary.html.j2" %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# GOOGLE TRENDS                                                   #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/google_trends.html.j2" %}
+
+{% from "helpers.j2" import divider %}
+{{ divider() }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# EMERGING SIGNALS                                                #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/emerging_signals.html.j2" %}
+
+{{ divider() }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# DECLINING SIGNALS — TOPICS TO AVOID                             #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/declining_signals.html.j2" %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# PUBMED — SCIENTIFIC AUTHORITY (moved up for content creation)   #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/pubmed.html.j2" %}
+
+{{ divider() }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# REDDIT                                                          #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/reddit.html.j2" %}
+
+{{ divider() }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# QUORA                                                           #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/quora.html.j2" %}
+
+{{ divider() }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# WIKIPEDIA                                                       #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/wikipedia.html.j2" %}
+
+{# ═══════════ THICK DIVIDER — DATA / STRATEGY BOUNDARY ═══════════ #}
+{{ divider(thick=true) }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# CONTENT PLAYBOOK (Monday / Wednesday / Friday)                  #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/content_playbook.html.j2" %}
+
+{{ divider() }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# SEO & AI FINDABILITY                                            #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/seo_notes.html.j2" %}
+
+{# ═══════════ THICK DIVIDER — STRATEGY / OUTREACH BOUNDARY ═══════ #}
+{{ divider(thick=true) }}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# ENGAGEMENT OPPORTUNITIES                                        #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/engagement_opps.html.j2" %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# LEADS                                                           #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/leads.html.j2" %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# NEWS (supplementary context — moved to end)                     #}
+{# ════════════════════════════════════════════════════════════════ #}
+{% include "sections/news.html.j2" %}
+
+{# ════════════════════════════════════════════════════════════════ #}
+{# FOOTER                                                          #}
+{# ════════════════════════════════════════════════════════════════ #}
+<div style="background:#f8fafc;padding:20px 24px;border-top:1px solid #e2e8f0;">
+    {% if seasonal and seasonal.suggested_angles %}
+    <div style="background:#fefce8;border-radius:6px;padding:10px 14px;margin-bottom:12px;">
+        <div style="font-size:11px;font-weight:700;color:#92400e;">NEXT WEEK SEASONAL ANGLES:</div>
+        <div style="font-size:11px;color:#78716c;margin-top:4px;">{{ seasonal.suggested_angles | join(' &middot; ') }}</div>
+    </div>
+    {% endif %}
+    <p style="font-size:11px;color:#9ca3af;margin:0;line-height:1.6;">
+        Trend Engine V2.0 &middot; Brief #{{ meta.brief_number | default(1) }} &middot; Generated {{ meta.generated_at | default('') }}<br>
+        {% if meta.sources %}
+        Sources: {{ meta.sources | join(' &middot; ') }}<br>
+        {% endif %}
+        Reply to this email with feedback. What should next week's brief include?
+    </p>
+</div>
+
+</div></body></html>

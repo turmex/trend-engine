@@ -1,0 +1,50 @@
+{# ════════════════════════════════════════════════════════════════
+   FormCoach Trend Engine — Jinja2 Helper Macros
+   Reusable components for email rendering.
+   ════════════════════════════════════════════════════════════════ #}
+
+{# WoW change badge with color coding and directional icons #}
+{% macro wow_badge(pct) %}
+{% if pct is none %}
+<span style="background:#9ca3af;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600;">N/A</span>
+{% elif pct >= 25 %}
+<span style="background:#dc2626;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600;">+{{ "%.1f"|format(pct) }}%</span>
+{% elif pct >= 10 %}
+<span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600;">+{{ "%.1f"|format(pct) }}%</span>
+{% elif pct > 0 %}
+<span style="background:#16a34a;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600;">+{{ "%.1f"|format(pct) }}%</span>
+{% elif pct == 0 %}
+<span style="background:#9ca3af;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600;">0%</span>
+{% else %}
+<span style="background:#9ca3af;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600;">{{ "%.1f"|format(pct) }}%</span>
+{% endif %}
+{% endmacro %}
+
+{# NEW badge for items that appeared this week #}
+{% macro new_badge() %}
+<span style="background:#16a34a;color:#fff;padding:1px 6px;border-radius:4px;font-size:10px;font-weight:600;margin-right:4px;">NEW</span>
+{% endmacro %}
+
+{# Section divider — thin (default) or thick (between major sections) #}
+{% macro divider(thick=false) %}
+{% if thick %}
+<hr style="border:none;border-top:4px solid #0f172a;margin:0;">
+{% else %}
+<hr style="border:none;border-top:1px solid #f0f0f0;margin:0;">
+{% endif %}
+{% endmacro %}
+
+{# Day label pill for content playbook #}
+{% macro day_label(day, color) %}
+<div style="background:{{ color }};color:#fff;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:700;">{{ day }}</div>
+{% endmacro %}
+
+{# Tag pill for SEO keywords / YouTube tags #}
+{% macro tag_pill(text) %}
+<span style="background:#e0e7ff;color:#3730a3;padding:2px 6px;border-radius:4px;font-size:11px;margin-right:4px;">{{ text }}</span>
+{% endmacro %}
+
+{# Format large numbers with comma separators #}
+{% macro fmt_number(n) %}
+{{ "{:,.0f}".format(n) if n is not none else "N/A" }}
+{% endmacro %}
