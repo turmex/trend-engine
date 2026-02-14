@@ -16,9 +16,20 @@ from typing import Any
 
 import requests
 
-_HEADERS = {
-    "User-Agent": "FormCoachBot/2.0 (trend-analysis; educational)",
-}
+_USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+]
+
+import random
+
+def _get_headers() -> dict[str, str]:
+    return {
+        "User-Agent": random.choice(_USER_AGENTS),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
 
 _REQUEST_DELAY = 6  # seconds between requests to respect rate limits
 
@@ -36,13 +47,22 @@ def _fetch_subreddit_top(
     params = {"t": time_filter, "limit": limit, "raw_json": 1}
 
     try:
-        resp = requests.get(url, headers=_HEADERS, params=params, timeout=15)
+        headers = _get_headers()
+        resp = requests.get(url, headers=headers, params=params, timeout=15)
         if resp.status_code == 429:
             print(f"[Reddit-JSON] Rate limited on r/{sub_name}, waiting 30s...")
             time.sleep(30)
-            resp = requests.get(url, headers=_HEADERS, params=params, timeout=15)
+            resp = requests.get(url, headers=headers, params=params, timeout=15)
 
-        if resp.status_code != 200:
+        if resp.status_code == 403:
+            # Try old.reddit.com as fallback
+            old_url = f"https://old.reddit.com/r/{sub_name}/top.json"
+            resp = requests.get(old_url, headers=headers, params=params, timeout=15)
+            if resp.status_code != 200:
+                print(f"[Reddit-JSON] r/{sub_name} returned HTTP 403 (both endpoints)")
+                return []
+
+        elif resp.status_code != 200:
             print(f"[Reddit-JSON] r/{sub_name} returned HTTP {resp.status_code}")
             return []
 
@@ -86,7 +106,11 @@ def _search_subreddit(
     }
 
     try:
-        resp = requests.get(url, headers=_HEADERS, params=params, timeout=15)
+        headers = _get_headers()
+        resp = requests.get(url, headers=headers, params=params, timeout=15)
+        if resp.status_code in (403, 429):
+            old_url = f"https://old.reddit.com/r/{sub_name}/search.json"
+            resp = requests.get(old_url, headers=headers, params=params, timeout=15)
         if resp.status_code != 200:
             return []
 
