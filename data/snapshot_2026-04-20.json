@@ -1,0 +1,3339 @@
+{
+  "date": "2026-04-20",
+  "theme": "knee pain",
+  "google": {
+    "neck pain": {
+      "current": 73,
+      "prev_week": 77,
+      "wow_pct": -5.19,
+      "4w_trend": "falling",
+      "4w_avg": 82.86
+    },
+    "stiff neck": {
+      "current": 11,
+      "prev_week": 12,
+      "wow_pct": -8.33,
+      "4w_trend": "falling",
+      "4w_avg": 12.21
+    },
+    "upper back pain": {
+      "current": 17,
+      "prev_week": 18,
+      "wow_pct": -5.56,
+      "4w_trend": "falling",
+      "4w_avg": 17.93
+    },
+    "lower back pain": {
+      "current": 83,
+      "prev_week": 84,
+      "wow_pct": -1.19,
+      "4w_trend": "stable",
+      "4w_avg": 81.0
+    },
+    "sciatica": {
+      "current": 60,
+      "prev_week": 63,
+      "wow_pct": -4.76,
+      "4w_trend": "falling",
+      "4w_avg": 62.36
+    },
+    "herniated disc": {
+      "current": 21,
+      "prev_week": 24,
+      "wow_pct": -12.5,
+      "4w_trend": "stable",
+      "4w_avg": 22.46
+    },
+    "hip pain": {
+      "current": 65,
+      "prev_week": 66,
+      "wow_pct": -1.52,
+      "4w_trend": "stable",
+      "4w_avg": 66.04
+    },
+    "anterior pelvic tilt": {
+      "current": 5,
+      "prev_week": 4,
+      "wow_pct": 25.0,
+      "4w_trend": "rising",
+      "4w_avg": 5.21
+    },
+    "hip flexor pain": {
+      "current": 3,
+      "prev_week": 3,
+      "wow_pct": 0.0,
+      "4w_trend": "rising",
+      "4w_avg": 2.89
+    },
+    "shoulder pain": {
+      "current": 78,
+      "prev_week": 83,
+      "wow_pct": -6.02,
+      "4w_trend": "falling",
+      "4w_avg": 84.57
+    },
+    "knee pain": {
+      "current": 91,
+      "prev_week": 88,
+      "wow_pct": 3.41,
+      "4w_trend": "falling",
+      "4w_avg": 89.61
+    },
+    "plantar fasciitis": {
+      "current": 48,
+      "prev_week": 57,
+      "wow_pct": -15.79,
+      "4w_trend": "falling",
+      "4w_avg": 56.79
+    },
+    "carpal tunnel": {
+      "current": 37,
+      "prev_week": 43,
+      "wow_pct": -13.95,
+      "4w_trend": "stable",
+      "4w_avg": 40.79
+    },
+    "tension headache": {
+      "current": 7,
+      "prev_week": 8,
+      "wow_pct": -12.5,
+      "4w_trend": "falling",
+      "4w_avg": 9.04
+    },
+    "forward head posture": {
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 1.39
+    },
+    "working from home": {
+      "current": 12,
+      "prev_week": 13,
+      "wow_pct": -7.69,
+      "4w_trend": "falling",
+      "4w_avg": 12.82
+    },
+    "office ergonomics": {
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 1.11
+    },
+    "standing desk": {
+      "current": 52,
+      "prev_week": 50,
+      "wow_pct": 4.0,
+      "4w_trend": "falling",
+      "4w_avg": 64.07
+    },
+    "text neck": {
+      "current": 2,
+      "prev_week": 2,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 3.11
+    },
+    "driving back pain": {
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 1.07
+    },
+    "work injury": {
+      "current": 38,
+      "prev_week": 37,
+      "wow_pct": 2.7,
+      "4w_trend": "falling",
+      "4w_avg": 41.46
+    },
+    "squat form": {
+      "current": 6,
+      "prev_week": 7,
+      "wow_pct": -14.29,
+      "4w_trend": "falling",
+      "4w_avg": 7.54
+    },
+    "deadlift form": {
+      "current": 4,
+      "prev_week": 6,
+      "wow_pct": -33.33,
+      "4w_trend": "falling",
+      "4w_avg": 5.82
+    },
+    "aging posture": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "falling",
+      "4w_avg": 0.11
+    },
+    "fibromyalgia": {
+      "current": 70,
+      "prev_week": 78,
+      "wow_pct": -10.26,
+      "4w_trend": "falling",
+      "4w_avg": 76.25
+    },
+    "chronic pain syndrome": {
+      "current": 5,
+      "prev_week": 5,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 5.57
+    },
+    "degenerative disc disease": {
+      "current": 15,
+      "prev_week": 19,
+      "wow_pct": -21.05,
+      "4w_trend": "stable",
+      "4w_avg": 17.11
+    },
+    "piriformis syndrome": {
+      "current": 12,
+      "prev_week": 14,
+      "wow_pct": -14.29,
+      "4w_trend": "falling",
+      "4w_avg": 13.39
+    },
+    "thoracic outlet syndrome": {
+      "current": 10,
+      "prev_week": 11,
+      "wow_pct": -9.09,
+      "4w_trend": "falling",
+      "4w_avg": 12.07
+    },
+    "cancer pain": {
+      "current": 54,
+      "prev_week": 55,
+      "wow_pct": -1.82,
+      "4w_trend": "falling",
+      "4w_avg": 67.11
+    },
+    "corrective exercise": {
+      "current": 2,
+      "prev_week": 2,
+      "wow_pct": 0.0,
+      "4w_trend": "rising",
+      "4w_avg": 1.0
+    },
+    "posture correction": {
+      "current": 3,
+      "prev_week": 4,
+      "wow_pct": -25.0,
+      "4w_trend": "falling",
+      "4w_avg": 6.79
+    },
+    "foam rolling": {
+      "current": 16,
+      "prev_week": 16,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 24.36
+    },
+    "mobility exercises": {
+      "current": 11,
+      "prev_week": 14,
+      "wow_pct": -21.43,
+      "4w_trend": "falling",
+      "4w_avg": 14.25
+    },
+    "yoga for back pain": {
+      "current": 12,
+      "prev_week": 8,
+      "wow_pct": 50.0,
+      "4w_trend": "rising",
+      "4w_avg": 10.82
+    },
+    "yoga for sciatica": {
+      "current": 0,
+      "prev_week": 8,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 3.79
+    },
+    "therapeutic yoga": {
+      "current": 9,
+      "prev_week": 10,
+      "wow_pct": -10.0,
+      "4w_trend": "rising",
+      "4w_avg": 5.86
+    },
+    "yoga for chronic pain": {
+      "current": 0,
+      "prev_week": 4,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 1.32
+    },
+    "restorative yoga": {
+      "current": 36,
+      "prev_week": 42,
+      "wow_pct": -14.29,
+      "4w_trend": "rising",
+      "4w_avg": 33.79
+    },
+    "yin yoga for pain": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "stable",
+      "4w_avg": 0.0
+    },
+    "runner's knee": {
+      "current": 13,
+      "prev_week": 13,
+      "wow_pct": 0.0,
+      "4w_trend": "rising",
+      "4w_avg": 13.36
+    },
+    "IT band syndrome": {
+      "current": 40,
+      "prev_week": 41,
+      "wow_pct": -2.44,
+      "4w_trend": "falling",
+      "4w_avg": 39.79
+    },
+    "achilles tendonitis": {
+      "current": 66,
+      "prev_week": 79,
+      "wow_pct": -16.46,
+      "4w_trend": "stable",
+      "4w_avg": 71.32
+    },
+    "plantar fasciitis running": {
+      "current": 21,
+      "prev_week": 23,
+      "wow_pct": -8.7,
+      "4w_trend": "falling",
+      "4w_avg": 30.57
+    },
+    "hip flexor running": {
+      "current": 7,
+      "prev_week": 5,
+      "wow_pct": 40.0,
+      "4w_trend": "rising",
+      "4w_avg": 2.61
+    },
+    "marathon recovery": {
+      "current": 5,
+      "prev_week": 3,
+      "wow_pct": 66.67,
+      "4w_trend": "falling",
+      "4w_avg": 3.0
+    },
+    "longevity exercises": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "falling",
+      "4w_avg": 0.21
+    },
+    "mobility for aging": {
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
+      "4w_trend": "rising",
+      "4w_avg": 0.07
+    },
+    "functional fitness over 40": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "stable",
+      "4w_avg": 0.0
+    },
+    "joint health": {
+      "current": 37,
+      "prev_week": 39,
+      "wow_pct": -5.13,
+      "4w_trend": "falling",
+      "4w_avg": 55.39
+    },
+    "movement longevity": {
+      "current": 0,
+      "prev_week": 3,
+      "wow_pct": -100.0,
+      "4w_trend": "falling",
+      "4w_avg": 3.25
+    },
+    "exercise during chemotherapy": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "rising",
+      "4w_avg": 0.57
+    },
+    "cancer rehabilitation": {
+      "current": 20,
+      "prev_week": 23,
+      "wow_pct": -13.04,
+      "4w_trend": "falling",
+      "4w_avg": 36.82
+    },
+    "exercise after cancer treatment": {
+      "current": 0,
+      "prev_week": 3,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 0.93
+    },
+    "cancer fatigue exercise": {
+      "current": 0,
+      "prev_week": 4,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 1.82
+    },
+    "oncology exercise": {
+      "current": 13,
+      "prev_week": 15,
+      "wow_pct": -13.33,
+      "4w_trend": "rising",
+      "4w_avg": 12.54
+    }
+  },
+  "rising_queries": null,
+  "reddit": null,
+  "quora": null,
+  "wikipedia": {
+    "Chronic_pain": {
+      "current_week_avg": 348.14,
+      "prior_week_avg": 386.5,
+      "wow_pct": -9.92,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 396
+        },
+        {
+          "date": "2026-04-07",
+          "views": 400
+        },
+        {
+          "date": "2026-04-08",
+          "views": 358
+        },
+        {
+          "date": "2026-04-09",
+          "views": 392
+        },
+        {
+          "date": "2026-04-10",
+          "views": 376
+        },
+        {
+          "date": "2026-04-11",
+          "views": 279
+        },
+        {
+          "date": "2026-04-12",
+          "views": 338
+        },
+        {
+          "date": "2026-04-13",
+          "views": 402
+        },
+        {
+          "date": "2026-04-14",
+          "views": 374
+        },
+        {
+          "date": "2026-04-15",
+          "views": 325
+        },
+        {
+          "date": "2026-04-16",
+          "views": 343
+        }
+      ]
+    },
+    "Sciatica": {
+      "current_week_avg": 898.29,
+      "prior_week_avg": 1027.5,
+      "wow_pct": -12.58,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 1035
+        },
+        {
+          "date": "2026-04-07",
+          "views": 843
+        },
+        {
+          "date": "2026-04-08",
+          "views": 1427
+        },
+        {
+          "date": "2026-04-09",
+          "views": 805
+        },
+        {
+          "date": "2026-04-10",
+          "views": 860
+        },
+        {
+          "date": "2026-04-11",
+          "views": 876
+        },
+        {
+          "date": "2026-04-12",
+          "views": 919
+        },
+        {
+          "date": "2026-04-13",
+          "views": 993
+        },
+        {
+          "date": "2026-04-14",
+          "views": 882
+        },
+        {
+          "date": "2026-04-15",
+          "views": 860
+        },
+        {
+          "date": "2026-04-16",
+          "views": 898
+        }
+      ]
+    },
+    "Fibromyalgia": {
+      "current_week_avg": 1474.0,
+      "prior_week_avg": 1557.25,
+      "wow_pct": -5.35,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 1562
+        },
+        {
+          "date": "2026-04-07",
+          "views": 1677
+        },
+        {
+          "date": "2026-04-08",
+          "views": 1473
+        },
+        {
+          "date": "2026-04-09",
+          "views": 1517
+        },
+        {
+          "date": "2026-04-10",
+          "views": 1448
+        },
+        {
+          "date": "2026-04-11",
+          "views": 1299
+        },
+        {
+          "date": "2026-04-12",
+          "views": 1334
+        },
+        {
+          "date": "2026-04-13",
+          "views": 1499
+        },
+        {
+          "date": "2026-04-14",
+          "views": 1604
+        },
+        {
+          "date": "2026-04-15",
+          "views": 1624
+        },
+        {
+          "date": "2026-04-16",
+          "views": 1510
+        }
+      ]
+    },
+    "Low_back_pain": {
+      "current_week_avg": 448.14,
+      "prior_week_avg": 410.75,
+      "wow_pct": 9.1,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 445
+        },
+        {
+          "date": "2026-04-07",
+          "views": 384
+        },
+        {
+          "date": "2026-04-08",
+          "views": 402
+        },
+        {
+          "date": "2026-04-09",
+          "views": 412
+        },
+        {
+          "date": "2026-04-10",
+          "views": 394
+        },
+        {
+          "date": "2026-04-11",
+          "views": 393
+        },
+        {
+          "date": "2026-04-12",
+          "views": 430
+        },
+        {
+          "date": "2026-04-13",
+          "views": 427
+        },
+        {
+          "date": "2026-04-14",
+          "views": 532
+        },
+        {
+          "date": "2026-04-15",
+          "views": 468
+        },
+        {
+          "date": "2026-04-16",
+          "views": 493
+        }
+      ]
+    },
+    "Physical_therapy": {
+      "current_week_avg": 794.71,
+      "prior_week_avg": 662.75,
+      "wow_pct": 19.91,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 647
+        },
+        {
+          "date": "2026-04-07",
+          "views": 674
+        },
+        {
+          "date": "2026-04-08",
+          "views": 676
+        },
+        {
+          "date": "2026-04-09",
+          "views": 654
+        },
+        {
+          "date": "2026-04-10",
+          "views": 686
+        },
+        {
+          "date": "2026-04-11",
+          "views": 555
+        },
+        {
+          "date": "2026-04-12",
+          "views": 565
+        },
+        {
+          "date": "2026-04-13",
+          "views": 945
+        },
+        {
+          "date": "2026-04-14",
+          "views": 997
+        },
+        {
+          "date": "2026-04-15",
+          "views": 910
+        },
+        {
+          "date": "2026-04-16",
+          "views": 905
+        }
+      ]
+    },
+    "Ergonomics": {
+      "current_week_avg": 537.86,
+      "prior_week_avg": 519.25,
+      "wow_pct": 3.58,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 545
+        },
+        {
+          "date": "2026-04-07",
+          "views": 392
+        },
+        {
+          "date": "2026-04-08",
+          "views": 574
+        },
+        {
+          "date": "2026-04-09",
+          "views": 566
+        },
+        {
+          "date": "2026-04-10",
+          "views": 643
+        },
+        {
+          "date": "2026-04-11",
+          "views": 318
+        },
+        {
+          "date": "2026-04-12",
+          "views": 751
+        },
+        {
+          "date": "2026-04-13",
+          "views": 577
+        },
+        {
+          "date": "2026-04-14",
+          "views": 527
+        },
+        {
+          "date": "2026-04-15",
+          "views": 553
+        },
+        {
+          "date": "2026-04-16",
+          "views": 396
+        }
+      ]
+    },
+    "Kyphosis": {
+      "current_week_avg": 433.0,
+      "prior_week_avg": 363.25,
+      "wow_pct": 19.2,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 337
+        },
+        {
+          "date": "2026-04-07",
+          "views": 369
+        },
+        {
+          "date": "2026-04-08",
+          "views": 362
+        },
+        {
+          "date": "2026-04-09",
+          "views": 385
+        },
+        {
+          "date": "2026-04-10",
+          "views": 329
+        },
+        {
+          "date": "2026-04-11",
+          "views": 385
+        },
+        {
+          "date": "2026-04-12",
+          "views": 495
+        },
+        {
+          "date": "2026-04-13",
+          "views": 440
+        },
+        {
+          "date": "2026-04-14",
+          "views": 469
+        },
+        {
+          "date": "2026-04-15",
+          "views": 440
+        },
+        {
+          "date": "2026-04-16",
+          "views": 473
+        }
+      ]
+    },
+    "Piriformis_syndrome": {
+      "current_week_avg": 358.71,
+      "prior_week_avg": 327.25,
+      "wow_pct": 9.61,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 325
+        },
+        {
+          "date": "2026-04-07",
+          "views": 332
+        },
+        {
+          "date": "2026-04-08",
+          "views": 321
+        },
+        {
+          "date": "2026-04-09",
+          "views": 331
+        },
+        {
+          "date": "2026-04-10",
+          "views": 329
+        },
+        {
+          "date": "2026-04-11",
+          "views": 313
+        },
+        {
+          "date": "2026-04-12",
+          "views": 299
+        },
+        {
+          "date": "2026-04-13",
+          "views": 343
+        },
+        {
+          "date": "2026-04-14",
+          "views": 360
+        },
+        {
+          "date": "2026-04-15",
+          "views": 367
+        },
+        {
+          "date": "2026-04-16",
+          "views": 500
+        }
+      ]
+    },
+    "Thoracic_outlet_syndrome": {
+      "current_week_avg": 358.14,
+      "prior_week_avg": 331.25,
+      "wow_pct": 8.12,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 314
+        },
+        {
+          "date": "2026-04-07",
+          "views": 370
+        },
+        {
+          "date": "2026-04-08",
+          "views": 349
+        },
+        {
+          "date": "2026-04-09",
+          "views": 292
+        },
+        {
+          "date": "2026-04-10",
+          "views": 437
+        },
+        {
+          "date": "2026-04-11",
+          "views": 375
+        },
+        {
+          "date": "2026-04-12",
+          "views": 332
+        },
+        {
+          "date": "2026-04-13",
+          "views": 324
+        },
+        {
+          "date": "2026-04-14",
+          "views": 341
+        },
+        {
+          "date": "2026-04-15",
+          "views": 357
+        },
+        {
+          "date": "2026-04-16",
+          "views": 341
+        }
+      ]
+    },
+    "Plantar_fasciitis": {
+      "current_week_avg": 730.0,
+      "prior_week_avg": 884.75,
+      "wow_pct": -17.49,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 715
+        },
+        {
+          "date": "2026-04-07",
+          "views": 719
+        },
+        {
+          "date": "2026-04-08",
+          "views": 732
+        },
+        {
+          "date": "2026-04-09",
+          "views": 1373
+        },
+        {
+          "date": "2026-04-10",
+          "views": 670
+        },
+        {
+          "date": "2026-04-11",
+          "views": 684
+        },
+        {
+          "date": "2026-04-12",
+          "views": 762
+        },
+        {
+          "date": "2026-04-13",
+          "views": 730
+        },
+        {
+          "date": "2026-04-14",
+          "views": 701
+        },
+        {
+          "date": "2026-04-15",
+          "views": 735
+        },
+        {
+          "date": "2026-04-16",
+          "views": 828
+        }
+      ]
+    },
+    "Rotator_cuff_tear": {
+      "current_week_avg": 181.29,
+      "prior_week_avg": 174.25,
+      "wow_pct": 4.04,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 165
+        },
+        {
+          "date": "2026-04-07",
+          "views": 175
+        },
+        {
+          "date": "2026-04-08",
+          "views": 191
+        },
+        {
+          "date": "2026-04-09",
+          "views": 166
+        },
+        {
+          "date": "2026-04-10",
+          "views": 182
+        },
+        {
+          "date": "2026-04-11",
+          "views": 167
+        },
+        {
+          "date": "2026-04-12",
+          "views": 178
+        },
+        {
+          "date": "2026-04-13",
+          "views": 174
+        },
+        {
+          "date": "2026-04-14",
+          "views": 167
+        },
+        {
+          "date": "2026-04-15",
+          "views": 233
+        },
+        {
+          "date": "2026-04-16",
+          "views": 168
+        }
+      ]
+    },
+    "Sacroiliac_joint_dysfunction": {
+      "current_week_avg": 73.29,
+      "prior_week_avg": 68.5,
+      "wow_pct": 6.99,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 72
+        },
+        {
+          "date": "2026-04-07",
+          "views": 69
+        },
+        {
+          "date": "2026-04-08",
+          "views": 61
+        },
+        {
+          "date": "2026-04-09",
+          "views": 72
+        },
+        {
+          "date": "2026-04-10",
+          "views": 73
+        },
+        {
+          "date": "2026-04-11",
+          "views": 61
+        },
+        {
+          "date": "2026-04-12",
+          "views": 90
+        },
+        {
+          "date": "2026-04-13",
+          "views": 79
+        },
+        {
+          "date": "2026-04-14",
+          "views": 71
+        },
+        {
+          "date": "2026-04-15",
+          "views": 77
+        },
+        {
+          "date": "2026-04-16",
+          "views": 62
+        }
+      ]
+    },
+    "Spinal_stenosis": {
+      "current_week_avg": 682.14,
+      "prior_week_avg": 690.75,
+      "wow_pct": -1.25,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 661
+        },
+        {
+          "date": "2026-04-07",
+          "views": 686
+        },
+        {
+          "date": "2026-04-08",
+          "views": 711
+        },
+        {
+          "date": "2026-04-09",
+          "views": 705
+        },
+        {
+          "date": "2026-04-10",
+          "views": 646
+        },
+        {
+          "date": "2026-04-11",
+          "views": 647
+        },
+        {
+          "date": "2026-04-12",
+          "views": 600
+        },
+        {
+          "date": "2026-04-13",
+          "views": 722
+        },
+        {
+          "date": "2026-04-14",
+          "views": 787
+        },
+        {
+          "date": "2026-04-15",
+          "views": 686
+        },
+        {
+          "date": "2026-04-16",
+          "views": 687
+        }
+      ]
+    },
+    "Scoliosis": {
+      "current_week_avg": 992.0,
+      "prior_week_avg": 830.75,
+      "wow_pct": 19.41,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 825
+        },
+        {
+          "date": "2026-04-07",
+          "views": 826
+        },
+        {
+          "date": "2026-04-08",
+          "views": 807
+        },
+        {
+          "date": "2026-04-09",
+          "views": 865
+        },
+        {
+          "date": "2026-04-10",
+          "views": 800
+        },
+        {
+          "date": "2026-04-11",
+          "views": 840
+        },
+        {
+          "date": "2026-04-12",
+          "views": 1122
+        },
+        {
+          "date": "2026-04-13",
+          "views": 1232
+        },
+        {
+          "date": "2026-04-14",
+          "views": 1118
+        },
+        {
+          "date": "2026-04-15",
+          "views": 945
+        },
+        {
+          "date": "2026-04-16",
+          "views": 887
+        }
+      ]
+    },
+    "Spinal_disc_herniation": {
+      "current_week_avg": 140.0,
+      "prior_week_avg": 140.0,
+      "wow_pct": 0.0,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 127
+        },
+        {
+          "date": "2026-04-07",
+          "views": 145
+        },
+        {
+          "date": "2026-04-08",
+          "views": 156
+        },
+        {
+          "date": "2026-04-09",
+          "views": 132
+        },
+        {
+          "date": "2026-04-10",
+          "views": 110
+        },
+        {
+          "date": "2026-04-11",
+          "views": 148
+        },
+        {
+          "date": "2026-04-12",
+          "views": 112
+        },
+        {
+          "date": "2026-04-13",
+          "views": 175
+        },
+        {
+          "date": "2026-04-14",
+          "views": 124
+        },
+        {
+          "date": "2026-04-15",
+          "views": 149
+        },
+        {
+          "date": "2026-04-16",
+          "views": 162
+        }
+      ]
+    },
+    "Tension_headache": {
+      "current_week_avg": 129.57,
+      "prior_week_avg": 121.5,
+      "wow_pct": 6.64,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 116
+        },
+        {
+          "date": "2026-04-07",
+          "views": 128
+        },
+        {
+          "date": "2026-04-08",
+          "views": 127
+        },
+        {
+          "date": "2026-04-09",
+          "views": 115
+        },
+        {
+          "date": "2026-04-10",
+          "views": 120
+        },
+        {
+          "date": "2026-04-11",
+          "views": 127
+        },
+        {
+          "date": "2026-04-12",
+          "views": 130
+        },
+        {
+          "date": "2026-04-13",
+          "views": 144
+        },
+        {
+          "date": "2026-04-14",
+          "views": 133
+        },
+        {
+          "date": "2026-04-15",
+          "views": 119
+        },
+        {
+          "date": "2026-04-16",
+          "views": 134
+        }
+      ]
+    },
+    "Myofascial_pain_syndrome": {
+      "current_week_avg": 105.71,
+      "prior_week_avg": 115.25,
+      "wow_pct": -8.28,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 110
+        },
+        {
+          "date": "2026-04-07",
+          "views": 103
+        },
+        {
+          "date": "2026-04-08",
+          "views": 128
+        },
+        {
+          "date": "2026-04-09",
+          "views": 120
+        },
+        {
+          "date": "2026-04-10",
+          "views": 139
+        },
+        {
+          "date": "2026-04-11",
+          "views": 96
+        },
+        {
+          "date": "2026-04-12",
+          "views": 85
+        },
+        {
+          "date": "2026-04-13",
+          "views": 88
+        },
+        {
+          "date": "2026-04-14",
+          "views": 91
+        },
+        {
+          "date": "2026-04-15",
+          "views": 131
+        },
+        {
+          "date": "2026-04-16",
+          "views": 110
+        }
+      ]
+    },
+    "Carpal_tunnel_syndrome": {
+      "current_week_avg": 638.0,
+      "prior_week_avg": 651.25,
+      "wow_pct": -2.03,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 614
+        },
+        {
+          "date": "2026-04-07",
+          "views": 688
+        },
+        {
+          "date": "2026-04-08",
+          "views": 643
+        },
+        {
+          "date": "2026-04-09",
+          "views": 660
+        },
+        {
+          "date": "2026-04-10",
+          "views": 605
+        },
+        {
+          "date": "2026-04-11",
+          "views": 590
+        },
+        {
+          "date": "2026-04-12",
+          "views": 570
+        },
+        {
+          "date": "2026-04-13",
+          "views": 657
+        },
+        {
+          "date": "2026-04-14",
+          "views": 695
+        },
+        {
+          "date": "2026-04-15",
+          "views": 705
+        },
+        {
+          "date": "2026-04-16",
+          "views": 644
+        }
+      ]
+    },
+    "Lordosis": {
+      "current_week_avg": 271.14,
+      "prior_week_avg": 308.0,
+      "wow_pct": -11.97,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 274
+        },
+        {
+          "date": "2026-04-07",
+          "views": 336
+        },
+        {
+          "date": "2026-04-08",
+          "views": 328
+        },
+        {
+          "date": "2026-04-09",
+          "views": 294
+        },
+        {
+          "date": "2026-04-10",
+          "views": 249
+        },
+        {
+          "date": "2026-04-11",
+          "views": 258
+        },
+        {
+          "date": "2026-04-12",
+          "views": 262
+        },
+        {
+          "date": "2026-04-13",
+          "views": 303
+        },
+        {
+          "date": "2026-04-14",
+          "views": 271
+        },
+        {
+          "date": "2026-04-15",
+          "views": 280
+        },
+        {
+          "date": "2026-04-16",
+          "views": 275
+        }
+      ]
+    },
+    "Anterior_pelvic_tilt": {
+      "current_week_avg": 6.0,
+      "prior_week_avg": 2.5,
+      "wow_pct": 140.0,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 2
+        },
+        {
+          "date": "2026-04-07",
+          "views": 1
+        },
+        {
+          "date": "2026-04-08",
+          "views": 4
+        },
+        {
+          "date": "2026-04-09",
+          "views": 3
+        },
+        {
+          "date": "2026-04-10",
+          "views": 17
+        },
+        {
+          "date": "2026-04-11",
+          "views": 1
+        },
+        {
+          "date": "2026-04-12",
+          "views": 2
+        },
+        {
+          "date": "2026-04-13",
+          "views": 4
+        },
+        {
+          "date": "2026-04-14",
+          "views": 3
+        },
+        {
+          "date": "2026-04-15",
+          "views": 12
+        },
+        {
+          "date": "2026-04-16",
+          "views": 3
+        }
+      ]
+    },
+    "Posture": {
+      "current_week_avg": 23.29,
+      "prior_week_avg": 29.75,
+      "wow_pct": -21.71,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 24
+        },
+        {
+          "date": "2026-04-07",
+          "views": 33
+        },
+        {
+          "date": "2026-04-08",
+          "views": 35
+        },
+        {
+          "date": "2026-04-09",
+          "views": 27
+        },
+        {
+          "date": "2026-04-10",
+          "views": 12
+        },
+        {
+          "date": "2026-04-11",
+          "views": 15
+        },
+        {
+          "date": "2026-04-12",
+          "views": 27
+        },
+        {
+          "date": "2026-04-13",
+          "views": 22
+        },
+        {
+          "date": "2026-04-14",
+          "views": 30
+        },
+        {
+          "date": "2026-04-15",
+          "views": 35
+        },
+        {
+          "date": "2026-04-16",
+          "views": 22
+        }
+      ]
+    },
+    "Yoga_therapy": {
+      "current_week_avg": 3.14,
+      "prior_week_avg": 3.0,
+      "wow_pct": 4.67,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 5
+        },
+        {
+          "date": "2026-04-07",
+          "views": 2
+        },
+        {
+          "date": "2026-04-08",
+          "views": 2
+        },
+        {
+          "date": "2026-04-09",
+          "views": 2
+        },
+        {
+          "date": "2026-04-10",
+          "views": 1
+        },
+        {
+          "date": "2026-04-11",
+          "views": 2
+        },
+        {
+          "date": "2026-04-13",
+          "views": 2
+        },
+        {
+          "date": "2026-04-14",
+          "views": 1
+        },
+        {
+          "date": "2026-04-15",
+          "views": 6
+        },
+        {
+          "date": "2026-04-16",
+          "views": 8
+        }
+      ]
+    },
+    "Yoga_as_exercise": {
+      "current_week_avg": 232.86,
+      "prior_week_avg": 353.5,
+      "wow_pct": -34.13,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 215
+        },
+        {
+          "date": "2026-04-07",
+          "views": 317
+        },
+        {
+          "date": "2026-04-08",
+          "views": 460
+        },
+        {
+          "date": "2026-04-09",
+          "views": 422
+        },
+        {
+          "date": "2026-04-10",
+          "views": 148
+        },
+        {
+          "date": "2026-04-11",
+          "views": 247
+        },
+        {
+          "date": "2026-04-12",
+          "views": 226
+        },
+        {
+          "date": "2026-04-13",
+          "views": 243
+        },
+        {
+          "date": "2026-04-14",
+          "views": 266
+        },
+        {
+          "date": "2026-04-15",
+          "views": 231
+        },
+        {
+          "date": "2026-04-16",
+          "views": 269
+        }
+      ]
+    },
+    "Iliotibial_band_syndrome": {
+      "current_week_avg": 126.86,
+      "prior_week_avg": 133.75,
+      "wow_pct": -5.15,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 133
+        },
+        {
+          "date": "2026-04-07",
+          "views": 159
+        },
+        {
+          "date": "2026-04-08",
+          "views": 123
+        },
+        {
+          "date": "2026-04-09",
+          "views": 120
+        },
+        {
+          "date": "2026-04-10",
+          "views": 128
+        },
+        {
+          "date": "2026-04-11",
+          "views": 120
+        },
+        {
+          "date": "2026-04-12",
+          "views": 126
+        },
+        {
+          "date": "2026-04-13",
+          "views": 146
+        },
+        {
+          "date": "2026-04-14",
+          "views": 127
+        },
+        {
+          "date": "2026-04-15",
+          "views": 124
+        },
+        {
+          "date": "2026-04-16",
+          "views": 117
+        }
+      ]
+    },
+    "Achilles_tendinitis": {
+      "current_week_avg": 131.86,
+      "prior_week_avg": 138.25,
+      "wow_pct": -4.62,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 148
+        },
+        {
+          "date": "2026-04-07",
+          "views": 114
+        },
+        {
+          "date": "2026-04-08",
+          "views": 120
+        },
+        {
+          "date": "2026-04-09",
+          "views": 171
+        },
+        {
+          "date": "2026-04-10",
+          "views": 146
+        },
+        {
+          "date": "2026-04-11",
+          "views": 125
+        },
+        {
+          "date": "2026-04-12",
+          "views": 120
+        },
+        {
+          "date": "2026-04-13",
+          "views": 135
+        },
+        {
+          "date": "2026-04-14",
+          "views": 131
+        },
+        {
+          "date": "2026-04-15",
+          "views": 129
+        },
+        {
+          "date": "2026-04-16",
+          "views": 137
+        }
+      ]
+    },
+    "Patellofemoral_pain_syndrome": {
+      "current_week_avg": 150.71,
+      "prior_week_avg": 155.25,
+      "wow_pct": -2.92,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 157
+        },
+        {
+          "date": "2026-04-07",
+          "views": 128
+        },
+        {
+          "date": "2026-04-08",
+          "views": 142
+        },
+        {
+          "date": "2026-04-09",
+          "views": 194
+        },
+        {
+          "date": "2026-04-10",
+          "views": 188
+        },
+        {
+          "date": "2026-04-11",
+          "views": 123
+        },
+        {
+          "date": "2026-04-12",
+          "views": 123
+        },
+        {
+          "date": "2026-04-13",
+          "views": 149
+        },
+        {
+          "date": "2026-04-14",
+          "views": 164
+        },
+        {
+          "date": "2026-04-15",
+          "views": 138
+        },
+        {
+          "date": "2026-04-16",
+          "views": 170
+        }
+      ]
+    },
+    "Cancer-related_fatigue": {
+      "current_week_avg": 15.86,
+      "prior_week_avg": 19.75,
+      "wow_pct": -19.7,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 17
+        },
+        {
+          "date": "2026-04-07",
+          "views": 13
+        },
+        {
+          "date": "2026-04-08",
+          "views": 24
+        },
+        {
+          "date": "2026-04-09",
+          "views": 25
+        },
+        {
+          "date": "2026-04-10",
+          "views": 17
+        },
+        {
+          "date": "2026-04-11",
+          "views": 15
+        },
+        {
+          "date": "2026-04-12",
+          "views": 14
+        },
+        {
+          "date": "2026-04-13",
+          "views": 16
+        },
+        {
+          "date": "2026-04-14",
+          "views": 5
+        },
+        {
+          "date": "2026-04-15",
+          "views": 21
+        },
+        {
+          "date": "2026-04-16",
+          "views": 23
+        }
+      ]
+    },
+    "Blue_zone": {
+      "current_week_avg": 485.29,
+      "prior_week_avg": 513.75,
+      "wow_pct": -5.54,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 472
+        },
+        {
+          "date": "2026-04-07",
+          "views": 586
+        },
+        {
+          "date": "2026-04-08",
+          "views": 514
+        },
+        {
+          "date": "2026-04-09",
+          "views": 483
+        },
+        {
+          "date": "2026-04-10",
+          "views": 468
+        },
+        {
+          "date": "2026-04-11",
+          "views": 431
+        },
+        {
+          "date": "2026-04-12",
+          "views": 457
+        },
+        {
+          "date": "2026-04-13",
+          "views": 482
+        },
+        {
+          "date": "2026-04-14",
+          "views": 492
+        },
+        {
+          "date": "2026-04-15",
+          "views": 583
+        },
+        {
+          "date": "2026-04-16",
+          "views": 484
+        }
+      ]
+    },
+    "Longevity": {
+      "current_week_avg": 359.43,
+      "prior_week_avg": 313.75,
+      "wow_pct": 14.56,
+      "daily": [
+        {
+          "date": "2026-04-06",
+          "views": 305
+        },
+        {
+          "date": "2026-04-07",
+          "views": 315
+        },
+        {
+          "date": "2026-04-08",
+          "views": 324
+        },
+        {
+          "date": "2026-04-09",
+          "views": 311
+        },
+        {
+          "date": "2026-04-10",
+          "views": 323
+        },
+        {
+          "date": "2026-04-11",
+          "views": 306
+        },
+        {
+          "date": "2026-04-12",
+          "views": 354
+        },
+        {
+          "date": "2026-04-13",
+          "views": 371
+        },
+        {
+          "date": "2026-04-14",
+          "views": 384
+        },
+        {
+          "date": "2026-04-15",
+          "views": 407
+        },
+        {
+          "date": "2026-04-16",
+          "views": 371
+        }
+      ]
+    }
+  },
+  "pubmed": [
+    {
+      "title": "The association between risk of bias and effect sizes of spinal manipulative therapy in low back pain trials: meta-epidemiological protocol.",
+      "journal": "MethodsX",
+      "date": "2026-04-01",
+      "pmid": "42007408"
+    },
+    {
+      "title": "The effects of supervised exercise and pain neuroscience education on muscle strength and power in patients with chronic pain after total knee arthroplasty: An exploratory analysis from the NEPNEP trial.",
+      "journal": "Osteoarthritis and cartilage open",
+      "date": "2026-03-25",
+      "pmid": "42006953"
+    },
+    {
+      "title": "Association between psychological determinants (self-efficacy and self-regulation) and lifestyle in chronic musculoskeletal pain: A cross-sectional observational study.",
+      "journal": "Musculoskeletal science & practice",
+      "date": "2026-03-26",
+      "pmid": "42001596"
+    },
+    {
+      "title": "Effect of Modified Assisted Reduction and Internal Fixation System on Chronic Pain and Long-term Prognosis After Isthmic Spondylolisthesis Surgery: A Randomized Controlled Study.",
+      "journal": "International journal of spine surgery",
+      "date": "2026-04-16",
+      "pmid": "41991250"
+    },
+    {
+      "title": "Effects of a home-based telerehabilitation exercise program in non-specific chronic low back pain: Integration of clinical scales and wearable sensor assessment.",
+      "journal": "Clinical biomechanics (Bristol, Avon)",
+      "date": "2026-04-11",
+      "pmid": "41990574"
+    }
+  ],
+  "news": [
+    {
+      "title": "UAMS Hosts Symposium on Treatments for Chronic Pain",
+      "source": "UAMS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNemdJMlFJa3dXOG5QQ2w0OWw4UkpDdm1ibTE3QUFQNF9TRllmSVBlTERtODBkVlU0Mmxjal92aS1MZkZvUS0yYjBQRGppaHVhaGpudXdTQ1poNFpMR1dHMUVoa0U2UkV1SWI2T2VmRFRsNXFWNTBjczhtcTdJVktkZy1IdDVqalBjelhqenpR?oc=5",
+      "date": "Thu, 16 Apr 2026 14:08:22 GMT"
+    },
+    {
+      "title": "What Are the Best Alternatives to Opioids for Chronic Pain Relief",
+      "source": "News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTl8zTTJXYjh2dFRMdnVrand5bEJyZlJXVHBXazBQTlg0RnVpeG01aWZUdlRTRUtrdDBxX1NGenBWR1VVX3F1dUJDM2stZklyVXJfekZRYkNnWXNCS1ltbVlQaF9vMFE2TGFBNlBSLXZETk9SYUd6QnVmc0EyX2tLT19KZTF6Z2plZVRzNnlicVhTTXRhZHFEa3dtMzQ5cDhncUZYeTVBR2NTdw?oc=5",
+      "date": "Thu, 16 Apr 2026 21:12:00 GMT"
+    },
+    {
+      "title": "Opioid use stigma may underlie clinician biases towards patients with sickle cell disease",
+      "source": "UChicago Medicine",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ0RORUZ4QXBHdEc0bU4zVHlZd1pNWGVTNUdmeDM4Y0pEZ2V6b0RiX210RXJTTmVvQ0sxWWcyWEtrOW0xZ1p4Wmt6eHpyT0pxWHBxNlYwUHRQbUtwSlJpRk1QNzdzQ2ZhekxwMlg3b0dCR005ckpFRHQ4NDI1Njh3bjFiVWwwX0VsbVNxZnlidzdtZmNzeVBIRXd5cllDOFV0OVpjSVJVUmU1VFB6WS02ejJvbkJRTDFiOTVOS25QeUN5WGdoMl84RjUxN0FoM3JKTFhmLQ?oc=5",
+      "date": "Mon, 13 Apr 2026 21:12:08 GMT"
+    },
+    {
+      "title": "Chronic pain tied to almost twice the odds of smoking and vaping, survey shows",
+      "source": "Medical Xpress",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYlRWbEZ1U2gzcFNIMDNyUlBqeld1STNySGVPQ2xiUmdxb2xRaHR5SW1SV2l0VldpSE1VcmwxZ05jc3doTmhoMG9EbGEzRXhzMG5Pcm5WTGlGMS1xS3kzYVR4Y1hUSThVYmFjVk0yVTJUZy0xUGxrLWFua1ppWVF0Zw?oc=5",
+      "date": "Sat, 18 Apr 2026 22:00:02 GMT"
+    },
+    {
+      "title": "Best Mattress for Back Pain in 2026: Expert Tested",
+      "source": "Sleep Foundation",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12am9JT3N5Nng0b3BHRDJuQ3d2b3I0ZU4tQzRaUTgxUzdiVmRBazYyTm5Ca3lwc05wQl9yWnpqbGpLdTlWTk1DT2FGUkNuMURESkFaNXFVMzd6ZFRySXFSMzBJMm4xY1dGZS1EYk1veVhCMHpXZzVJZGpNUldSQQ?oc=5",
+      "date": "Fri, 17 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Innovative Non-Surgical Back Pain Treatment in Canada",
+      "source": "WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdWQtcWI2cVAtZi1RdzNkbUdqMG9ibkdhekJYVHczNnJkNldnaDZEWlgyT0wwaTVLNHpxRjNZby1qTGxMczdJcnpUZmNPMnJqZFBUeXV0cUdvRWEydVM0dFVXbG1ha2ZaMWxhcjZhRmJpZzhyOHRRY0FRaVlhNWY0dDc3RXJuX2xsUHN4M3JjbF84akhpTE1RVWNycUh5UUxGVVZiamdEcDlSWnlvNklEQzhtb04zak5ibFBEaVpHVndiOHR1c2JxVXBUdDZBek5uaVJNc1l2eGhlY2ZlN3ByZmVlcUF1ZXF5N3Zr?oc=5",
+      "date": "Thu, 16 Apr 2026 02:50:01 GMT"
+    },
+    {
+      "title": "People With Chronic Pain Are Almost Twice As Likely to Smoke",
+      "source": "Pain News Network",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUGFOYU9iVzBaUS03NVJRNzZkUWZoR3ZacU9BMzVLZWl2VzhURkJtMnJQZkFyUTE2dlRGcXZ2Ymw0RWhJaW9qdnNCN1VMRGtHTFQ2ZkVmODVXa2lzMHlXQmlWSmt5ZG1KSlZaNXJuaElweHd1T2NMR0pCZFR2QWw3Uk5Qa21TWjU1MzRwSjBGVWNDUWhQc0pycWE4Z0JUWHR5cXJqVGlCWG01alVPSHB3dUlmMUc?oc=5",
+      "date": "Thu, 16 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Bias in sickle cell care may be tied to opioid stigma, new study finds",
+      "source": "Sickle Cell Disease News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaS1lZWF6WlA5ZkFIMmdiQm02Z1pfaDY0ZEEtdV9BQlg1UHo1bEFkeDdiOXB1bU1tTlU4WlR4SHppa3YyYnY4eVoyYzVrVXIzTTNJVnJXVERqcEdReHBWTFVGaDVXc1ZVMm1NbHltckdJNE8tMTVndnpjMnF2SEhSbjQ0aTBtTEdNb2U2dzcwaEpHWlpMSFNkb3dBVQ?oc=5",
+      "date": "Tue, 14 Apr 2026 20:31:25 GMT"
+    },
+    {
+      "title": "How CDC opioid guidelines harmed chronic pain patients",
+      "source": "KevinMD.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2N3ekpxdUlIRktJM1o5anRaMnh3b1psNjZwcGwxMTd2UEtjNW1LY1VyUTlWeGFEaV92X19XZjlzLXFMYnc1UEZONU5Mc05EN3ZkeEJDOEFES29CY1ZZZkhOMVNfX2RoR09UTkpkNWtMZFdzVERveE12NWp2RWUwaDZiNlRZbFNqX0hsWGNwTFU?oc=5",
+      "date": "Sat, 18 Apr 2026 17:06:57 GMT"
+    },
+    {
+      "title": "Eden Prairie Company Expands Med Tech Use to Chronic Pain Disorder",
+      "source": "Twin Cities Business",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSVYzVkZDUE5pOEJxQVgzLWVVWlI1SnRqbFJIZkFYLURZcXNHRDNRemRLblFkYldPeHppaUtneGFQZHJjcXpFVGNyYl9RVW40U18tM3pBclpiVmdPVkZpUlZBYVBIQXpXRjZ2WHA0d0JxQ3NrRjNfbGtISUNKY3NubFp1QlZORjdFQjE1VVBIeGswdFZWZkhETVZGX1NZN1B5RnNlQ3cyWGtvUXlVNnozQTdoVk90ODdwZlE?oc=5",
+      "date": "Thu, 16 Apr 2026 16:04:35 GMT"
+    }
+  ],
+  "leads": null,
+  "hn_leads": null,
+  "competitor_data": {
+    "videos": [
+      {
+        "channel": "Bob & Brad",
+        "category": "physical_therapy",
+        "title": "Chest Pain That\u2019s Feels Like Heart Trouble",
+        "url": "https://www.youtube.com/watch?v=ewPs7ffaOC8",
+        "published": "3 hours ago",
+        "views": 1081,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Bob & Brad",
+        "category": "physical_therapy",
+        "title": "Rebounding vs Walking (I Didn\u2019t Expect This Result)",
+        "url": "https://www.youtube.com/watch?v=9c9lsafJxI4",
+        "published": "2 days ago",
+        "views": 80422,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Bob & Brad",
+        "category": "physical_therapy",
+        "title": "5 Best Sciatica Secrets for Immediate Relief!",
+        "url": "https://www.youtube.com/watch?v=vVjm7rXDiLw",
+        "published": "4 days ago",
+        "views": 6094,
+        "matched_keywords": [
+          "sciatica"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Bob & Brad",
+        "category": "physical_therapy",
+        "title": "Everything You Know About Arthritis Is Wrong!",
+        "url": "https://www.youtube.com/watch?v=j0vhwU2zHtk",
+        "published": "7 days ago",
+        "views": 38972,
+        "matched_keywords": [
+          "arthritis"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "How to ACTUALLY Lose Stubborn Belly Fat (NO B.S!)",
+        "url": "https://www.youtube.com/watch?v=QtVvhEeHKcI",
+        "published": "1d ago",
+        "views": 95714,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "The #1 Workout To Grow WIDER Shoulders Fast!",
+        "url": "https://www.youtube.com/watch?v=EO9Z1PezSxE",
+        "published": "8d ago",
+        "views": 290799,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "7 Exercises You MUST Pass (Or You\u2019re Aging Too Fast)",
+        "url": "https://www.youtube.com/watch?v=HGPSVvfJWOk",
+        "published": "2w ago",
+        "views": 536634,
+        "matched_keywords": [
+          "aging"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "Do This DAILY for A Flatter Stomach (GUARANTEED)",
+        "url": "https://www.youtube.com/watch?v=H6jCT8IkZpA",
+        "published": "4w ago",
+        "views": 610237,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "Do This Exercise EVERY Day to Build Muscle (SKINNY GUYS!)",
+        "url": "https://www.youtube.com/watch?v=PiyccZSkU2o",
+        "published": "1mo ago",
+        "views": 393562,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "The 10 Most EFFECTIVE Bodyweight Exercises for Building Muscle",
+        "url": "https://www.youtube.com/watch?v=kHXBL5BTIus",
+        "published": "1mo ago",
+        "views": 323279,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "The ONLY 10 Exercises You Ever Need (DORIAN YATES)",
+        "url": "https://www.youtube.com/watch?v=7Zwq8C3cfyk",
+        "published": "1mo ago",
+        "views": 237581,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "The 8 Worst Exercises Ever (PLEASE STOP!)",
+        "url": "https://www.youtube.com/watch?v=DUyMIsbhXXs",
+        "published": "2mo ago",
+        "views": 374409,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "9 Minute Daily Ab Workout That Flat Out Works! (FOLLOW ALONG)",
+        "url": "https://www.youtube.com/watch?v=5c1R1zPceyM",
+        "published": "2mo ago",
+        "views": 191978,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Athlean-X (Jeff Cavaliere)",
+        "category": "physical_therapy",
+        "title": "How to Get a Chiseled Lower Chest (No Bullsh*t Guide!)",
+        "url": "https://www.youtube.com/watch?v=Aabfoy8HbIc",
+        "published": "3mo ago",
+        "views": 253578,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Squat University",
+        "category": "physical_therapy",
+        "title": "Patellar Tendonitis? Do THIS Instead of Stretching!",
+        "url": "https://www.youtube.com/watch?v=WqTdfqcw9Mw",
+        "published": "2 days ago",
+        "views": 36303,
+        "matched_keywords": [
+          "stretch",
+          "tendonitis"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "AskDoctorJo",
+        "category": "physical_therapy",
+        "title": "What is Smart Red Light Therapy? | A Look at the Luxxe Flex",
+        "url": "https://www.youtube.com/watch?v=a1i0oAJnofA",
+        "published": "4 hours ago",
+        "views": 524,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Boho Beautiful Yoga",
+        "category": "yoga",
+        "title": "30 Min Heart Opening Vinyasa Yoga | Full Body Flow For Strength + Flexibility",
+        "url": "https://www.youtube.com/watch?v=ZrtiBtRQ2uc",
+        "published": "7 days ago",
+        "views": 61036,
+        "matched_keywords": [
+          "flexibility"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "10 min Morning HANDS FREE - Full Body Stretch & Strengthen (no planks, or downward dog)",
+        "url": "https://www.youtube.com/watch?v=102qo93kWDg",
+        "published": "7h ago",
+        "views": 7372,
+        "matched_keywords": [
+          "stretch"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "40 min Full Body Morning Yoga - Active Vinyasa + Deep Yin Stretch",
+        "url": "https://www.youtube.com/watch?v=KeCj9Ni07FQ",
+        "published": "7d ago",
+        "views": 35726,
+        "matched_keywords": [
+          "stretch"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "30 min Power Yoga with Weights - Dumbbells Yoga Workout",
+        "url": "https://www.youtube.com/watch?v=9Ltx9AHPHDY",
+        "published": "2w ago",
+        "views": 37446,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "Yin Yoga for Fatigue and Depletion - 30 min Unwind",
+        "url": "https://www.youtube.com/watch?v=XpVe3GV7IVM",
+        "published": "3w ago",
+        "views": 48505,
+        "matched_keywords": [
+          "yin yoga"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "Rise and Shine - 10 Minute Morning Yoga Flow",
+        "url": "https://www.youtube.com/watch?v=CBdpJUKeIYc",
+        "published": "4w ago",
+        "views": 120687,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "20 min Yoga for Flexibility & Relaxation - Gentle Evening Stretch",
+        "url": "https://www.youtube.com/watch?v=4Lq5Sf9FDpY",
+        "published": "1mo ago",
+        "views": 108264,
+        "matched_keywords": [
+          "flexibility",
+          "stretch"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "10 min Morning Yoga Flow - Spine Mobility & Flexibility",
+        "url": "https://www.youtube.com/watch?v=dyTpgGgVcwg",
+        "published": "1mo ago",
+        "views": 177029,
+        "matched_keywords": [
+          "mobility",
+          "flexibility"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "Q&A Coffee Chat: Do I want kids? What's my workout routine? Pet peeves? Anxiety?",
+        "url": "https://www.youtube.com/watch?v=0b6Om4iKIsw",
+        "published": "1mo ago",
+        "views": 67907,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "30 min Intermediate Vinyasa Yoga - Pigeon Pose Flow (HIP OPENERS)",
+        "url": "https://www.youtube.com/watch?v=52BfnOeNKDI",
+        "published": "2mo ago",
+        "views": 88281,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Yoga With Kassandra",
+        "category": "yoga",
+        "title": "10 min Morning Yoga Stretch - All Levels NO PROPS",
+        "url": "https://www.youtube.com/watch?v=f1W9LazBPwA",
+        "published": "2mo ago",
+        "views": 164304,
+        "matched_keywords": [
+          "stretch"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "James Dunne (Kinetic Revolution)",
+        "category": "running",
+        "title": "The Problem with \"Landing Under Your Hips\" - PERFECT RUNNING FORM",
+        "url": "https://www.youtube.com/watch?v=_e0KcM4gbj8",
+        "published": "3 days ago",
+        "views": 3795,
+        "matched_keywords": [
+          "running form"
+        ],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Andrew Huberman",
+        "category": "longevity",
+        "title": "How to Better Regulate Your Emotions | Dr. Marc Brackett",
+        "url": "https://www.youtube.com/watch?v=FBgM7jndkLQ",
+        "published": "6 hours ago",
+        "views": 10894,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Andrew Huberman",
+        "category": "longevity",
+        "title": "Understand & Improve Your Memory Using Science-Based Tools | Huberman Lab Essentials",
+        "url": "https://www.youtube.com/watch?v=U6dnOVth7-I",
+        "published": "4 days ago",
+        "views": 73000,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Andrew Huberman",
+        "category": "longevity",
+        "title": "Dr. Natalie Crawford: How Women Can Improve Their Fertility & Hormone Health",
+        "url": "https://www.youtube.com/watch?v=RTPNJgHeZBI",
+        "published": "7 days ago",
+        "views": 51299,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "FROM THE VAULT \u2022 Flip Flop",
+        "url": "https://www.youtube.com/watch?v=sZZJhGrfwwY",
+        "published": "4d ago",
+        "views": 443,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "FROM THE VAULT \u2022 Short Flow",
+        "url": "https://www.youtube.com/watch?v=0g2dq1tkUyg",
+        "published": "2w ago",
+        "views": 1105,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "FROM THE VAULT \u2022 Integrating Hinges ",
+        "url": "https://www.youtube.com/watch?v=Gik-kC2VQrM",
+        "published": "3w ago",
+        "views": 1171,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "FROM THE VAULT \u2022 Adding Layers To Decompression ",
+        "url": "https://www.youtube.com/watch?v=nDa_gyTmJI8",
+        "published": "1mo ago",
+        "views": 1303,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "FROM THE VAULT\u2022 True To Form: Tues, Thurs, Sat Workout",
+        "url": "https://www.youtube.com/watch?v=VN8sPbI4j0c",
+        "published": "1mo ago",
+        "views": 1320,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "Basic Neck Tension Relief with Dr. Goodman ",
+        "url": "https://www.youtube.com/watch?v=4gpKDKw231Y",
+        "published": "1mo ago",
+        "views": 3000,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "FROM THE VAULT\u2022 True To Form: Mon, Wed, Friday Workout",
+        "url": "https://www.youtube.com/watch?v=82yILllZLRU",
+        "published": "1mo ago",
+        "views": 2482,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "Rotator Cuff with Dr. Goodman",
+        "url": "https://www.youtube.com/watch?v=yYTtKb--Vdk",
+        "published": "1mo ago",
+        "views": 4232,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "Ted Ligety and a Coach Salas discuss FT.",
+        "url": "https://www.youtube.com/watch?v=ZF8ZGP0xP-o",
+        "published": "2mo ago",
+        "views": 666,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Foundation Training",
+        "category": "longevity",
+        "title": "Pre or Post Surgery: Spinal Stability and Strength ",
+        "url": "https://www.youtube.com/watch?v=F_lv2ksJ_6Q",
+        "published": "4mo ago",
+        "views": 1904,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Fitness Blender",
+        "category": "fitness",
+        "title": "Day 5 - Total Body Strength and Power Conditioning: With Quick and Slow Tempo Exercises",
+        "url": "https://www.youtube.com/watch?v=5bgi3SaXJFs",
+        "published": "4 hours ago",
+        "views": 0,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Fitness Blender",
+        "category": "fitness",
+        "title": "No-Repeat Legs-and-Glutes Strength Workout: Quads, Glutes, and Hamstrings",
+        "url": "https://www.youtube.com/watch?v=yd4uVe8sNUs",
+        "published": "4 hours ago",
+        "views": 0,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Fitness Blender",
+        "category": "fitness",
+        "title": "Day 1 - Upper Body Strength Push: Chest, Shoulders, Triceps: Build Muscle and Endurance",
+        "url": "https://www.youtube.com/watch?v=no6idPGKMbw",
+        "published": "1 day ago",
+        "views": 4233,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Fitness Blender",
+        "category": "fitness",
+        "title": "Day 4 - Bodyweight Cardio Endurance with Weighted Core Finisher: Low-Impact for Strong Aerobic Base",
+        "url": "https://www.youtube.com/watch?v=UxAUOazVNjg",
+        "published": "5 days ago",
+        "views": 0,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Fitness Blender",
+        "category": "fitness",
+        "title": "No Equipment HIIT Workout Under 25 Minutes: Bodyweight Workout to Build Cardio and Core Strength",
+        "url": "https://www.youtube.com/watch?v=vgTsHr5O8jI",
+        "published": "5 days ago",
+        "views": 4630,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      },
+      {
+        "channel": "Fitness Blender",
+        "category": "fitness",
+        "title": "Day 3 - Weighted Upper Body Strength and Power: EMOM Supersets with Burnout Rounds",
+        "url": "https://www.youtube.com/watch?v=An-yY4LCqTg",
+        "published": "6 days ago",
+        "views": 0,
+        "matched_keywords": [],
+        "transcript_snippet": null,
+        "transcript_keywords": null
+      }
+    ],
+    "blog_posts": [
+      {
+        "channel": "Peter Attia",
+        "category": "longevity",
+        "title": "#388 \u2014 Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives",
+        "url": "https://peterattiamd.com/prostatecancerscreening/",
+        "published": "Mon, 20 Apr 2026 04:15:00 +0000",
+        "snippet": "\u201cThe timing of when you find the cancer is not a minor detail, it's arguably the determining factor in life and death.\u201d \u2014Peter Attia\nThe post #388 \u2014 Prostate cancer screening: why current PSA guidelin",
+        "matched_keywords": [],
+        "source": "blog"
+      },
+      {
+        "channel": "Peter Attia",
+        "category": "longevity",
+        "title": "Prostate cancer: a PSA on PSA",
+        "url": "https://peterattiamd.com/prostate-cancer-psa/",
+        "published": "Sat, 18 Apr 2026 11:00:00 +0000",
+        "snippet": "We have the tools to catch prostate cancer early\u2014why aren\u2019t we using them?\nThe post Prostate cancer: a PSA on PSA appeared first on Peter Attia.",
+        "matched_keywords": [],
+        "source": "blog"
+      }
+    ],
+    "summary": {
+      "total_channels_checked": 15,
+      "channels_with_new_content": 10,
+      "total_new_videos": 47,
+      "relevant_videos": 12,
+      "total_blog_posts": 2,
+      "relevant_blog_posts": 0,
+      "top_topics": [
+        "stretch",
+        "flexibility",
+        "sciatica",
+        "arthritis",
+        "aging",
+        "tendonitis",
+        "yin yoga",
+        "mobility",
+        "running form"
+      ]
+    },
+    "by_category": {
+      "physical_therapy": [
+        {
+          "channel": "Bob & Brad",
+          "category": "physical_therapy",
+          "title": "Chest Pain That\u2019s Feels Like Heart Trouble",
+          "url": "https://www.youtube.com/watch?v=ewPs7ffaOC8",
+          "published": "3 hours ago",
+          "views": 1081,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Bob & Brad",
+          "category": "physical_therapy",
+          "title": "Rebounding vs Walking (I Didn\u2019t Expect This Result)",
+          "url": "https://www.youtube.com/watch?v=9c9lsafJxI4",
+          "published": "2 days ago",
+          "views": 80422,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Bob & Brad",
+          "category": "physical_therapy",
+          "title": "5 Best Sciatica Secrets for Immediate Relief!",
+          "url": "https://www.youtube.com/watch?v=vVjm7rXDiLw",
+          "published": "4 days ago",
+          "views": 6094,
+          "matched_keywords": [
+            "sciatica"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Bob & Brad",
+          "category": "physical_therapy",
+          "title": "Everything You Know About Arthritis Is Wrong!",
+          "url": "https://www.youtube.com/watch?v=j0vhwU2zHtk",
+          "published": "7 days ago",
+          "views": 38972,
+          "matched_keywords": [
+            "arthritis"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "How to ACTUALLY Lose Stubborn Belly Fat (NO B.S!)",
+          "url": "https://www.youtube.com/watch?v=QtVvhEeHKcI",
+          "published": "1d ago",
+          "views": 95714,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "The #1 Workout To Grow WIDER Shoulders Fast!",
+          "url": "https://www.youtube.com/watch?v=EO9Z1PezSxE",
+          "published": "8d ago",
+          "views": 290799,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "7 Exercises You MUST Pass (Or You\u2019re Aging Too Fast)",
+          "url": "https://www.youtube.com/watch?v=HGPSVvfJWOk",
+          "published": "2w ago",
+          "views": 536634,
+          "matched_keywords": [
+            "aging"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "Do This DAILY for A Flatter Stomach (GUARANTEED)",
+          "url": "https://www.youtube.com/watch?v=H6jCT8IkZpA",
+          "published": "4w ago",
+          "views": 610237,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "Do This Exercise EVERY Day to Build Muscle (SKINNY GUYS!)",
+          "url": "https://www.youtube.com/watch?v=PiyccZSkU2o",
+          "published": "1mo ago",
+          "views": 393562,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "The 10 Most EFFECTIVE Bodyweight Exercises for Building Muscle",
+          "url": "https://www.youtube.com/watch?v=kHXBL5BTIus",
+          "published": "1mo ago",
+          "views": 323279,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "The ONLY 10 Exercises You Ever Need (DORIAN YATES)",
+          "url": "https://www.youtube.com/watch?v=7Zwq8C3cfyk",
+          "published": "1mo ago",
+          "views": 237581,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "The 8 Worst Exercises Ever (PLEASE STOP!)",
+          "url": "https://www.youtube.com/watch?v=DUyMIsbhXXs",
+          "published": "2mo ago",
+          "views": 374409,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "9 Minute Daily Ab Workout That Flat Out Works! (FOLLOW ALONG)",
+          "url": "https://www.youtube.com/watch?v=5c1R1zPceyM",
+          "published": "2mo ago",
+          "views": 191978,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Athlean-X (Jeff Cavaliere)",
+          "category": "physical_therapy",
+          "title": "How to Get a Chiseled Lower Chest (No Bullsh*t Guide!)",
+          "url": "https://www.youtube.com/watch?v=Aabfoy8HbIc",
+          "published": "3mo ago",
+          "views": 253578,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Squat University",
+          "category": "physical_therapy",
+          "title": "Patellar Tendonitis? Do THIS Instead of Stretching!",
+          "url": "https://www.youtube.com/watch?v=WqTdfqcw9Mw",
+          "published": "2 days ago",
+          "views": 36303,
+          "matched_keywords": [
+            "stretch",
+            "tendonitis"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "AskDoctorJo",
+          "category": "physical_therapy",
+          "title": "What is Smart Red Light Therapy? | A Look at the Luxxe Flex",
+          "url": "https://www.youtube.com/watch?v=a1i0oAJnofA",
+          "published": "4 hours ago",
+          "views": 524,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        }
+      ],
+      "yoga": [
+        {
+          "channel": "Boho Beautiful Yoga",
+          "category": "yoga",
+          "title": "30 Min Heart Opening Vinyasa Yoga | Full Body Flow For Strength + Flexibility",
+          "url": "https://www.youtube.com/watch?v=ZrtiBtRQ2uc",
+          "published": "7 days ago",
+          "views": 61036,
+          "matched_keywords": [
+            "flexibility"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "10 min Morning HANDS FREE - Full Body Stretch & Strengthen (no planks, or downward dog)",
+          "url": "https://www.youtube.com/watch?v=102qo93kWDg",
+          "published": "7h ago",
+          "views": 7372,
+          "matched_keywords": [
+            "stretch"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "40 min Full Body Morning Yoga - Active Vinyasa + Deep Yin Stretch",
+          "url": "https://www.youtube.com/watch?v=KeCj9Ni07FQ",
+          "published": "7d ago",
+          "views": 35726,
+          "matched_keywords": [
+            "stretch"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "30 min Power Yoga with Weights - Dumbbells Yoga Workout",
+          "url": "https://www.youtube.com/watch?v=9Ltx9AHPHDY",
+          "published": "2w ago",
+          "views": 37446,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "Yin Yoga for Fatigue and Depletion - 30 min Unwind",
+          "url": "https://www.youtube.com/watch?v=XpVe3GV7IVM",
+          "published": "3w ago",
+          "views": 48505,
+          "matched_keywords": [
+            "yin yoga"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "Rise and Shine - 10 Minute Morning Yoga Flow",
+          "url": "https://www.youtube.com/watch?v=CBdpJUKeIYc",
+          "published": "4w ago",
+          "views": 120687,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "20 min Yoga for Flexibility & Relaxation - Gentle Evening Stretch",
+          "url": "https://www.youtube.com/watch?v=4Lq5Sf9FDpY",
+          "published": "1mo ago",
+          "views": 108264,
+          "matched_keywords": [
+            "flexibility",
+            "stretch"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "10 min Morning Yoga Flow - Spine Mobility & Flexibility",
+          "url": "https://www.youtube.com/watch?v=dyTpgGgVcwg",
+          "published": "1mo ago",
+          "views": 177029,
+          "matched_keywords": [
+            "mobility",
+            "flexibility"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "Q&A Coffee Chat: Do I want kids? What's my workout routine? Pet peeves? Anxiety?",
+          "url": "https://www.youtube.com/watch?v=0b6Om4iKIsw",
+          "published": "1mo ago",
+          "views": 67907,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "30 min Intermediate Vinyasa Yoga - Pigeon Pose Flow (HIP OPENERS)",
+          "url": "https://www.youtube.com/watch?v=52BfnOeNKDI",
+          "published": "2mo ago",
+          "views": 88281,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Yoga With Kassandra",
+          "category": "yoga",
+          "title": "10 min Morning Yoga Stretch - All Levels NO PROPS",
+          "url": "https://www.youtube.com/watch?v=f1W9LazBPwA",
+          "published": "2mo ago",
+          "views": 164304,
+          "matched_keywords": [
+            "stretch"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        }
+      ],
+      "running": [
+        {
+          "channel": "James Dunne (Kinetic Revolution)",
+          "category": "running",
+          "title": "The Problem with \"Landing Under Your Hips\" - PERFECT RUNNING FORM",
+          "url": "https://www.youtube.com/watch?v=_e0KcM4gbj8",
+          "published": "3 days ago",
+          "views": 3795,
+          "matched_keywords": [
+            "running form"
+          ],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        }
+      ],
+      "longevity": [
+        {
+          "channel": "Andrew Huberman",
+          "category": "longevity",
+          "title": "How to Better Regulate Your Emotions | Dr. Marc Brackett",
+          "url": "https://www.youtube.com/watch?v=FBgM7jndkLQ",
+          "published": "6 hours ago",
+          "views": 10894,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Andrew Huberman",
+          "category": "longevity",
+          "title": "Understand & Improve Your Memory Using Science-Based Tools | Huberman Lab Essentials",
+          "url": "https://www.youtube.com/watch?v=U6dnOVth7-I",
+          "published": "4 days ago",
+          "views": 73000,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Andrew Huberman",
+          "category": "longevity",
+          "title": "Dr. Natalie Crawford: How Women Can Improve Their Fertility & Hormone Health",
+          "url": "https://www.youtube.com/watch?v=RTPNJgHeZBI",
+          "published": "7 days ago",
+          "views": 51299,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "FROM THE VAULT \u2022 Flip Flop",
+          "url": "https://www.youtube.com/watch?v=sZZJhGrfwwY",
+          "published": "4d ago",
+          "views": 443,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "FROM THE VAULT \u2022 Short Flow",
+          "url": "https://www.youtube.com/watch?v=0g2dq1tkUyg",
+          "published": "2w ago",
+          "views": 1105,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "FROM THE VAULT \u2022 Integrating Hinges ",
+          "url": "https://www.youtube.com/watch?v=Gik-kC2VQrM",
+          "published": "3w ago",
+          "views": 1171,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "FROM THE VAULT \u2022 Adding Layers To Decompression ",
+          "url": "https://www.youtube.com/watch?v=nDa_gyTmJI8",
+          "published": "1mo ago",
+          "views": 1303,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "FROM THE VAULT\u2022 True To Form: Tues, Thurs, Sat Workout",
+          "url": "https://www.youtube.com/watch?v=VN8sPbI4j0c",
+          "published": "1mo ago",
+          "views": 1320,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "Basic Neck Tension Relief with Dr. Goodman ",
+          "url": "https://www.youtube.com/watch?v=4gpKDKw231Y",
+          "published": "1mo ago",
+          "views": 3000,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "FROM THE VAULT\u2022 True To Form: Mon, Wed, Friday Workout",
+          "url": "https://www.youtube.com/watch?v=82yILllZLRU",
+          "published": "1mo ago",
+          "views": 2482,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "Rotator Cuff with Dr. Goodman",
+          "url": "https://www.youtube.com/watch?v=yYTtKb--Vdk",
+          "published": "1mo ago",
+          "views": 4232,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "Ted Ligety and a Coach Salas discuss FT.",
+          "url": "https://www.youtube.com/watch?v=ZF8ZGP0xP-o",
+          "published": "2mo ago",
+          "views": 666,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Foundation Training",
+          "category": "longevity",
+          "title": "Pre or Post Surgery: Spinal Stability and Strength ",
+          "url": "https://www.youtube.com/watch?v=F_lv2ksJ_6Q",
+          "published": "4mo ago",
+          "views": 1904,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        }
+      ],
+      "fitness": [
+        {
+          "channel": "Fitness Blender",
+          "category": "fitness",
+          "title": "Day 5 - Total Body Strength and Power Conditioning: With Quick and Slow Tempo Exercises",
+          "url": "https://www.youtube.com/watch?v=5bgi3SaXJFs",
+          "published": "4 hours ago",
+          "views": 0,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Fitness Blender",
+          "category": "fitness",
+          "title": "No-Repeat Legs-and-Glutes Strength Workout: Quads, Glutes, and Hamstrings",
+          "url": "https://www.youtube.com/watch?v=yd4uVe8sNUs",
+          "published": "4 hours ago",
+          "views": 0,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Fitness Blender",
+          "category": "fitness",
+          "title": "Day 1 - Upper Body Strength Push: Chest, Shoulders, Triceps: Build Muscle and Endurance",
+          "url": "https://www.youtube.com/watch?v=no6idPGKMbw",
+          "published": "1 day ago",
+          "views": 4233,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Fitness Blender",
+          "category": "fitness",
+          "title": "Day 4 - Bodyweight Cardio Endurance with Weighted Core Finisher: Low-Impact for Strong Aerobic Base",
+          "url": "https://www.youtube.com/watch?v=UxAUOazVNjg",
+          "published": "5 days ago",
+          "views": 0,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Fitness Blender",
+          "category": "fitness",
+          "title": "No Equipment HIIT Workout Under 25 Minutes: Bodyweight Workout to Build Cardio and Core Strength",
+          "url": "https://www.youtube.com/watch?v=vgTsHr5O8jI",
+          "published": "5 days ago",
+          "views": 4630,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        },
+        {
+          "channel": "Fitness Blender",
+          "category": "fitness",
+          "title": "Day 3 - Weighted Upper Body Strength and Power: EMOM Supersets with Burnout Rounds",
+          "url": "https://www.youtube.com/watch?v=An-yY4LCqTg",
+          "published": "6 days ago",
+          "views": 0,
+          "matched_keywords": [],
+          "transcript_snippet": null,
+          "transcript_keywords": null
+        }
+      ]
+    }
+  },
+  "emerging_signals": {
+    "new_rising_queries": [],
+    "new_reddit_topics": [],
+    "wikipedia_breakouts": [
+      {
+        "article": "Anterior_pelvic_tilt",
+        "current_avg": 6.0,
+        "prior_avg": 2.5,
+        "wow_pct": 140.0,
+        "title": "Anterior pelvic tilt",
+        "daily_views": 6
+      },
+      {
+        "article": "Physical_therapy",
+        "current_avg": 794.71,
+        "prior_avg": 662.75,
+        "wow_pct": 19.9,
+        "title": "Physical therapy",
+        "daily_views": 795
+      },
+      {
+        "article": "Scoliosis",
+        "current_avg": 992.0,
+        "prior_avg": 830.75,
+        "wow_pct": 19.4,
+        "title": "Scoliosis",
+        "daily_views": 992
+      },
+      {
+        "article": "Kyphosis",
+        "current_avg": 433.0,
+        "prior_avg": 363.25,
+        "wow_pct": 19.2,
+        "title": "Kyphosis",
+        "daily_views": 433
+      }
+    ],
+    "new_quora_questions": [],
+    "is_first_run": false,
+    "summary": "4 Wikipedia breakouts"
+  },
+  "declining_signals": [
+    {
+      "keyword": "Yoga as exercise",
+      "wow_pct": -34.1,
+      "trend_direction": "declining",
+      "source": "wikipedia"
+    },
+    {
+      "keyword": "degenerative disc disease",
+      "wow_pct": -21.1,
+      "trend_direction": "stable",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "achilles tendonitis",
+      "wow_pct": -16.5,
+      "trend_direction": "stable",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "plantar fasciitis",
+      "wow_pct": -15.8,
+      "trend_direction": "falling",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "restorative yoga",
+      "wow_pct": -14.3,
+      "trend_direction": "rising",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "carpal tunnel",
+      "wow_pct": -13.9,
+      "trend_direction": "stable",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "cancer rehabilitation",
+      "wow_pct": -13.0,
+      "trend_direction": "falling",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "herniated disc",
+      "wow_pct": -12.5,
+      "trend_direction": "stable",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "fibromyalgia",
+      "wow_pct": -10.3,
+      "trend_direction": "falling",
+      "source": "google_trends"
+    }
+  ],
+  "seasonal_context": {
+    "season_name": "Spring Activity Surge",
+    "context_note": "Warmer weather pulls people outdoors \u2014 running, gardening, and yard work spike. 'Summer body prep' motivation peaks and gardening injuries become surprisingly common.",
+    "suggested_angles": [
+      "Summer body prep starts with mobility, not cardio",
+      "Gardening injuries are real \u2014 protect your back this spring",
+      "Spring running comeback: avoiding shin splints and knee pain"
+    ],
+    "trending_keywords_boost": [
+      "summer body prep",
+      "gardening back pain",
+      "spring running",
+      "outdoor exercise",
+      "yard work injury",
+      "shin splints"
+    ],
+    "month": 4,
+    "date": "2026-04-20"
+  },
+  "assessment": {
+    "assessment_name": "Single-Leg Squat Test",
+    "instructions": "Stand on one leg near a wall or chair for safety. Slowly perform a shallow squat on that single leg, going down about 4-6 inches. Watch your knee in a mirror or have someone observe: does it cave inward, drift outward, or track straight over your toes?",
+    "what_it_reveals": "If your knee collapses inward (valgus), it signals weakness in the VMO (inner quad) and gluteus medius. This medial collapse is one of the most common drivers of runner's knee, IT band syndrome, and patellofemoral pain.",
+    "cta": "If your knee caved inward, the VMO and glute activation exercises in today's video target the exact muscles that need to fire to protect your knee.",
+    "matched_theme": "knee pain",
+    "input_theme": "knee pain"
+  },
+  "strategy_json": {
+    "theme_narrative": "This week 'knee pain' is trending across search, social, and health forums. Based on the data we collected, this is a high-opportunity topic for Bart's audience of desk workers, athletes, and chronic-pain patients.",
+    "monday_video": {
+      "title": "Knee Pain \u2014 3 Exercises That Actually Work (2026)",
+      "hook": "'Knee Pain' searches are surging right now. Most advice online is wrong. Here's what actually works based on 15,000 hours of clinical experience.",
+      "talking_points": [
+        "Open with the data: 'knee pain' is trending because...",
+        "Explain the biomechanics: here's what's happening in the body",
+        "Common mistakes: what most people do that makes it worse",
+        "The fix: walk through 3 exercises with form cues"
+      ],
+      "exercises": [
+        {
+          "name": "Terminal knee extension",
+          "form_cue": "[Bart: add specific form cue]"
+        },
+        {
+          "name": "Step-downs",
+          "form_cue": "[Bart: add specific form cue]"
+        },
+        {
+          "name": "Quad foam roll",
+          "form_cue": "[Bart: add specific form cue]"
+        }
+      ],
+      "end_cta": "Try these today and tell me in the comments how you feel by Wednesday.",
+      "platforms": {
+        "youtube": {
+          "description": "Searches for knee pain are trending this week. In this video Bart Firch walks through 3 evidence-based exercises you can do at your desk or at home. Timestamps below. Full blog post: https://bartonfirch.com",
+          "tags": [
+            "knee pain",
+            "knee pain exercises",
+            "pain relief",
+            "posture correction",
+            "desk worker exercises",
+            "knee pain 2026",
+            "corrective exercise",
+            "mobility"
+          ]
+        },
+        "linkedin": "'Knee Pain' searches are surging. Most advice? Dangerously oversimplified. Here's what 15,000 hours of clinical work taught me.",
+        "instagram_reels": "'Knee Pain' is trending \u2014 here's the fix\n\n3 exercises you can do right now\n\nSave this. Try it today.\n\n#kneepain #posturecorrection #painrelief #mobility",
+        "tiktok": "knee pain is blowing up rn \u2014 here's what actually works #kneepain #fitness #health"
+      },
+      "thumbnail": {
+        "text_overlay": "Knee Pain Fix",
+        "pose_suggestion": "Bart demonstrating the first exercise for knee pain",
+        "color_scheme": "Bold white text on dark background"
+      },
+      "viewer_assessment": "Before starting these exercises, try this quick self-test to see where you stand. [Bart: add a 30-second assessment relevant to knee pain]"
+    },
+    "wednesday_post": {
+      "linkedin_draft": "Monday I shared a knee pain routine that resonated with a lot of you.\n\nReading through the comments, two things stood out:\n\n1. Most of you sit 8+ hours a day and feel it.\n2. You've tried stretching but nothing sticks.\n\nHere's why \u2014 and what to do instead.\n\n[Bart: add clinical detail about why static stretching alone doesn't fix knee pain]\n\nThe exercises I showed Monday work because they target the root cause, not just the symptom.\n\n[Bart: add 2-3 sentences of biomechanical explanation]\n\nIf you missed Monday's video, link in comments.",
+      "blog_title": "How to Fix Knee Pain: Evidence-Based Exercises",
+      "blog_meta_description": "Evidence-based knee pain exercises from 15K+ hours of clinical experience. Step-by-step guide with form cues.",
+      "medium_subtitle": "Data-driven exercise prescription",
+      "cross_post_note": "Blog (bartonfirch.com) -> Medium (canonical) -> Substack",
+      "study_citation": "[Bart: cite a relevant PubMed study on knee pain if available from this week's brief]"
+    },
+    "friday_card": {
+      "stat_headline": "'Knee Pain' searches are trending this month",
+      "tip": "Start with Terminal knee extension \u2014 30 seconds, twice a day.",
+      "engagement_ask": "You've had the knee pain exercises for 4 days. How does your body feel?",
+      "platforms": {
+        "linkedin": "The data this week pointed to 'knee pain' as a breakout topic. Monday we covered the exercises. Wednesday we went deeper. Today \u2014 one stat and one tip to carry into the weekend.",
+        "pinterest": "Knee Pain exercises and stretches for pain relief. Evidence-based routine from a pain management coach with 15,000+ hours of clinical experience. Save this pin for your next desk break.",
+        "twitter": "1/ 'Knee Pain' is trending \u2014 here's one stat and one fix.\n\n2/ Tip: Terminal knee extension, 30 sec, 2x/day.\n\n3/ Full routine \u2192 https://bartonfirch.com"
+      }
+    },
+    "seo_notes": {
+      "target_keyword": "knee pain exercises",
+      "secondary_keywords": [
+        "how to fix knee pain",
+        "knee pain stretches",
+        "best exercises for knee pain"
+      ],
+      "schema_types": [
+        "HowTo",
+        "FAQPage"
+      ],
+      "ai_findability_tips": [
+        "Use Q&A format: 'What causes knee pain?' with a direct answer paragraph so LLMs and featured snippets can extract it",
+        "Include structured data (HowTo + FAQPage schema) for search engines and AI crawlers",
+        "Write definitive statements LLMs can quote as authoritative \u2014 e.g. 'The most effective exercise for knee pain is...'"
+      ]
+    },
+    "engagement_replies": [
+      {
+        "post_title": "[Top engagement opportunity title]",
+        "suggested_reply": "Great question. From my clinical experience with knee pain, the most common mistake I see is jumping straight to stretching without addressing the underlying movement pattern. Try starting with Terminal knee extension \u2014 it targets the root cause rather than just the symptom."
+      }
+    ]
+  },
+  "strategy_source": "fallback_template",
+  "brief_number": 11,
+  "version": "1.5"
+}

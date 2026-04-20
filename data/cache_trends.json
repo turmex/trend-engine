@@ -1,278 +1,278 @@
 {
-  "_cached_at": "2026-04-11T04:27:20.838787",
+  "_cached_at": "2026-04-20T18:00:34.594976",
   "results": {
     "neck pain": {
-      "current": 70,
-      "prev_week": 74,
-      "wow_pct": -5.41,
+      "current": 73,
+      "prev_week": 77,
+      "wow_pct": -5.19,
       "4w_trend": "falling",
-      "4w_avg": 81.07
+      "4w_avg": 82.86
     },
     "stiff neck": {
-      "current": 8,
-      "prev_week": 11,
-      "wow_pct": -27.27,
+      "current": 11,
+      "prev_week": 12,
+      "wow_pct": -8.33,
       "4w_trend": "falling",
-      "4w_avg": 11.64
+      "4w_avg": 12.21
     },
     "upper back pain": {
       "current": 17,
-      "prev_week": 15,
-      "wow_pct": 13.33,
+      "prev_week": 18,
+      "wow_pct": -5.56,
       "4w_trend": "falling",
-      "4w_avg": 18.04
+      "4w_avg": 17.93
     },
     "lower back pain": {
-      "current": 70,
-      "prev_week": 77,
-      "wow_pct": -9.09,
+      "current": 83,
+      "prev_week": 84,
+      "wow_pct": -1.19,
       "4w_trend": "stable",
-      "4w_avg": 81.32
+      "4w_avg": 81.0
     },
     "sciatica": {
-      "current": 61,
-      "prev_week": 59,
-      "wow_pct": 3.39,
-      "4w_trend": "stable",
-      "4w_avg": 62.71
+      "current": 60,
+      "prev_week": 63,
+      "wow_pct": -4.76,
+      "4w_trend": "falling",
+      "4w_avg": 62.36
     },
     "herniated disc": {
-      "current": 22,
-      "prev_week": 19,
-      "wow_pct": 15.79,
-      "4w_trend": "falling",
-      "4w_avg": 23.25
+      "current": 21,
+      "prev_week": 24,
+      "wow_pct": -12.5,
+      "4w_trend": "stable",
+      "4w_avg": 22.46
     },
     "hip pain": {
-      "current": 58,
-      "prev_week": 59,
-      "wow_pct": -1.69,
-      "4w_trend": "falling",
-      "4w_avg": 66.0
+      "current": 65,
+      "prev_week": 66,
+      "wow_pct": -1.52,
+      "4w_trend": "stable",
+      "4w_avg": 66.04
     },
     "anterior pelvic tilt": {
-      "current": 4,
-      "prev_week": 5,
-      "wow_pct": -20.0,
-      "4w_trend": "falling",
-      "4w_avg": 4.61
+      "current": 5,
+      "prev_week": 4,
+      "wow_pct": 25.0,
+      "4w_trend": "rising",
+      "4w_avg": 5.21
     },
     "hip flexor pain": {
       "current": 3,
-      "prev_week": 2,
-      "wow_pct": 50.0,
-      "4w_trend": "falling",
-      "4w_avg": 3.07
+      "prev_week": 3,
+      "wow_pct": 0.0,
+      "4w_trend": "rising",
+      "4w_avg": 2.89
     },
     "shoulder pain": {
-      "current": 75,
-      "prev_week": 73,
-      "wow_pct": 2.74,
+      "current": 78,
+      "prev_week": 83,
+      "wow_pct": -6.02,
       "4w_trend": "falling",
-      "4w_avg": 84.5
+      "4w_avg": 84.57
     },
     "knee pain": {
-      "current": 72,
-      "prev_week": 77,
-      "wow_pct": -6.49,
+      "current": 91,
+      "prev_week": 88,
+      "wow_pct": 3.41,
       "4w_trend": "falling",
-      "4w_avg": 86.0
+      "4w_avg": 89.61
     },
     "plantar fasciitis": {
-      "current": 52,
-      "prev_week": 52,
-      "wow_pct": 0.0,
-      "4w_trend": "stable",
-      "4w_avg": 51.18
+      "current": 48,
+      "prev_week": 57,
+      "wow_pct": -15.79,
+      "4w_trend": "falling",
+      "4w_avg": 56.79
     },
     "carpal tunnel": {
-      "current": 35,
-      "prev_week": 35,
-      "wow_pct": 0.0,
+      "current": 37,
+      "prev_week": 43,
+      "wow_pct": -13.95,
       "4w_trend": "stable",
-      "4w_avg": 39.54
+      "4w_avg": 40.79
     },
     "tension headache": {
-      "current": 8,
+      "current": 7,
       "prev_week": 8,
-      "wow_pct": 0.0,
+      "wow_pct": -12.5,
       "4w_trend": "falling",
-      "4w_avg": 8.82
+      "4w_avg": 9.04
     },
     "forward head posture": {
       "current": 1,
       "prev_week": 1,
       "wow_pct": 0.0,
       "4w_trend": "falling",
-      "4w_avg": 1.5
+      "4w_avg": 1.39
     },
     "working from home": {
-      "current": 13,
-      "prev_week": 12,
-      "wow_pct": 8.33,
+      "current": 12,
+      "prev_week": 13,
+      "wow_pct": -7.69,
       "4w_trend": "falling",
-      "4w_avg": 21.32
+      "4w_avg": 12.82
     },
     "office ergonomics": {
       "current": 1,
       "prev_week": 1,
       "wow_pct": 0.0,
       "4w_trend": "falling",
-      "4w_avg": 2.0
+      "4w_avg": 1.11
     },
     "standing desk": {
-      "current": 81,
-      "prev_week": 75,
-      "wow_pct": 8.0,
-      "4w_trend": "rising",
-      "4w_avg": 71.36
+      "current": 52,
+      "prev_week": 50,
+      "wow_pct": 4.0,
+      "4w_trend": "falling",
+      "4w_avg": 64.07
     },
     "text neck": {
-      "current": 3,
+      "current": 2,
       "prev_week": 2,
-      "wow_pct": 50.0,
+      "wow_pct": 0.0,
       "4w_trend": "falling",
-      "4w_avg": 4.43
+      "4w_avg": 3.11
     },
     "driving back pain": {
       "current": 1,
       "prev_week": 1,
       "wow_pct": 0.0,
       "4w_trend": "falling",
-      "4w_avg": 1.5
+      "4w_avg": 1.07
     },
     "work injury": {
-      "current": 26,
-      "prev_week": 30,
-      "wow_pct": -13.33,
+      "current": 38,
+      "prev_week": 37,
+      "wow_pct": 2.7,
       "4w_trend": "falling",
-      "4w_avg": 42.64
+      "4w_avg": 41.46
     },
     "squat form": {
       "current": 6,
-      "prev_week": 6,
-      "wow_pct": 0.0,
+      "prev_week": 7,
+      "wow_pct": -14.29,
       "4w_trend": "falling",
-      "4w_avg": 8.21
+      "4w_avg": 7.54
     },
     "deadlift form": {
       "current": 4,
-      "prev_week": 5,
-      "wow_pct": -20.0,
+      "prev_week": 6,
+      "wow_pct": -33.33,
       "4w_trend": "falling",
-      "4w_avg": 6.04
+      "4w_avg": 5.82
     },
     "aging posture": {
       "current": 0,
       "prev_week": 0,
       "wow_pct": null,
-      "4w_trend": "stable",
-      "4w_avg": 0.0
+      "4w_trend": "falling",
+      "4w_avg": 0.11
     },
     "fibromyalgia": {
-      "current": 68,
-      "prev_week": 61,
-      "wow_pct": 11.48,
+      "current": 70,
+      "prev_week": 78,
+      "wow_pct": -10.26,
       "4w_trend": "falling",
-      "4w_avg": 79.32
+      "4w_avg": 76.25
     },
     "chronic pain syndrome": {
-      "current": 4,
-      "prev_week": 3,
-      "wow_pct": 33.33,
+      "current": 5,
+      "prev_week": 5,
+      "wow_pct": 0.0,
       "4w_trend": "falling",
-      "4w_avg": 5.68
+      "4w_avg": 5.57
     },
     "degenerative disc disease": {
-      "current": 13,
-      "prev_week": 13,
-      "wow_pct": 0.0,
-      "4w_trend": "falling",
-      "4w_avg": 17.32
+      "current": 15,
+      "prev_week": 19,
+      "wow_pct": -21.05,
+      "4w_trend": "stable",
+      "4w_avg": 17.11
     },
     "piriformis syndrome": {
-      "current": 11,
-      "prev_week": 12,
-      "wow_pct": -8.33,
+      "current": 12,
+      "prev_week": 14,
+      "wow_pct": -14.29,
       "4w_trend": "falling",
-      "4w_avg": 13.61
+      "4w_avg": 13.39
     },
     "thoracic outlet syndrome": {
-      "current": 10,
-      "prev_week": 9,
-      "wow_pct": 11.11,
-      "4w_trend": "falling",
-      "4w_avg": 12.68
-    },
-    "cancer pain": {
-      "current": 55,
-      "prev_week": 47,
-      "wow_pct": 17.02,
-      "4w_trend": "falling",
-      "4w_avg": 68.96
-    },
-    "corrective exercise": {
-      "current": 0,
-      "prev_week": 1,
-      "wow_pct": -100.0,
-      "4w_trend": "rising",
-      "4w_avg": 1.21
-    },
-    "posture correction": {
-      "current": 6,
-      "prev_week": 6,
-      "wow_pct": 0.0,
-      "4w_trend": "rising",
-      "4w_avg": 6.32
-    },
-    "foam rolling": {
-      "current": 16,
-      "prev_week": 17,
-      "wow_pct": -5.88,
-      "4w_trend": "stable",
-      "4w_avg": 15.79
-    },
-    "mobility exercises": {
       "current": 10,
       "prev_week": 11,
       "wow_pct": -9.09,
       "4w_trend": "falling",
-      "4w_avg": 15.29
+      "4w_avg": 12.07
+    },
+    "cancer pain": {
+      "current": 54,
+      "prev_week": 55,
+      "wow_pct": -1.82,
+      "4w_trend": "falling",
+      "4w_avg": 67.11
+    },
+    "corrective exercise": {
+      "current": 2,
+      "prev_week": 2,
+      "wow_pct": 0.0,
+      "4w_trend": "rising",
+      "4w_avg": 1.0
+    },
+    "posture correction": {
+      "current": 3,
+      "prev_week": 4,
+      "wow_pct": -25.0,
+      "4w_trend": "falling",
+      "4w_avg": 6.79
+    },
+    "foam rolling": {
+      "current": 16,
+      "prev_week": 16,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 24.36
+    },
+    "mobility exercises": {
+      "current": 11,
+      "prev_week": 14,
+      "wow_pct": -21.43,
+      "4w_trend": "falling",
+      "4w_avg": 14.25
     },
     "yoga for back pain": {
-      "current": 6,
-      "prev_week": 5,
-      "wow_pct": 20.0,
-      "4w_trend": "falling",
-      "4w_avg": 9.64
+      "current": 12,
+      "prev_week": 8,
+      "wow_pct": 50.0,
+      "4w_trend": "rising",
+      "4w_avg": 10.82
     },
     "yoga for sciatica": {
-      "current": 0,
-      "prev_week": 7,
-      "wow_pct": -100.0,
-      "4w_trend": "rising",
-      "4w_avg": 3.96
-    },
-    "therapeutic yoga": {
       "current": 0,
       "prev_week": 8,
       "wow_pct": -100.0,
       "4w_trend": "rising",
-      "4w_avg": 6.82
+      "4w_avg": 3.79
+    },
+    "therapeutic yoga": {
+      "current": 9,
+      "prev_week": 10,
+      "wow_pct": -10.0,
+      "4w_trend": "rising",
+      "4w_avg": 5.86
     },
     "yoga for chronic pain": {
       "current": 0,
       "prev_week": 4,
       "wow_pct": -100.0,
-      "4w_trend": "falling",
-      "4w_avg": 2.79
+      "4w_trend": "rising",
+      "4w_avg": 1.32
     },
     "restorative yoga": {
-      "current": 30,
-      "prev_week": 43,
-      "wow_pct": -30.23,
+      "current": 36,
+      "prev_week": 42,
+      "wow_pct": -14.29,
       "4w_trend": "rising",
-      "4w_avg": 36.11
+      "4w_avg": 33.79
     },
     "yin yoga for pain": {
       "current": 0,
@@ -282,60 +282,60 @@
       "4w_avg": 0.0
     },
     "runner's knee": {
-      "current": 18,
-      "prev_week": 12,
-      "wow_pct": 50.0,
+      "current": 13,
+      "prev_week": 13,
+      "wow_pct": 0.0,
       "4w_trend": "rising",
-      "4w_avg": 11.96
+      "4w_avg": 13.36
     },
     "IT band syndrome": {
-      "current": 34,
-      "prev_week": 37,
-      "wow_pct": -8.11,
+      "current": 40,
+      "prev_week": 41,
+      "wow_pct": -2.44,
       "4w_trend": "falling",
-      "4w_avg": 43.79
+      "4w_avg": 39.79
     },
     "achilles tendonitis": {
-      "current": 63,
-      "prev_week": 71,
-      "wow_pct": -11.27,
+      "current": 66,
+      "prev_week": 79,
+      "wow_pct": -16.46,
       "4w_trend": "stable",
-      "4w_avg": 75.57
+      "4w_avg": 71.32
     },
     "plantar fasciitis running": {
-      "current": 15,
-      "prev_week": 26,
-      "wow_pct": -42.31,
+      "current": 21,
+      "prev_week": 23,
+      "wow_pct": -8.7,
       "4w_trend": "falling",
-      "4w_avg": 25.93
+      "4w_avg": 30.57
     },
     "hip flexor running": {
-      "current": 0,
+      "current": 7,
       "prev_week": 5,
-      "wow_pct": -100.0,
+      "wow_pct": 40.0,
       "4w_trend": "rising",
-      "4w_avg": 3.07
+      "4w_avg": 2.61
     },
     "marathon recovery": {
-      "current": 2,
+      "current": 5,
       "prev_week": 3,
-      "wow_pct": -33.33,
+      "wow_pct": 66.67,
       "4w_trend": "falling",
-      "4w_avg": 3.32
+      "4w_avg": 3.0
     },
     "longevity exercises": {
       "current": 0,
       "prev_week": 0,
       "wow_pct": null,
-      "4w_trend": "rising",
-      "4w_avg": 0.18
+      "4w_trend": "falling",
+      "4w_avg": 0.21
     },
     "mobility for aging": {
-      "current": 0,
-      "prev_week": 0,
-      "wow_pct": null,
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
       "4w_trend": "rising",
-      "4w_avg": 0.11
+      "4w_avg": 0.07
     },
     "functional fitness over 40": {
       "current": 0,
@@ -345,53 +345,53 @@
       "4w_avg": 0.0
     },
     "joint health": {
-      "current": 35,
-      "prev_week": 41,
-      "wow_pct": -14.63,
+      "current": 37,
+      "prev_week": 39,
+      "wow_pct": -5.13,
       "4w_trend": "falling",
-      "4w_avg": 60.29
+      "4w_avg": 55.39
     },
     "movement longevity": {
       "current": 0,
-      "prev_week": 0,
-      "wow_pct": null,
-      "4w_trend": "rising",
-      "4w_avg": 1.39
+      "prev_week": 3,
+      "wow_pct": -100.0,
+      "4w_trend": "falling",
+      "4w_avg": 3.25
     },
     "exercise during chemotherapy": {
       "current": 0,
       "prev_week": 0,
       "wow_pct": null,
       "4w_trend": "rising",
-      "4w_avg": 0.14
+      "4w_avg": 0.57
     },
     "cancer rehabilitation": {
       "current": 20,
-      "prev_week": 21,
-      "wow_pct": -4.76,
+      "prev_week": 23,
+      "wow_pct": -13.04,
       "4w_trend": "falling",
-      "4w_avg": 42.25
+      "4w_avg": 36.82
     },
     "exercise after cancer treatment": {
       "current": 0,
-      "prev_week": 0,
-      "wow_pct": null,
+      "prev_week": 3,
+      "wow_pct": -100.0,
       "4w_trend": "rising",
-      "4w_avg": 0.71
+      "4w_avg": 0.93
     },
     "cancer fatigue exercise": {
       "current": 0,
-      "prev_week": 0,
-      "wow_pct": null,
+      "prev_week": 4,
+      "wow_pct": -100.0,
       "4w_trend": "rising",
-      "4w_avg": 1.29
+      "4w_avg": 1.82
     },
     "oncology exercise": {
-      "current": 0,
-      "prev_week": 12,
-      "wow_pct": -100.0,
-      "4w_trend": "falling",
-      "4w_avg": 13.39
+      "current": 13,
+      "prev_week": 15,
+      "wow_pct": -13.33,
+      "4w_trend": "rising",
+      "4w_avg": 12.54
     }
   }
 }
