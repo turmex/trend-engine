@@ -1,0 +1,466 @@
+04:56:26 [INFO] ============================================================
+04:56:26 [INFO]   Trend Engine V2.0
+04:56:26 [INFO] ============================================================
+04:56:26 [INFO] 
+[1/9] Loading prior snapshot...
+04:56:26 [INFO]   Prior theme: 'shoulder pain' from 2026-04-25
+04:56:26 [INFO] 
+[2/9] Collecting data...
+04:56:26 [INFO] 
+  --- Google Trends ---
+04:56:26 [DEBUG] Starting new HTTPS connection (1): trends.google.com:443
+04:56:27 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22neck+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22stiff+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22upper+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22lower+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 429 None
+04:56:28 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22neck+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22stiff+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22upper+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22lower+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+04:56:37 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbVfIa8P5ZKQJ06rCiQ6lynMgbWTPaM&hl=en&tz=360 HTTP/1.1" 429 None
+04:56:38 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbVfIa8P5ZKQJ06rCiQ6lynMgbWTPaM&hl=en&tz=360 HTTP/1.1" 429 None
+04:56:47 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbVfIa8P5ZKQJ06rCiQ6lynMgbWTPaM&hl=en&tz=360 HTTP/1.1" 429 None
+04:57:45 [DEBUG] Starting new HTTPS connection (1): trends.google.com:443
+04:57:45 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22neck+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22stiff+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22upper+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22lower+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 429 None
+04:57:46 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22neck+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22stiff+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22upper+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22lower+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+04:57:55 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbVytbHzBkTKkT7FAn7bDC2tfVugia7&hl=en&tz=360 HTTP/1.1" 429 None
+04:57:56 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbVytbHzBkTKkT7FAn7bDC2tfVugia7&hl=en&tz=360 HTTP/1.1" 429 None
+04:58:05 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbVytbHzBkTKkT7FAn7bDC2tfVugia7&hl=en&tz=360 HTTP/1.1" 429 None
+04:59:17 [DEBUG] Starting new HTTPS connection (1): trends.google.com:443
+04:59:17 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22neck+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22stiff+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22upper+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22lower+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 429 None
+04:59:18 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22neck+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22stiff+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22upper+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22lower+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+04:59:27 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22neck+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22stiff+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22upper+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22lower+back+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22sciatica%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbWJkTXi3g0dWPCcfKKO_jrl37v1-3P&hl=en&tz=360 HTTP/1.1" 200 None
+04:59:58 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22herniated+disc%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22hip+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22anterior+pelvic+tilt%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22hip+flexor+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22shoulder+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+04:59:59 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22herniated+disc%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22hip+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22anterior+pelvic+tilt%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22hip+flexor+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22shoulder+pain%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbWTkUCVKE8Q6wYGdm_4NiVYf-6lsXw&hl=en&tz=360 HTTP/1.1" 200 None
+05:00:34 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22knee+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22plantar+fasciitis%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22carpal+tunnel%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22tension+headache%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22forward+head+posture%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:00:34 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22knee+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22plantar+fasciitis%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22carpal+tunnel%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22tension+headache%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22forward+head+posture%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbWco29kH4GUn5Qfo90o1xXxQli8z_E&hl=en&tz=360 HTTP/1.1" 429 None
+05:00:44 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22knee+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22plantar+fasciitis%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22carpal+tunnel%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22tension+headache%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22forward+head+posture%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbWco29kH4GUn5Qfo90o1xXxQli8z_E&hl=en&tz=360 HTTP/1.1" 429 None
+05:00:46 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22knee+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22plantar+fasciitis%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22carpal+tunnel%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22tension+headache%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22forward+head+posture%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbWco29kH4GUn5Qfo90o1xXxQli8z_E&hl=en&tz=360 HTTP/1.1" 429 None
+05:01:35 [DEBUG] Starting new HTTPS connection (1): trends.google.com:443
+05:01:35 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22knee+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22plantar+fasciitis%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22carpal+tunnel%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22tension+headache%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22forward+head+posture%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 429 None
+05:01:36 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22knee+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22plantar+fasciitis%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22carpal+tunnel%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22tension+headache%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22forward+head+posture%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:01:45 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22knee+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22plantar+fasciitis%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22carpal+tunnel%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22tension+headache%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22forward+head+posture%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbWsDpZ9_0NT4hTXTAcfVqzGpB8TMv1&hl=en&tz=360 HTTP/1.1" 200 None
+05:02:26 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22working+from+home%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22office+ergonomics%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22standing+desk%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22text+neck%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22driving+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:02:27 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22working+from+home%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22office+ergonomics%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22standing+desk%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22text+neck%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22driving+back+pain%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbW4joqfPVzr4S_lkhn0pAnZBxCetBt&hl=en&tz=360 HTTP/1.1" 200 None
+05:03:08 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22work+injury%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22squat+form%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22deadlift+form%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22aging+posture%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22fibromyalgia%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:03:08 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22work+injury%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22squat+form%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22deadlift+form%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22aging+posture%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22fibromyalgia%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbXDPKmAuL43v-VeH60wpf_G2QveDBU&hl=en&tz=360 HTTP/1.1" 200 None
+05:03:49 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22chronic+pain+syndrome%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22degenerative+disc+disease%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22piriformis+syndrome%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22thoracic+outlet+syndrome%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22cancer+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:03:49 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22chronic+pain+syndrome%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22degenerative+disc+disease%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22piriformis+syndrome%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22thoracic+outlet+syndrome%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22cancer+pain%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbXNSZ5Mly3f9huliuQIpd57JzUvlGH&hl=en&tz=360 HTTP/1.1" 200 None
+05:04:28 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22corrective+exercise%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22posture+correction%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22foam+rolling%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22mobility+exercises%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22yoga+for+back+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:04:29 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22corrective+exercise%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22posture+correction%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22foam+rolling%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22mobility+exercises%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22yoga+for+back+pain%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbXXEPmMiIne_qDYWCKfh_vSO4iUg8u&hl=en&tz=360 HTTP/1.1" 200 None
+05:05:07 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22yoga+for+sciatica%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22therapeutic+yoga%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22yoga+for+chronic+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22restorative+yoga%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22yin+yoga+for+pain%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:05:07 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22yoga+for+sciatica%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22therapeutic+yoga%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22yoga+for+chronic+pain%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22restorative+yoga%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22yin+yoga+for+pain%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED%22%7D%7D&token=APO0_qgAAAAAafbXg2m0QUDRpccOzkK3RhxtaZ0LkVFT&hl=en&tz=360 HTTP/1.1" 200 None
+05:05:50 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22runner%27s+knee%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22IT+band+syndrome%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22achilles+tendonitis%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22plantar+fasciitis+running%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22hip+flexor+running%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:05:50 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22runner%27s+knee%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22IT+band+syndrome%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22achilles+tendonitis%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22plantar+fasciitis+running%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22hip+flexor+running%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED%22%7D%7D&token=APO0_qgAAAAAafbXrqAZfuGB8BF-qqSaSpZaaDTZ6kRJ&hl=en&tz=360 HTTP/1.1" 200 None
+05:06:22 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22marathon+recovery%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22longevity+exercises%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22mobility+for+aging%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22functional+fitness+over+40%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22joint+health%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:06:23 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22marathon+recovery%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22longevity+exercises%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22mobility+for+aging%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22functional+fitness+over+40%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22joint+health%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED%22%7D%7D&token=APO0_qgAAAAAafbXzhTYoPlIcKkXbFEUim25cznV4Ibz&hl=en&tz=360 HTTP/1.1" 200 None
+05:07:01 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22movement+longevity%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22exercise+during+chemotherapy%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22cancer+rehabilitation%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22exercise+after+cancer+treatment%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%2C+%7B%22keyword%22%3A+%22cancer+fatigue+exercise%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:07:02 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22movement+longevity%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22exercise+during+chemotherapy%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22cancer+rehabilitation%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22exercise+after+cancer+treatment%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22cancer+fatigue+exercise%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbX9cyU8ln_ItmRz0UPqLvR3mojONpr&hl=en&tz=360 HTTP/1.1" 200 None
+05:07:37 [DEBUG] https://trends.google.com:443 "GET /trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22oncology+exercise%22%2C+%22time%22%3A+%22today+3-m%22%2C+%22geo%22%3A+%22US%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22%22%7D&hl=en&tz=360 HTTP/1.1" 200 None
+05:07:37 [DEBUG] https://trends.google.com:443 "GET /trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222026-02-02+2026-05-02%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%22country%22%3A+%22US%22%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22oncology+exercise%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_EMBED_OVER_QUOTA%22%7D%7D&token=APO0_qgAAAAAafbYGd-MpaZfUBy5Z2AZ2skC8XHctJCe&hl=en&tz=360 HTTP/1.1" 200 None
+05:07:37 [INFO]   Rising queries skipped (use --with-rising to enable)
+05:07:37 [INFO] 
+  --- Reddit ---
+05:07:37 [INFO]   No Reddit API keys — using public JSON endpoints
+05:07:37 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:07:37 [DEBUG] https://www.reddit.com:443 "GET /r/ChronicPain/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:07:37 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:07:37 [DEBUG] https://old.reddit.com:443 "GET /r/ChronicPain/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:07:43 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:07:43 [DEBUG] https://www.reddit.com:443 "GET /r/backpain/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:07:43 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:07:43 [DEBUG] https://old.reddit.com:443 "GET /r/backpain/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:07:49 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:07:49 [DEBUG] https://www.reddit.com:443 "GET /r/Sciatica/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:07:49 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:07:49 [DEBUG] https://old.reddit.com:443 "GET /r/Sciatica/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:07:55 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:07:55 [DEBUG] https://www.reddit.com:443 "GET /r/Fibromyalgia/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:07:55 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:07:55 [DEBUG] https://old.reddit.com:443 "GET /r/Fibromyalgia/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:01 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:01 [DEBUG] https://www.reddit.com:443 "GET /r/PelvicFloor/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:01 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:01 [DEBUG] https://old.reddit.com:443 "GET /r/PelvicFloor/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:07 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:07 [DEBUG] https://www.reddit.com:443 "GET /r/TMJ/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:07 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:07 [DEBUG] https://old.reddit.com:443 "GET /r/TMJ/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:13 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:13 [DEBUG] https://www.reddit.com:443 "GET /r/flexibility/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:13 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:13 [DEBUG] https://old.reddit.com:443 "GET /r/flexibility/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:19 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:19 [DEBUG] https://www.reddit.com:443 "GET /r/posture/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:19 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:20 [DEBUG] https://old.reddit.com:443 "GET /r/posture/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:26 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:26 [DEBUG] https://www.reddit.com:443 "GET /r/bodyweightfitness/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:26 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:26 [DEBUG] https://old.reddit.com:443 "GET /r/bodyweightfitness/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:32 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:32 [DEBUG] https://www.reddit.com:443 "GET /r/PhysicalTherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:32 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:32 [DEBUG] https://old.reddit.com:443 "GET /r/PhysicalTherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:38 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:38 [DEBUG] https://www.reddit.com:443 "GET /r/Fitness/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:38 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:38 [DEBUG] https://old.reddit.com:443 "GET /r/Fitness/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:44 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:44 [DEBUG] https://www.reddit.com:443 "GET /r/CrossFit/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:44 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:44 [DEBUG] https://old.reddit.com:443 "GET /r/CrossFit/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:50 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:50 [DEBUG] https://www.reddit.com:443 "GET /r/powerlifting/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:50 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:50 [DEBUG] https://old.reddit.com:443 "GET /r/powerlifting/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:08:56 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:08:56 [DEBUG] https://www.reddit.com:443 "GET /r/weightroom/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:08:56 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:08:56 [DEBUG] https://old.reddit.com:443 "GET /r/weightroom/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:02 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:02 [DEBUG] https://www.reddit.com:443 "GET /r/physicaltherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:02 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:02 [DEBUG] https://old.reddit.com:443 "GET /r/physicaltherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:08 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:08 [DEBUG] https://www.reddit.com:443 "GET /r/Ergonomics/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:08 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:08 [DEBUG] https://old.reddit.com:443 "GET /r/Ergonomics/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:14 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:14 [DEBUG] https://www.reddit.com:443 "GET /r/cycling/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:14 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:14 [DEBUG] https://old.reddit.com:443 "GET /r/cycling/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:20 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:20 [DEBUG] https://www.reddit.com:443 "GET /r/golf/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:20 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:20 [DEBUG] https://old.reddit.com:443 "GET /r/golf/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:26 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:26 [DEBUG] https://www.reddit.com:443 "GET /r/yoga/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:26 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:26 [DEBUG] https://old.reddit.com:443 "GET /r/yoga/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:32 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:33 [DEBUG] https://www.reddit.com:443 "GET /r/yogatherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:33 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:33 [DEBUG] https://old.reddit.com:443 "GET /r/yogatherapy/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:39 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:39 [DEBUG] https://www.reddit.com:443 "GET /r/ashtanga/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:39 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:39 [DEBUG] https://old.reddit.com:443 "GET /r/ashtanga/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:45 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:45 [DEBUG] https://www.reddit.com:443 "GET /r/running/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:45 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:45 [DEBUG] https://old.reddit.com:443 "GET /r/running/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:51 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:51 [DEBUG] https://www.reddit.com:443 "GET /r/AdvancedRunning/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:51 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:51 [DEBUG] https://old.reddit.com:443 "GET /r/AdvancedRunning/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:09:57 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:09:57 [DEBUG] https://www.reddit.com:443 "GET /r/Marathon/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:09:57 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:09:57 [DEBUG] https://old.reddit.com:443 "GET /r/Marathon/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:03 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:03 [DEBUG] https://www.reddit.com:443 "GET /r/ultrarunning/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:03 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:03 [DEBUG] https://old.reddit.com:443 "GET /r/ultrarunning/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:09 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:09 [DEBUG] https://www.reddit.com:443 "GET /r/longevity/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:09 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:09 [DEBUG] https://old.reddit.com:443 "GET /r/longevity/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:15 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:15 [DEBUG] https://www.reddit.com:443 "GET /r/Biohackers/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:15 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:15 [DEBUG] https://old.reddit.com:443 "GET /r/Biohackers/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:21 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:21 [DEBUG] https://www.reddit.com:443 "GET /r/QuantifiedSelf/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:21 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:21 [DEBUG] https://old.reddit.com:443 "GET /r/QuantifiedSelf/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:27 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:27 [DEBUG] https://www.reddit.com:443 "GET /r/cancer/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:27 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:27 [DEBUG] https://old.reddit.com:443 "GET /r/cancer/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:33 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:33 [DEBUG] https://www.reddit.com:443 "GET /r/CancerFighters/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:33 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:33 [DEBUG] https://old.reddit.com:443 "GET /r/CancerFighters/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:39 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:39 [DEBUG] https://www.reddit.com:443 "GET /r/breastcancer/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 190240
+05:10:39 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:39 [DEBUG] https://old.reddit.com:443 "GET /r/breastcancer/top.json?t=week&limit=10&raw_json=1 HTTP/1.1" 403 1522
+05:10:39 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:40 [DEBUG] https://www.reddit.com:443 "GET /r/bayarea/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:10:40 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:40 [DEBUG] https://old.reddit.com:443 "GET /r/bayarea/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:10:46 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:46 [DEBUG] https://www.reddit.com:443 "GET /r/bayarea/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:10:46 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:46 [DEBUG] https://old.reddit.com:443 "GET /r/bayarea/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:10:52 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:52 [DEBUG] https://www.reddit.com:443 "GET /r/bayarea/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:10:52 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:52 [DEBUG] https://old.reddit.com:443 "GET /r/bayarea/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:10:58 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:10:58 [DEBUG] https://www.reddit.com:443 "GET /r/sanfrancisco/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:10:58 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:10:58 [DEBUG] https://old.reddit.com:443 "GET /r/sanfrancisco/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:04 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:04 [DEBUG] https://www.reddit.com:443 "GET /r/sanfrancisco/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:04 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:04 [DEBUG] https://old.reddit.com:443 "GET /r/sanfrancisco/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:10 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:10 [DEBUG] https://www.reddit.com:443 "GET /r/sanfrancisco/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:10 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:10 [DEBUG] https://old.reddit.com:443 "GET /r/sanfrancisco/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:16 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:16 [DEBUG] https://www.reddit.com:443 "GET /r/SanJose/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:16 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:16 [DEBUG] https://old.reddit.com:443 "GET /r/SanJose/search.json?q=back+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:22 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:22 [DEBUG] https://www.reddit.com:443 "GET /r/SanJose/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:22 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:22 [DEBUG] https://old.reddit.com:443 "GET /r/SanJose/search.json?q=neck+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:28 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:28 [DEBUG] https://www.reddit.com:443 "GET /r/SanJose/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:28 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:28 [DEBUG] https://old.reddit.com:443 "GET /r/SanJose/search.json?q=chronic+pain&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:34 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:34 [DEBUG] https://www.reddit.com:443 "GET /r/fatFIRE/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:34 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:34 [DEBUG] https://old.reddit.com:443 "GET /r/fatFIRE/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:40 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:40 [DEBUG] https://www.reddit.com:443 "GET /r/fatFIRE/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:40 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:40 [DEBUG] https://old.reddit.com:443 "GET /r/fatFIRE/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:46 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:46 [DEBUG] https://www.reddit.com:443 "GET /r/fatFIRE/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:46 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:46 [DEBUG] https://old.reddit.com:443 "GET /r/fatFIRE/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:52 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:52 [DEBUG] https://www.reddit.com:443 "GET /r/startups/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:53 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:53 [DEBUG] https://old.reddit.com:443 "GET /r/startups/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:11:59 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:11:59 [DEBUG] https://www.reddit.com:443 "GET /r/startups/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:11:59 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:11:59 [DEBUG] https://old.reddit.com:443 "GET /r/startups/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:05 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:05 [DEBUG] https://www.reddit.com:443 "GET /r/startups/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:05 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:05 [DEBUG] https://old.reddit.com:443 "GET /r/startups/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:11 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:11 [DEBUG] https://www.reddit.com:443 "GET /r/experienceddevs/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:11 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:11 [DEBUG] https://old.reddit.com:443 "GET /r/experienceddevs/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:17 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:17 [DEBUG] https://www.reddit.com:443 "GET /r/experienceddevs/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:17 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:17 [DEBUG] https://old.reddit.com:443 "GET /r/experienceddevs/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:23 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:23 [DEBUG] https://www.reddit.com:443 "GET /r/experienceddevs/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:23 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:23 [DEBUG] https://old.reddit.com:443 "GET /r/experienceddevs/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:29 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:29 [DEBUG] https://www.reddit.com:443 "GET /r/consulting/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:29 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:29 [DEBUG] https://old.reddit.com:443 "GET /r/consulting/search.json?q=standing+desk&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:35 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:35 [DEBUG] https://www.reddit.com:443 "GET /r/consulting/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:35 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:35 [DEBUG] https://old.reddit.com:443 "GET /r/consulting/search.json?q=posture&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:41 [DEBUG] Starting new HTTPS connection (1): www.reddit.com:443
+05:12:41 [DEBUG] https://www.reddit.com:443 "GET /r/consulting/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 190240
+05:12:41 [DEBUG] Starting new HTTPS connection (1): old.reddit.com:443
+05:12:41 [DEBUG] https://old.reddit.com:443 "GET /r/consulting/search.json?q=ergonomic+setup&restrict_sr=on&t=month&limit=2&sort=relevance&raw_json=1 HTTP/1.1" 403 1522
+05:12:47 [INFO] 
+  --- Quora ---
+05:12:47 [DEBUG] Starting new HTTPS connection (1): www.google.com:443
+05:12:47 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22best+exercises+for+chronic+back+pain%22&num=5 HTTP/1.1" 200 None
+05:12:52 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+to+prevent+lower+back+pain+from+sitting%22&num=5 HTTP/1.1" 200 None
+05:12:56 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22sciatica+pain+relief+exercises%22&num=5 HTTP/1.1" 200 None
+05:12:59 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22posture+correction+for+desk+workers%22&num=5 HTTP/1.1" 200 None
+05:13:04 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22piriformis+syndrome+vs+sciatica+difference%22&num=5 HTTP/1.1" 200 None
+05:13:09 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+to+fix+forward+head+posture+permanently%22&num=5 HTTP/1.1" 200 None
+05:13:13 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22best+exercises+for+thoracic+outlet+syndrome%22&num=5 HTTP/1.1" 200 None
+05:13:18 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22why+does+my+hip+hurt+after+sitting+all+day%22&num=5 HTTP/1.1" 200 None
+05:13:21 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+long+does+it+take+to+fix+anterior+pelvic+tilt%22&num=5 HTTP/1.1" 200 None
+05:13:26 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22is+a+standing+desk+better+than+sitting+for+back+pain%22&num=5 HTTP/1.1" 200 None
+05:13:30 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22best+foam+roller+exercises+for+back+pain+relief%22&num=5 HTTP/1.1" 200 None
+05:13:34 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22how+to+prevent+back+pain+as+a+nurse%22&num=5 HTTP/1.1" 200 None
+05:13:38 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22chiropractor+vs+physical+therapist+for+sciatica%22&num=5 HTTP/1.1" 200 None
+05:13:42 [DEBUG] https://www.google.com:443 "GET /search?q=site%3Aquora.com+%22tension+headache+from+bad+posture+treatment%22&num=5 HTTP/1.1" 302 470
+05:13:42 [DEBUG] https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fq%3Dsite%253Aquora.com%2B%2522tension%2Bheadache%2Bfrom%2Bbad%2Bposture%2Btreatment%2522%26num%3D5&q=EgQNU6cxGIaQ1s8GIjCsV0M7YxDtbLQ0hk09UkG3inY4zD-aogCdd-pX2gHaTLUCOJu7tQFHSKgbBcsK_fwyAnJSWgFD HTTP/1.1" 429 3413
+05:13:42 [INFO] 
+  --- Wikipedia ---
+05:13:42 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:42 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Chronic_pain/daily/2026041800/2026050100 HTTP/1.1" 200 244
+05:13:42 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:42 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Sciatica/daily/2026041800/2026050100 HTTP/1.1" 200 238
+05:13:43 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:43 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Fibromyalgia/daily/2026041800/2026050100 HTTP/1.1" 200 242
+05:13:43 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:43 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Low_back_pain/daily/2026041800/2026050100 HTTP/1.1" 200 241
+05:13:43 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:43 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Physical_therapy/daily/2026041800/2026050100 HTTP/1.1" 200 249
+05:13:43 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:43 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Ergonomics/daily/2026041800/2026050100 HTTP/1.1" 200 240
+05:13:43 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:44 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Kyphosis/daily/2026041800/2026050100 HTTP/1.1" 200 236
+05:13:44 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:44 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Piriformis_syndrome/daily/2026041800/2026050100 HTTP/1.1" 200 245
+05:13:44 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:44 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Thoracic_outlet_syndrome/daily/2026041800/2026050100 HTTP/1.1" 200 248
+05:13:44 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:44 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Plantar_fasciitis/daily/2026041800/2026050100 HTTP/1.1" 200 247
+05:13:44 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:45 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Rotator_cuff_tear/daily/2026041800/2026050100 HTTP/1.1" 200 242
+05:13:45 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:45 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Sacroiliac_joint_dysfunction/daily/2026041800/2026050100 HTTP/1.1" 200 248
+05:13:45 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:45 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Spinal_stenosis/daily/2026041800/2026050100 HTTP/1.1" 200 247
+05:13:45 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:45 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Scoliosis/daily/2026041800/2026050100 HTTP/1.1" 200 243
+05:13:45 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:45 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Spinal_disc_herniation/daily/2026041800/2026050100 HTTP/1.1" 200 245
+05:13:46 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:46 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Tension_headache/daily/2026041800/2026050100 HTTP/1.1" 200 239
+05:13:46 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:46 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Myofascial_pain_syndrome/daily/2026041800/2026050100 HTTP/1.1" 200 246
+05:13:46 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:46 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Carpal_tunnel_syndrome/daily/2026041800/2026050100 HTTP/1.1" 200 246
+05:13:46 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:46 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Lordosis/daily/2026041800/2026050100 HTTP/1.1" 200 235
+05:13:47 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:47 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Anterior_pelvic_tilt/daily/2026041800/2026050100 HTTP/1.1" 200 215
+05:13:47 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:47 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Posture/daily/2026041800/2026050100 HTTP/1.1" 200 229
+05:13:47 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:47 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Yoga_therapy/daily/2026041800/2026050100 HTTP/1.1" 200 213
+05:13:47 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:47 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Yoga_as_exercise/daily/2026041800/2026050100 HTTP/1.1" 200 245
+05:13:47 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:48 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Iliotibial_band_syndrome/daily/2026041800/2026050100 HTTP/1.1" 200 245
+05:13:48 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:48 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Achilles_tendinitis/daily/2026041800/2026050100 HTTP/1.1" 200 238
+05:13:48 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:48 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Patellofemoral_pain_syndrome/daily/2026041800/2026050100 HTTP/1.1" 200 249
+05:13:48 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:48 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Cancer-related_fatigue/daily/2026041800/2026050100 HTTP/1.1" 200 235
+05:13:48 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:48 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Exercise_and_cancer/daily/2026041800/2026050100 HTTP/1.1" 404 381
+05:13:49 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:49 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Blue_zone/daily/2026041800/2026050100 HTTP/1.1" 200 238
+05:13:49 [DEBUG] Starting new HTTPS connection (1): wikimedia.org:443
+05:13:49 [DEBUG] https://wikimedia.org:443 "GET /api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Longevity/daily/2026041800/2026050100 HTTP/1.1" 200 238
+05:13:49 [INFO] 
+  --- PubMed ---
+05:13:50 [INFO] 
+  --- News (Google RSS) ---
+05:13:50 [INFO] 
+  --- Hacker News ---
+05:13:50 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:50 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=standing+desk&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:50 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:51 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=standing+desk&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 11296
+05:13:51 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:51 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=office+chair&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:51 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:52 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=office+chair&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 442
+05:13:52 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:52 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=back+pain&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:52 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:52 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=back+pain&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 19975
+05:13:53 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:53 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=RSI&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:53 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:53 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=RSI&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 5634
+05:13:54 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:54 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=posture&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:54 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:54 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=posture&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 12375
+05:13:54 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:54 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=carpal+tunnel&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:54 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:55 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=carpal+tunnel&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 496
+05:13:55 [DEBUG] Starting new HTTP connection (1): hn.algolia.com:80
+05:13:55 [DEBUG] http://hn.algolia.com:80 "GET /api/v1/search_by_date?query=ergonomics&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 301 0
+05:13:55 [DEBUG] Starting new HTTPS connection (1): hn.algolia.com:443
+05:13:56 [DEBUG] https://hn.algolia.com:443 "GET /api/v1/search_by_date?query=ergonomics&tags=story&numericFilters=created_at_i%3E1777094030&hitsPerPage=5 HTTP/1.1" 200 4282
+05:13:56 [INFO] 
+  --- YouTube Competitors ---
+05:13:56 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:13:56 [DEBUG] https://www.youtube.com:443 "GET /@bobandbrad/videos HTTP/1.1" 200 None
+05:13:56 [DEBUG] Starting new HTTPS connection (1): www.bobandbrad.com:443
+05:14:00 [DEBUG] https://www.bobandbrad.com:443 "GET /blog/rss.xml HTTP/1.1" 404 None
+05:14:00 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:01 [DEBUG] https://www.youtube.com:443 "GET /@athleanx/videos HTTP/1.1" 200 None
+05:14:01 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:02 [DEBUG] https://www.youtube.com:443 "GET /@SquatUniversity/videos HTTP/1.1" 200 None
+05:14:02 [DEBUG] Starting new HTTPS connection (1): squatuniversity.com:443
+05:14:02 [DEBUG] https://squatuniversity.com:443 "GET /feed/ HTTP/1.1" 429 1168
+05:14:02 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:02 [DEBUG] https://www.youtube.com:443 "GET /@AskDoctorJo/videos HTTP/1.1" 200 None
+05:14:03 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:03 [DEBUG] https://www.youtube.com:443 "GET /@E3Rehab/videos HTTP/1.1" 200 None
+05:14:04 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:04 [DEBUG] https://www.youtube.com:443 "GET /@yogawithadriene/videos HTTP/1.1" 303 0
+05:14:04 [DEBUG] https://www.youtube.com:443 "GET /yogawithadriene/videos HTTP/1.1" 200 None
+05:14:05 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:05 [DEBUG] https://www.youtube.com:443 "GET /@BohoBeautiful/videos HTTP/1.1" 200 None
+05:14:06 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:06 [DEBUG] https://www.youtube.com:443 "GET /@yogawithkassandra/videos HTTP/1.1" 200 None
+05:14:07 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:07 [DEBUG] https://www.youtube.com:443 "GET /@TheRunExperience/videos HTTP/1.1" 200 None
+05:14:07 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:08 [DEBUG] https://www.youtube.com:443 "GET /@JamesDunne/videos HTTP/1.1" 200 None
+05:14:08 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:08 [DEBUG] https://www.youtube.com:443 "GET /@SageCanaday/videos HTTP/1.1" 404 None
+05:14:09 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:09 [DEBUG] https://www.youtube.com:443 "GET /@hubermanlab/videos HTTP/1.1" 200 None
+05:14:10 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:10 [DEBUG] https://www.youtube.com:443 "GET /@PeterAttiaMD/videos HTTP/1.1" 200 None
+05:14:10 [DEBUG] Starting new HTTPS connection (1): peterattiamd.com:443
+05:14:10 [DEBUG] https://peterattiamd.com:443 "GET /feed/ HTTP/1.1" 200 None
+05:14:11 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:11 [DEBUG] https://www.youtube.com:443 "GET /@FoundationTraining/videos HTTP/1.1" 200 None
+05:14:12 [DEBUG] Starting new HTTPS connection (1): www.youtube.com:443
+05:14:12 [DEBUG] https://www.youtube.com:443 "GET /@fitnessblender/videos HTTP/1.1" 200 None
+05:14:12 [DEBUG] Starting new HTTPS connection (1): www.fitnessblender.com:443
+05:14:12 [DEBUG] https://www.fitnessblender.com:443 "GET /blog/rss HTTP/1.1" 404 None
+05:14:13 [INFO] 
+[3/9] Deduplicating Reddit posts...
+05:14:13 [INFO] 
+[3.5/9] Filtering Reddit for relevance...
+05:14:13 [INFO] 
+[3.6/9] Filtering Hacker News for relevance...
+05:14:13 [INFO] 
+[4/9] Detecting emerging signals...
+05:14:13 [INFO]   4 Wikipedia breakouts
+05:14:13 [INFO] 
+[5/9] Building analysis...
+05:14:13 [INFO]   Theme: 'achilles tendonitis'
+05:14:13 [INFO]   Body-part groups: 16 (Shoulder leads)
+05:14:13 [INFO]   Engagement opportunities: 0
+05:14:13 [INFO]   Seasonal context: Weekend Warrior Season
+05:14:13 [INFO]   Declining signals: 5 topics losing steam
+05:14:13 [INFO]   Assessment: Overhead Squat Assessment (matched: default)
+05:14:13 [INFO] 
+[6/9] Generating content strategy...
+05:14:13 [INFO]   Using Claude API...
+05:14:13 [DEBUG] Starting new HTTPS connection (1): api.anthropic.com:443
+05:15:44 [DEBUG] https://api.anthropic.com:443 "POST /v1/messages HTTP/1.1" 200 None
+05:15:44 [INFO]   Claude failed — falling back to template strategy
+05:15:44 [INFO] 
+[7/9] Rendering email...
+05:15:44 [INFO]   Brief #13 rendered (114,652 chars)
+05:15:44 [INFO] 
+[8/9] Delivering...
+05:15:44 [INFO] Connecting to SMTP smtp.gmail.com:587 (TLS=True)
+05:15:45 [INFO] Email sent successfully to davidmizrahi@gmail.com
+05:15:45 [INFO] 
+[9/9] Summary
+05:15:45 [INFO]   Theme: 'achilles tendonitis'
+05:15:45 [INFO]   Season: Weekend Warrior Season
+05:15:45 [INFO]   Assessment: Overhead Squat Assessment
+05:15:45 [INFO]   Strategy source: fallback_template
+05:15:45 [INFO]   Emerging: 4 Wikipedia breakouts
+05:15:45 [INFO]   Declining: Scoliosis, work injury, joint health
+05:15:45 [INFO]   Engagement opps: 0
+05:15:45 [INFO]   Competitors: 20 videos from 5 channels
+05:15:45 [INFO] 
+============================================================
+05:15:45 [INFO]   Done. Brief #13: 'achilles tendonitis'
+05:15:45 [INFO] ============================================================
+05:15:45 [INFO]   Run log saved: /home/runner/work/trend-engine/trend-engine/data/run_2026-05-02_0456.log
