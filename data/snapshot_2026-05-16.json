@@ -1,0 +1,2537 @@
+{
+  "date": "2026-05-16",
+  "theme": "achilles tendonitis",
+  "google": {
+    "neck pain": {
+      "current": 61,
+      "prev_week": 57,
+      "wow_pct": 7.02,
+      "4w_trend": "falling",
+      "4w_avg": 74.5
+    },
+    "stiff neck": {
+      "current": 9,
+      "prev_week": 9,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 10.75
+    },
+    "upper back pain": {
+      "current": 14,
+      "prev_week": 14,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 15.75
+    },
+    "lower back pain": {
+      "current": 62,
+      "prev_week": 66,
+      "wow_pct": -6.06,
+      "4w_trend": "stable",
+      "4w_avg": 71.89
+    },
+    "sciatica": {
+      "current": 49,
+      "prev_week": 48,
+      "wow_pct": 2.08,
+      "4w_trend": "falling",
+      "4w_avg": 54.86
+    },
+    "herniated disc": {
+      "current": 18,
+      "prev_week": 17,
+      "wow_pct": 5.88,
+      "4w_trend": "falling",
+      "4w_avg": 21.0
+    },
+    "hip pain": {
+      "current": 55,
+      "prev_week": 57,
+      "wow_pct": -3.51,
+      "4w_trend": "stable",
+      "4w_avg": 61.07
+    },
+    "anterior pelvic tilt": {
+      "current": 3,
+      "prev_week": 3,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 4.5
+    },
+    "hip flexor pain": {
+      "current": 2,
+      "prev_week": 2,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 2.68
+    },
+    "shoulder pain": {
+      "current": 62,
+      "prev_week": 62,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 76.82
+    },
+    "knee pain": {
+      "current": 72,
+      "prev_week": 70,
+      "wow_pct": 2.86,
+      "4w_trend": "falling",
+      "4w_avg": 84.11
+    },
+    "plantar fasciitis": {
+      "current": 52,
+      "prev_week": 48,
+      "wow_pct": 8.33,
+      "4w_trend": "falling",
+      "4w_avg": 53.54
+    },
+    "carpal tunnel": {
+      "current": 32,
+      "prev_week": 32,
+      "wow_pct": 0.0,
+      "4w_trend": "stable",
+      "4w_avg": 39.0
+    },
+    "tension headache": {
+      "current": 7,
+      "prev_week": 7,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 8.18
+    },
+    "forward head posture": {
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 1.54
+    },
+    "working from home": {
+      "current": 5,
+      "prev_week": 5,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 9.18
+    },
+    "office ergonomics": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "falling",
+      "4w_avg": 0.75
+    },
+    "standing desk": {
+      "current": 22,
+      "prev_week": 47,
+      "wow_pct": -53.19,
+      "4w_trend": "falling",
+      "4w_avg": 52.07
+    },
+    "text neck": {
+      "current": 1,
+      "prev_week": 1,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 2.14
+    },
+    "driving back pain": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "falling",
+      "4w_avg": 0.43
+    },
+    "work injury": {
+      "current": 24,
+      "prev_week": 22,
+      "wow_pct": 9.09,
+      "4w_trend": "falling",
+      "4w_avg": 39.18
+    },
+    "squat form": {
+      "current": 5,
+      "prev_week": 5,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 7.5
+    },
+    "deadlift form": {
+      "current": 2,
+      "prev_week": 4,
+      "wow_pct": -50.0,
+      "4w_trend": "falling",
+      "4w_avg": 5.5
+    },
+    "aging posture": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "stable",
+      "4w_avg": 0.0
+    },
+    "fibromyalgia": {
+      "current": 69,
+      "prev_week": 60,
+      "wow_pct": 15.0,
+      "4w_trend": "falling",
+      "4w_avg": 76.75
+    },
+    "chronic pain syndrome": {
+      "current": 4,
+      "prev_week": 3,
+      "wow_pct": 33.33,
+      "4w_trend": "falling",
+      "4w_avg": 5.25
+    },
+    "degenerative disc disease": {
+      "current": 13,
+      "prev_week": 13,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 17.32
+    },
+    "piriformis syndrome": {
+      "current": 10,
+      "prev_week": 11,
+      "wow_pct": -9.09,
+      "4w_trend": "stable",
+      "4w_avg": 12.96
+    },
+    "thoracic outlet syndrome": {
+      "current": 8,
+      "prev_week": 8,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 11.43
+    },
+    "cancer pain": {
+      "current": 50,
+      "prev_week": 43,
+      "wow_pct": 16.28,
+      "4w_trend": "falling",
+      "4w_avg": 63.18
+    },
+    "corrective exercise": {
+      "current": 0,
+      "prev_week": 1,
+      "wow_pct": -100.0,
+      "4w_trend": "falling",
+      "4w_avg": 1.54
+    },
+    "posture correction": {
+      "current": 3,
+      "prev_week": 3,
+      "wow_pct": 0.0,
+      "4w_trend": "falling",
+      "4w_avg": 4.07
+    },
+    "foam rolling": {
+      "current": 11,
+      "prev_week": 18,
+      "wow_pct": -38.89,
+      "4w_trend": "falling",
+      "4w_avg": 23.89
+    },
+    "mobility exercises": {
+      "current": 7,
+      "prev_week": 10,
+      "wow_pct": -30.0,
+      "4w_trend": "falling",
+      "4w_avg": 14.0
+    },
+    "yoga for back pain": {
+      "current": 7,
+      "prev_week": 6,
+      "wow_pct": 16.67,
+      "4w_trend": "falling",
+      "4w_avg": 13.54
+    },
+    "yoga for sciatica": {
+      "current": 0,
+      "prev_week": 7,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 3.93
+    },
+    "therapeutic yoga": {
+      "current": 0,
+      "prev_week": 12,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 5.64
+    },
+    "yoga for chronic pain": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "rising",
+      "4w_avg": 0.57
+    },
+    "restorative yoga": {
+      "current": 28,
+      "prev_week": 42,
+      "wow_pct": -33.33,
+      "4w_trend": "stable",
+      "4w_avg": 43.46
+    },
+    "yin yoga for pain": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "rising",
+      "4w_avg": 0.21
+    },
+    "runner's knee": {
+      "current": 11,
+      "prev_week": 13,
+      "wow_pct": -15.38,
+      "4w_trend": "falling",
+      "4w_avg": 11.64
+    },
+    "IT band syndrome": {
+      "current": 28,
+      "prev_week": 31,
+      "wow_pct": -9.68,
+      "4w_trend": "falling",
+      "4w_avg": 38.07
+    },
+    "achilles tendonitis": {
+      "current": 64,
+      "prev_week": 63,
+      "wow_pct": 1.59,
+      "4w_trend": "falling",
+      "4w_avg": 73.21
+    },
+    "plantar fasciitis running": {
+      "current": 24,
+      "prev_week": 21,
+      "wow_pct": 14.29,
+      "4w_trend": "falling",
+      "4w_avg": 31.25
+    },
+    "hip flexor running": {
+      "current": 0,
+      "prev_week": 5,
+      "wow_pct": -100.0,
+      "4w_trend": "rising",
+      "4w_avg": 2.29
+    },
+    "marathon recovery": {
+      "current": 1,
+      "prev_week": 2,
+      "wow_pct": -50.0,
+      "4w_trend": "falling",
+      "4w_avg": 3.75
+    },
+    "longevity exercises": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "falling",
+      "4w_avg": 0.18
+    },
+    "mobility for aging": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "stable",
+      "4w_avg": 0.0
+    },
+    "functional fitness over 40": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "stable",
+      "4w_avg": 0.0
+    },
+    "joint health": {
+      "current": 20,
+      "prev_week": 30,
+      "wow_pct": -33.33,
+      "4w_trend": "falling",
+      "4w_avg": 46.43
+    },
+    "movement longevity": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "rising",
+      "4w_avg": 1.25
+    },
+    "exercise during chemotherapy": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "falling",
+      "4w_avg": 2.43
+    },
+    "cancer rehabilitation": {
+      "current": 15,
+      "prev_week": 13,
+      "wow_pct": 15.38,
+      "4w_trend": "falling",
+      "4w_avg": 32.54
+    },
+    "exercise after cancer treatment": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "rising",
+      "4w_avg": 0.71
+    },
+    "cancer fatigue exercise": {
+      "current": 0,
+      "prev_week": 0,
+      "wow_pct": null,
+      "4w_trend": "rising",
+      "4w_avg": 0.79
+    },
+    "oncology exercise": {
+      "current": 22,
+      "prev_week": 8,
+      "wow_pct": 175.0,
+      "4w_trend": "rising",
+      "4w_avg": 6.14
+    }
+  },
+  "rising_queries": null,
+  "reddit": null,
+  "quora": null,
+  "wikipedia": {
+    "Chronic_pain": {
+      "current_week_avg": 824.43,
+      "prior_week_avg": 1045.14,
+      "wow_pct": -21.12,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 946
+        },
+        {
+          "date": "2026-05-03",
+          "views": 818
+        },
+        {
+          "date": "2026-05-04",
+          "views": 880
+        },
+        {
+          "date": "2026-05-05",
+          "views": 992
+        },
+        {
+          "date": "2026-05-06",
+          "views": 1233
+        },
+        {
+          "date": "2026-05-07",
+          "views": 1443
+        },
+        {
+          "date": "2026-05-08",
+          "views": 1004
+        },
+        {
+          "date": "2026-05-09",
+          "views": 977
+        },
+        {
+          "date": "2026-05-10",
+          "views": 1159
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1178
+        },
+        {
+          "date": "2026-05-12",
+          "views": 1196
+        },
+        {
+          "date": "2026-05-13",
+          "views": 690
+        },
+        {
+          "date": "2026-05-14",
+          "views": 298
+        },
+        {
+          "date": "2026-05-15",
+          "views": 273
+        }
+      ]
+    },
+    "Sciatica": {
+      "current_week_avg": 969.14,
+      "prior_week_avg": 919.71,
+      "wow_pct": 5.37,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 1001
+        },
+        {
+          "date": "2026-05-03",
+          "views": 974
+        },
+        {
+          "date": "2026-05-04",
+          "views": 956
+        },
+        {
+          "date": "2026-05-05",
+          "views": 864
+        },
+        {
+          "date": "2026-05-06",
+          "views": 974
+        },
+        {
+          "date": "2026-05-07",
+          "views": 863
+        },
+        {
+          "date": "2026-05-08",
+          "views": 806
+        },
+        {
+          "date": "2026-05-09",
+          "views": 840
+        },
+        {
+          "date": "2026-05-10",
+          "views": 987
+        },
+        {
+          "date": "2026-05-11",
+          "views": 947
+        },
+        {
+          "date": "2026-05-12",
+          "views": 1144
+        },
+        {
+          "date": "2026-05-13",
+          "views": 911
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1040
+        },
+        {
+          "date": "2026-05-15",
+          "views": 915
+        }
+      ]
+    },
+    "Fibromyalgia": {
+      "current_week_avg": 1869.86,
+      "prior_week_avg": 1864.29,
+      "wow_pct": 0.3,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 1536
+        },
+        {
+          "date": "2026-05-03",
+          "views": 1501
+        },
+        {
+          "date": "2026-05-04",
+          "views": 1600
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1697
+        },
+        {
+          "date": "2026-05-06",
+          "views": 1637
+        },
+        {
+          "date": "2026-05-07",
+          "views": 1596
+        },
+        {
+          "date": "2026-05-08",
+          "views": 3483
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2154
+        },
+        {
+          "date": "2026-05-10",
+          "views": 2117
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1882
+        },
+        {
+          "date": "2026-05-12",
+          "views": 1986
+        },
+        {
+          "date": "2026-05-13",
+          "views": 1675
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1689
+        },
+        {
+          "date": "2026-05-15",
+          "views": 1586
+        }
+      ]
+    },
+    "Low_back_pain": {
+      "current_week_avg": 406.29,
+      "prior_week_avg": 417.14,
+      "wow_pct": -2.6,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 405
+        },
+        {
+          "date": "2026-05-03",
+          "views": 429
+        },
+        {
+          "date": "2026-05-04",
+          "views": 436
+        },
+        {
+          "date": "2026-05-05",
+          "views": 371
+        },
+        {
+          "date": "2026-05-06",
+          "views": 433
+        },
+        {
+          "date": "2026-05-07",
+          "views": 420
+        },
+        {
+          "date": "2026-05-08",
+          "views": 426
+        },
+        {
+          "date": "2026-05-09",
+          "views": 360
+        },
+        {
+          "date": "2026-05-10",
+          "views": 386
+        },
+        {
+          "date": "2026-05-11",
+          "views": 408
+        },
+        {
+          "date": "2026-05-12",
+          "views": 445
+        },
+        {
+          "date": "2026-05-13",
+          "views": 398
+        },
+        {
+          "date": "2026-05-14",
+          "views": 394
+        },
+        {
+          "date": "2026-05-15",
+          "views": 453
+        }
+      ]
+    },
+    "Physical_therapy": {
+      "current_week_avg": 938.43,
+      "prior_week_avg": 957.43,
+      "wow_pct": -1.98,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 825
+        },
+        {
+          "date": "2026-05-03",
+          "views": 857
+        },
+        {
+          "date": "2026-05-04",
+          "views": 920
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1010
+        },
+        {
+          "date": "2026-05-06",
+          "views": 1069
+        },
+        {
+          "date": "2026-05-07",
+          "views": 1005
+        },
+        {
+          "date": "2026-05-08",
+          "views": 1016
+        },
+        {
+          "date": "2026-05-09",
+          "views": 899
+        },
+        {
+          "date": "2026-05-10",
+          "views": 867
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1045
+        },
+        {
+          "date": "2026-05-12",
+          "views": 988
+        },
+        {
+          "date": "2026-05-13",
+          "views": 1014
+        },
+        {
+          "date": "2026-05-14",
+          "views": 896
+        },
+        {
+          "date": "2026-05-15",
+          "views": 860
+        }
+      ]
+    },
+    "Ergonomics": {
+      "current_week_avg": 470.14,
+      "prior_week_avg": 449.86,
+      "wow_pct": 4.51,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 304
+        },
+        {
+          "date": "2026-05-03",
+          "views": 429
+        },
+        {
+          "date": "2026-05-04",
+          "views": 360
+        },
+        {
+          "date": "2026-05-05",
+          "views": 451
+        },
+        {
+          "date": "2026-05-06",
+          "views": 648
+        },
+        {
+          "date": "2026-05-07",
+          "views": 542
+        },
+        {
+          "date": "2026-05-08",
+          "views": 415
+        },
+        {
+          "date": "2026-05-09",
+          "views": 343
+        },
+        {
+          "date": "2026-05-10",
+          "views": 519
+        },
+        {
+          "date": "2026-05-11",
+          "views": 473
+        },
+        {
+          "date": "2026-05-12",
+          "views": 450
+        },
+        {
+          "date": "2026-05-13",
+          "views": 569
+        },
+        {
+          "date": "2026-05-14",
+          "views": 426
+        },
+        {
+          "date": "2026-05-15",
+          "views": 511
+        }
+      ]
+    },
+    "Kyphosis": {
+      "current_week_avg": 361.29,
+      "prior_week_avg": 350.29,
+      "wow_pct": 3.14,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 388
+        },
+        {
+          "date": "2026-05-03",
+          "views": 317
+        },
+        {
+          "date": "2026-05-04",
+          "views": 355
+        },
+        {
+          "date": "2026-05-05",
+          "views": 358
+        },
+        {
+          "date": "2026-05-06",
+          "views": 340
+        },
+        {
+          "date": "2026-05-07",
+          "views": 367
+        },
+        {
+          "date": "2026-05-08",
+          "views": 327
+        },
+        {
+          "date": "2026-05-09",
+          "views": 348
+        },
+        {
+          "date": "2026-05-10",
+          "views": 396
+        },
+        {
+          "date": "2026-05-11",
+          "views": 378
+        },
+        {
+          "date": "2026-05-12",
+          "views": 360
+        },
+        {
+          "date": "2026-05-13",
+          "views": 357
+        },
+        {
+          "date": "2026-05-14",
+          "views": 357
+        },
+        {
+          "date": "2026-05-15",
+          "views": 333
+        }
+      ]
+    },
+    "Piriformis_syndrome": {
+      "current_week_avg": 377.86,
+      "prior_week_avg": 373.43,
+      "wow_pct": 1.19,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 322
+        },
+        {
+          "date": "2026-05-03",
+          "views": 339
+        },
+        {
+          "date": "2026-05-04",
+          "views": 356
+        },
+        {
+          "date": "2026-05-05",
+          "views": 358
+        },
+        {
+          "date": "2026-05-06",
+          "views": 444
+        },
+        {
+          "date": "2026-05-07",
+          "views": 441
+        },
+        {
+          "date": "2026-05-08",
+          "views": 354
+        },
+        {
+          "date": "2026-05-09",
+          "views": 407
+        },
+        {
+          "date": "2026-05-10",
+          "views": 330
+        },
+        {
+          "date": "2026-05-11",
+          "views": 413
+        },
+        {
+          "date": "2026-05-12",
+          "views": 365
+        },
+        {
+          "date": "2026-05-13",
+          "views": 358
+        },
+        {
+          "date": "2026-05-14",
+          "views": 370
+        },
+        {
+          "date": "2026-05-15",
+          "views": 402
+        }
+      ]
+    },
+    "Thoracic_outlet_syndrome": {
+      "current_week_avg": 306.71,
+      "prior_week_avg": 322.29,
+      "wow_pct": -4.83,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 314
+        },
+        {
+          "date": "2026-05-03",
+          "views": 352
+        },
+        {
+          "date": "2026-05-04",
+          "views": 334
+        },
+        {
+          "date": "2026-05-05",
+          "views": 319
+        },
+        {
+          "date": "2026-05-06",
+          "views": 311
+        },
+        {
+          "date": "2026-05-07",
+          "views": 332
+        },
+        {
+          "date": "2026-05-08",
+          "views": 294
+        },
+        {
+          "date": "2026-05-09",
+          "views": 308
+        },
+        {
+          "date": "2026-05-10",
+          "views": 281
+        },
+        {
+          "date": "2026-05-11",
+          "views": 284
+        },
+        {
+          "date": "2026-05-12",
+          "views": 342
+        },
+        {
+          "date": "2026-05-13",
+          "views": 328
+        },
+        {
+          "date": "2026-05-14",
+          "views": 330
+        },
+        {
+          "date": "2026-05-15",
+          "views": 274
+        }
+      ]
+    },
+    "Plantar_fasciitis": {
+      "current_week_avg": 780.29,
+      "prior_week_avg": 826.43,
+      "wow_pct": -5.58,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 808
+        },
+        {
+          "date": "2026-05-03",
+          "views": 912
+        },
+        {
+          "date": "2026-05-04",
+          "views": 868
+        },
+        {
+          "date": "2026-05-05",
+          "views": 796
+        },
+        {
+          "date": "2026-05-06",
+          "views": 821
+        },
+        {
+          "date": "2026-05-07",
+          "views": 799
+        },
+        {
+          "date": "2026-05-08",
+          "views": 781
+        },
+        {
+          "date": "2026-05-09",
+          "views": 672
+        },
+        {
+          "date": "2026-05-10",
+          "views": 925
+        },
+        {
+          "date": "2026-05-11",
+          "views": 889
+        },
+        {
+          "date": "2026-05-12",
+          "views": 787
+        },
+        {
+          "date": "2026-05-13",
+          "views": 773
+        },
+        {
+          "date": "2026-05-14",
+          "views": 738
+        },
+        {
+          "date": "2026-05-15",
+          "views": 678
+        }
+      ]
+    },
+    "Rotator_cuff_tear": {
+      "current_week_avg": 165.29,
+      "prior_week_avg": 178.71,
+      "wow_pct": -7.51,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 121
+        },
+        {
+          "date": "2026-05-03",
+          "views": 165
+        },
+        {
+          "date": "2026-05-04",
+          "views": 214
+        },
+        {
+          "date": "2026-05-05",
+          "views": 199
+        },
+        {
+          "date": "2026-05-06",
+          "views": 223
+        },
+        {
+          "date": "2026-05-07",
+          "views": 168
+        },
+        {
+          "date": "2026-05-08",
+          "views": 161
+        },
+        {
+          "date": "2026-05-09",
+          "views": 163
+        },
+        {
+          "date": "2026-05-10",
+          "views": 148
+        },
+        {
+          "date": "2026-05-11",
+          "views": 160
+        },
+        {
+          "date": "2026-05-12",
+          "views": 185
+        },
+        {
+          "date": "2026-05-13",
+          "views": 158
+        },
+        {
+          "date": "2026-05-14",
+          "views": 157
+        },
+        {
+          "date": "2026-05-15",
+          "views": 186
+        }
+      ]
+    },
+    "Sacroiliac_joint_dysfunction": {
+      "current_week_avg": 68.57,
+      "prior_week_avg": 79.43,
+      "wow_pct": -13.67,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 59
+        },
+        {
+          "date": "2026-05-03",
+          "views": 82
+        },
+        {
+          "date": "2026-05-04",
+          "views": 71
+        },
+        {
+          "date": "2026-05-05",
+          "views": 74
+        },
+        {
+          "date": "2026-05-06",
+          "views": 92
+        },
+        {
+          "date": "2026-05-07",
+          "views": 82
+        },
+        {
+          "date": "2026-05-08",
+          "views": 96
+        },
+        {
+          "date": "2026-05-09",
+          "views": 80
+        },
+        {
+          "date": "2026-05-10",
+          "views": 55
+        },
+        {
+          "date": "2026-05-11",
+          "views": 91
+        },
+        {
+          "date": "2026-05-12",
+          "views": 67
+        },
+        {
+          "date": "2026-05-13",
+          "views": 67
+        },
+        {
+          "date": "2026-05-14",
+          "views": 58
+        },
+        {
+          "date": "2026-05-15",
+          "views": 62
+        }
+      ]
+    },
+    "Spinal_stenosis": {
+      "current_week_avg": 696.43,
+      "prior_week_avg": 724.86,
+      "wow_pct": -3.92,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 671
+        },
+        {
+          "date": "2026-05-03",
+          "views": 652
+        },
+        {
+          "date": "2026-05-04",
+          "views": 781
+        },
+        {
+          "date": "2026-05-05",
+          "views": 738
+        },
+        {
+          "date": "2026-05-06",
+          "views": 742
+        },
+        {
+          "date": "2026-05-07",
+          "views": 752
+        },
+        {
+          "date": "2026-05-08",
+          "views": 738
+        },
+        {
+          "date": "2026-05-09",
+          "views": 681
+        },
+        {
+          "date": "2026-05-10",
+          "views": 588
+        },
+        {
+          "date": "2026-05-11",
+          "views": 745
+        },
+        {
+          "date": "2026-05-12",
+          "views": 738
+        },
+        {
+          "date": "2026-05-13",
+          "views": 717
+        },
+        {
+          "date": "2026-05-14",
+          "views": 699
+        },
+        {
+          "date": "2026-05-15",
+          "views": 707
+        }
+      ]
+    },
+    "Scoliosis": {
+      "current_week_avg": 779.86,
+      "prior_week_avg": 829.86,
+      "wow_pct": -6.03,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 821
+        },
+        {
+          "date": "2026-05-03",
+          "views": 853
+        },
+        {
+          "date": "2026-05-04",
+          "views": 889
+        },
+        {
+          "date": "2026-05-05",
+          "views": 825
+        },
+        {
+          "date": "2026-05-06",
+          "views": 847
+        },
+        {
+          "date": "2026-05-07",
+          "views": 807
+        },
+        {
+          "date": "2026-05-08",
+          "views": 767
+        },
+        {
+          "date": "2026-05-09",
+          "views": 780
+        },
+        {
+          "date": "2026-05-10",
+          "views": 785
+        },
+        {
+          "date": "2026-05-11",
+          "views": 845
+        },
+        {
+          "date": "2026-05-12",
+          "views": 816
+        },
+        {
+          "date": "2026-05-13",
+          "views": 823
+        },
+        {
+          "date": "2026-05-14",
+          "views": 723
+        },
+        {
+          "date": "2026-05-15",
+          "views": 687
+        }
+      ]
+    },
+    "Spinal_disc_herniation": {
+      "current_week_avg": 149.0,
+      "prior_week_avg": 162.0,
+      "wow_pct": -8.02,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 171
+        },
+        {
+          "date": "2026-05-03",
+          "views": 161
+        },
+        {
+          "date": "2026-05-04",
+          "views": 146
+        },
+        {
+          "date": "2026-05-05",
+          "views": 152
+        },
+        {
+          "date": "2026-05-06",
+          "views": 145
+        },
+        {
+          "date": "2026-05-07",
+          "views": 146
+        },
+        {
+          "date": "2026-05-08",
+          "views": 213
+        },
+        {
+          "date": "2026-05-09",
+          "views": 152
+        },
+        {
+          "date": "2026-05-10",
+          "views": 166
+        },
+        {
+          "date": "2026-05-11",
+          "views": 176
+        },
+        {
+          "date": "2026-05-12",
+          "views": 141
+        },
+        {
+          "date": "2026-05-13",
+          "views": 138
+        },
+        {
+          "date": "2026-05-14",
+          "views": 118
+        },
+        {
+          "date": "2026-05-15",
+          "views": 152
+        }
+      ]
+    },
+    "Tension_headache": {
+      "current_week_avg": 120.86,
+      "prior_week_avg": 131.43,
+      "wow_pct": -8.04,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 117
+        },
+        {
+          "date": "2026-05-03",
+          "views": 120
+        },
+        {
+          "date": "2026-05-04",
+          "views": 137
+        },
+        {
+          "date": "2026-05-05",
+          "views": 136
+        },
+        {
+          "date": "2026-05-06",
+          "views": 142
+        },
+        {
+          "date": "2026-05-07",
+          "views": 136
+        },
+        {
+          "date": "2026-05-08",
+          "views": 132
+        },
+        {
+          "date": "2026-05-09",
+          "views": 109
+        },
+        {
+          "date": "2026-05-10",
+          "views": 120
+        },
+        {
+          "date": "2026-05-11",
+          "views": 107
+        },
+        {
+          "date": "2026-05-12",
+          "views": 113
+        },
+        {
+          "date": "2026-05-13",
+          "views": 145
+        },
+        {
+          "date": "2026-05-14",
+          "views": 135
+        },
+        {
+          "date": "2026-05-15",
+          "views": 117
+        }
+      ]
+    },
+    "Myofascial_pain_syndrome": {
+      "current_week_avg": 114.0,
+      "prior_week_avg": 103.57,
+      "wow_pct": 10.07,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 104
+        },
+        {
+          "date": "2026-05-03",
+          "views": 99
+        },
+        {
+          "date": "2026-05-04",
+          "views": 94
+        },
+        {
+          "date": "2026-05-05",
+          "views": 105
+        },
+        {
+          "date": "2026-05-06",
+          "views": 130
+        },
+        {
+          "date": "2026-05-07",
+          "views": 104
+        },
+        {
+          "date": "2026-05-08",
+          "views": 89
+        },
+        {
+          "date": "2026-05-09",
+          "views": 92
+        },
+        {
+          "date": "2026-05-10",
+          "views": 86
+        },
+        {
+          "date": "2026-05-11",
+          "views": 124
+        },
+        {
+          "date": "2026-05-12",
+          "views": 125
+        },
+        {
+          "date": "2026-05-13",
+          "views": 119
+        },
+        {
+          "date": "2026-05-14",
+          "views": 106
+        },
+        {
+          "date": "2026-05-15",
+          "views": 146
+        }
+      ]
+    },
+    "Carpal_tunnel_syndrome": {
+      "current_week_avg": 625.14,
+      "prior_week_avg": 629.29,
+      "wow_pct": -0.66,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 595
+        },
+        {
+          "date": "2026-05-03",
+          "views": 608
+        },
+        {
+          "date": "2026-05-04",
+          "views": 598
+        },
+        {
+          "date": "2026-05-05",
+          "views": 667
+        },
+        {
+          "date": "2026-05-06",
+          "views": 678
+        },
+        {
+          "date": "2026-05-07",
+          "views": 670
+        },
+        {
+          "date": "2026-05-08",
+          "views": 589
+        },
+        {
+          "date": "2026-05-09",
+          "views": 570
+        },
+        {
+          "date": "2026-05-10",
+          "views": 565
+        },
+        {
+          "date": "2026-05-11",
+          "views": 660
+        },
+        {
+          "date": "2026-05-12",
+          "views": 688
+        },
+        {
+          "date": "2026-05-13",
+          "views": 599
+        },
+        {
+          "date": "2026-05-14",
+          "views": 646
+        },
+        {
+          "date": "2026-05-15",
+          "views": 648
+        }
+      ]
+    },
+    "Lordosis": {
+      "current_week_avg": 428.29,
+      "prior_week_avg": 289.14,
+      "wow_pct": 48.13,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 299
+        },
+        {
+          "date": "2026-05-03",
+          "views": 257
+        },
+        {
+          "date": "2026-05-04",
+          "views": 287
+        },
+        {
+          "date": "2026-05-05",
+          "views": 288
+        },
+        {
+          "date": "2026-05-06",
+          "views": 291
+        },
+        {
+          "date": "2026-05-07",
+          "views": 332
+        },
+        {
+          "date": "2026-05-08",
+          "views": 270
+        },
+        {
+          "date": "2026-05-09",
+          "views": 251
+        },
+        {
+          "date": "2026-05-10",
+          "views": 1207
+        },
+        {
+          "date": "2026-05-11",
+          "views": 438
+        },
+        {
+          "date": "2026-05-12",
+          "views": 301
+        },
+        {
+          "date": "2026-05-13",
+          "views": 276
+        },
+        {
+          "date": "2026-05-14",
+          "views": 290
+        },
+        {
+          "date": "2026-05-15",
+          "views": 235
+        }
+      ]
+    },
+    "Anterior_pelvic_tilt": {
+      "current_week_avg": 4.86,
+      "prior_week_avg": 4.0,
+      "wow_pct": 21.5,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 3
+        },
+        {
+          "date": "2026-05-03",
+          "views": 4
+        },
+        {
+          "date": "2026-05-04",
+          "views": 3
+        },
+        {
+          "date": "2026-05-05",
+          "views": 2
+        },
+        {
+          "date": "2026-05-06",
+          "views": 10
+        },
+        {
+          "date": "2026-05-07",
+          "views": 3
+        },
+        {
+          "date": "2026-05-08",
+          "views": 3
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2
+        },
+        {
+          "date": "2026-05-10",
+          "views": 3
+        },
+        {
+          "date": "2026-05-11",
+          "views": 6
+        },
+        {
+          "date": "2026-05-12",
+          "views": 3
+        },
+        {
+          "date": "2026-05-13",
+          "views": 6
+        },
+        {
+          "date": "2026-05-14",
+          "views": 10
+        },
+        {
+          "date": "2026-05-15",
+          "views": 4
+        }
+      ]
+    },
+    "Posture": {
+      "current_week_avg": 27.43,
+      "prior_week_avg": 25.29,
+      "wow_pct": 8.46,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 17
+        },
+        {
+          "date": "2026-05-03",
+          "views": 28
+        },
+        {
+          "date": "2026-05-04",
+          "views": 38
+        },
+        {
+          "date": "2026-05-05",
+          "views": 27
+        },
+        {
+          "date": "2026-05-06",
+          "views": 24
+        },
+        {
+          "date": "2026-05-07",
+          "views": 22
+        },
+        {
+          "date": "2026-05-08",
+          "views": 21
+        },
+        {
+          "date": "2026-05-09",
+          "views": 31
+        },
+        {
+          "date": "2026-05-10",
+          "views": 29
+        },
+        {
+          "date": "2026-05-11",
+          "views": 43
+        },
+        {
+          "date": "2026-05-12",
+          "views": 24
+        },
+        {
+          "date": "2026-05-13",
+          "views": 16
+        },
+        {
+          "date": "2026-05-14",
+          "views": 27
+        },
+        {
+          "date": "2026-05-15",
+          "views": 22
+        }
+      ]
+    },
+    "Yoga_therapy": {
+      "current_week_avg": 2.0,
+      "prior_week_avg": 2.25,
+      "wow_pct": -11.11,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 2
+        },
+        {
+          "date": "2026-05-03",
+          "views": 5
+        },
+        {
+          "date": "2026-05-04",
+          "views": 1
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1
+        },
+        {
+          "date": "2026-05-06",
+          "views": 2
+        },
+        {
+          "date": "2026-05-08",
+          "views": 4
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2
+        },
+        {
+          "date": "2026-05-12",
+          "views": 1
+        },
+        {
+          "date": "2026-05-13",
+          "views": 1
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1
+        },
+        {
+          "date": "2026-05-15",
+          "views": 3
+        }
+      ]
+    },
+    "Yoga_as_exercise": {
+      "current_week_avg": 206.57,
+      "prior_week_avg": 191.0,
+      "wow_pct": 8.15,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 185
+        },
+        {
+          "date": "2026-05-03",
+          "views": 178
+        },
+        {
+          "date": "2026-05-04",
+          "views": 204
+        },
+        {
+          "date": "2026-05-05",
+          "views": 183
+        },
+        {
+          "date": "2026-05-06",
+          "views": 186
+        },
+        {
+          "date": "2026-05-07",
+          "views": 210
+        },
+        {
+          "date": "2026-05-08",
+          "views": 191
+        },
+        {
+          "date": "2026-05-09",
+          "views": 159
+        },
+        {
+          "date": "2026-05-10",
+          "views": 161
+        },
+        {
+          "date": "2026-05-11",
+          "views": 232
+        },
+        {
+          "date": "2026-05-12",
+          "views": 271
+        },
+        {
+          "date": "2026-05-13",
+          "views": 202
+        },
+        {
+          "date": "2026-05-14",
+          "views": 207
+        },
+        {
+          "date": "2026-05-15",
+          "views": 214
+        }
+      ]
+    },
+    "Iliotibial_band_syndrome": {
+      "current_week_avg": 130.43,
+      "prior_week_avg": 128.14,
+      "wow_pct": 1.79,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 136
+        },
+        {
+          "date": "2026-05-03",
+          "views": 108
+        },
+        {
+          "date": "2026-05-04",
+          "views": 138
+        },
+        {
+          "date": "2026-05-05",
+          "views": 114
+        },
+        {
+          "date": "2026-05-06",
+          "views": 142
+        },
+        {
+          "date": "2026-05-07",
+          "views": 132
+        },
+        {
+          "date": "2026-05-08",
+          "views": 127
+        },
+        {
+          "date": "2026-05-09",
+          "views": 99
+        },
+        {
+          "date": "2026-05-10",
+          "views": 122
+        },
+        {
+          "date": "2026-05-11",
+          "views": 156
+        },
+        {
+          "date": "2026-05-12",
+          "views": 126
+        },
+        {
+          "date": "2026-05-13",
+          "views": 147
+        },
+        {
+          "date": "2026-05-14",
+          "views": 138
+        },
+        {
+          "date": "2026-05-15",
+          "views": 125
+        }
+      ]
+    },
+    "Achilles_tendinitis": {
+      "current_week_avg": 139.86,
+      "prior_week_avg": 125.86,
+      "wow_pct": 11.12,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 109
+        },
+        {
+          "date": "2026-05-03",
+          "views": 120
+        },
+        {
+          "date": "2026-05-04",
+          "views": 121
+        },
+        {
+          "date": "2026-05-05",
+          "views": 130
+        },
+        {
+          "date": "2026-05-06",
+          "views": 133
+        },
+        {
+          "date": "2026-05-07",
+          "views": 140
+        },
+        {
+          "date": "2026-05-08",
+          "views": 128
+        },
+        {
+          "date": "2026-05-09",
+          "views": 130
+        },
+        {
+          "date": "2026-05-10",
+          "views": 132
+        },
+        {
+          "date": "2026-05-11",
+          "views": 172
+        },
+        {
+          "date": "2026-05-12",
+          "views": 155
+        },
+        {
+          "date": "2026-05-13",
+          "views": 141
+        },
+        {
+          "date": "2026-05-14",
+          "views": 118
+        },
+        {
+          "date": "2026-05-15",
+          "views": 131
+        }
+      ]
+    },
+    "Patellofemoral_pain_syndrome": {
+      "current_week_avg": 158.86,
+      "prior_week_avg": 126.14,
+      "wow_pct": 25.94,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 106
+        },
+        {
+          "date": "2026-05-03",
+          "views": 100
+        },
+        {
+          "date": "2026-05-04",
+          "views": 149
+        },
+        {
+          "date": "2026-05-05",
+          "views": 132
+        },
+        {
+          "date": "2026-05-06",
+          "views": 118
+        },
+        {
+          "date": "2026-05-07",
+          "views": 119
+        },
+        {
+          "date": "2026-05-08",
+          "views": 159
+        },
+        {
+          "date": "2026-05-09",
+          "views": 135
+        },
+        {
+          "date": "2026-05-10",
+          "views": 143
+        },
+        {
+          "date": "2026-05-11",
+          "views": 173
+        },
+        {
+          "date": "2026-05-12",
+          "views": 182
+        },
+        {
+          "date": "2026-05-13",
+          "views": 167
+        },
+        {
+          "date": "2026-05-14",
+          "views": 140
+        },
+        {
+          "date": "2026-05-15",
+          "views": 172
+        }
+      ]
+    },
+    "Cancer-related_fatigue": {
+      "current_week_avg": 21.29,
+      "prior_week_avg": 20.43,
+      "wow_pct": 4.21,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 23
+        },
+        {
+          "date": "2026-05-03",
+          "views": 26
+        },
+        {
+          "date": "2026-05-04",
+          "views": 22
+        },
+        {
+          "date": "2026-05-05",
+          "views": 26
+        },
+        {
+          "date": "2026-05-06",
+          "views": 11
+        },
+        {
+          "date": "2026-05-07",
+          "views": 24
+        },
+        {
+          "date": "2026-05-08",
+          "views": 11
+        },
+        {
+          "date": "2026-05-09",
+          "views": 20
+        },
+        {
+          "date": "2026-05-10",
+          "views": 25
+        },
+        {
+          "date": "2026-05-11",
+          "views": 19
+        },
+        {
+          "date": "2026-05-12",
+          "views": 24
+        },
+        {
+          "date": "2026-05-13",
+          "views": 21
+        },
+        {
+          "date": "2026-05-14",
+          "views": 20
+        },
+        {
+          "date": "2026-05-15",
+          "views": 20
+        }
+      ]
+    },
+    "Blue_zone": {
+      "current_week_avg": 513.43,
+      "prior_week_avg": 510.86,
+      "wow_pct": 0.5,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 569
+        },
+        {
+          "date": "2026-05-03",
+          "views": 520
+        },
+        {
+          "date": "2026-05-04",
+          "views": 511
+        },
+        {
+          "date": "2026-05-05",
+          "views": 436
+        },
+        {
+          "date": "2026-05-06",
+          "views": 546
+        },
+        {
+          "date": "2026-05-07",
+          "views": 490
+        },
+        {
+          "date": "2026-05-08",
+          "views": 504
+        },
+        {
+          "date": "2026-05-09",
+          "views": 480
+        },
+        {
+          "date": "2026-05-10",
+          "views": 591
+        },
+        {
+          "date": "2026-05-11",
+          "views": 575
+        },
+        {
+          "date": "2026-05-12",
+          "views": 524
+        },
+        {
+          "date": "2026-05-13",
+          "views": 487
+        },
+        {
+          "date": "2026-05-14",
+          "views": 490
+        },
+        {
+          "date": "2026-05-15",
+          "views": 447
+        }
+      ]
+    },
+    "Longevity": {
+      "current_week_avg": 346.29,
+      "prior_week_avg": 351.14,
+      "wow_pct": -1.38,
+      "daily": [
+        {
+          "date": "2026-05-02",
+          "views": 302
+        },
+        {
+          "date": "2026-05-03",
+          "views": 344
+        },
+        {
+          "date": "2026-05-04",
+          "views": 330
+        },
+        {
+          "date": "2026-05-05",
+          "views": 312
+        },
+        {
+          "date": "2026-05-06",
+          "views": 368
+        },
+        {
+          "date": "2026-05-07",
+          "views": 381
+        },
+        {
+          "date": "2026-05-08",
+          "views": 421
+        },
+        {
+          "date": "2026-05-09",
+          "views": 364
+        },
+        {
+          "date": "2026-05-10",
+          "views": 335
+        },
+        {
+          "date": "2026-05-11",
+          "views": 383
+        },
+        {
+          "date": "2026-05-12",
+          "views": 345
+        },
+        {
+          "date": "2026-05-13",
+          "views": 373
+        },
+        {
+          "date": "2026-05-14",
+          "views": 306
+        },
+        {
+          "date": "2026-05-15",
+          "views": 318
+        }
+      ]
+    }
+  },
+  "pubmed": [
+    {
+      "title": "The interplay of circadian rhythms and cancer pain: a narrative review.",
+      "journal": "Journal of anesthesia, analgesia and critical care",
+      "date": "2026-05-15",
+      "pmid": "42141492"
+    },
+    {
+      "title": "Data-driven clustering of chronic pain profiles using Swedish national registry data: Towards individualized decision support in interdisciplinary rehabilitation.",
+      "journal": "International journal of medical informatics",
+      "date": "2026-05-08",
+      "pmid": "42139941"
+    },
+    {
+      "title": "A focus group study to inform phantom limb pain assessment strategies after lower limb amputation.",
+      "journal": "Prosthetics and orthotics international",
+      "date": "2026-05-13",
+      "pmid": "42139676"
+    },
+    {
+      "title": "Meta-analysis of the therapeutic effects of different core muscle training on pain and function in patients with chronic non-specific low back pain.",
+      "journal": "Frontiers in pain research (Lausanne, Switzerland)",
+      "date": "2026-04-29",
+      "pmid": "42137906"
+    },
+    {
+      "title": "Spinopelvic alignment and pubic symphysis widening are associated with postpartum low back pain: a retrospective case-control study.",
+      "journal": "Frontiers in bioengineering and biotechnology",
+      "date": "2026-04-29",
+      "pmid": "42137627"
+    }
+  ],
+  "news": [
+    {
+      "title": "Using data to untangle the relationship between chronic pain and depression - College of Medicine",
+      "source": "Tucson",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVnJxeTRFMzJ1bVIwZVZjVEZ4ZXRCMXc3ajNsS0VHY2hkV2JhckROLV94OGxubmhvRnF6WWtYZGRNSHM4d0pwSmVhWG8wQTYtU0lJVGlpVG1EblVHd2ZienVic0hHM0w5dTl1QlliWXpBdTRWdW42UkkxSUI0UHoxeHZhSlF6d0VWQmNHbkpKS19UckhZQkdJVDFVajY4OHhSVXpCTlVrajRNMGc?oc=5",
+      "date": "Fri, 15 May 2026 00:26:02 GMT"
+    },
+    {
+      "title": "Finding a Better Way to Treat Chronic Pain in Veterans",
+      "source": "Yale School of Medicine",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNW5rb0dQOTg4T3Nqb000VXQwdnFSTHc2UDZPaUJZVzlpam9yNUlwZlBWY3JpZEQwMjNNYmVJbmI5U1AyS3RDUGdCUzROcnNVOVp2YmpCYUlwczVCV2ZKUHBCMVpfcWtCR3ppXzZQLWJsNDBLVmNSbzVHeXBKd0FDVjdQbmJHb29DUG1lTUM3YVJjTDE4NUduWVdR?oc=5",
+      "date": "Thu, 14 May 2026 17:42:43 GMT"
+    },
+    {
+      "title": "Your Low-Back Pain Might Be Sciatica. Try These 7 Exercises for Relief.",
+      "source": "Popular Science",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12OFNabVR1dG1RQlBfQTRXYlFSaXBid1doVjExZllZZDFNRDh2TWRFXy1lVGczYkc3WjRfd1p4YWVSOWZ4aWtQbVNGWmpRRzFDcVF3S0FJeWVPMzZMR2FGczl5ODl6MVI2bHRITlRGejRmby0yQ0JZ?oc=5",
+      "date": "Sun, 10 May 2026 17:33:38 GMT"
+    },
+    {
+      "title": "Nerve tissue offers insights into chronic neck pain",
+      "source": "UW Medicine | Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM01RRkRZNmZKSDJKSjhSX0NBMmU4VVVZRlJObk5hWFhzZUtDZ0d2MU96ZFJ3R3E3b3NqbEJOMnlqdlNjc01aQUpTcXFtdGJ6d0V1VDFmc3pyN3pyWHZHUW1QaGFlOHVYLUQ2ZHR3RjRzbWhfaW1mZmZoMTUxQ29SaXpOb0FWQTg?oc=5",
+      "date": "Mon, 11 May 2026 19:23:34 GMT"
+    },
+    {
+      "title": "Targeted Ultrasound Could Offer Alternative to Chronic Pain Medication",
+      "source": "Inside Precision Medicine",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQl8zLUZZU3NzOUZKcFM4T0piS2Y1Nm9SN3JmNFpRXzNxVkhIOURGZDJzRURFa3RKNmhUTXplYVd4Ym5zT3dtOVYwaUk1QXR5aEhNa2VOZHFIdDBlQ2J0aWEzR3BncHBRZ2JlZ1dpMzVMcXRsWVBsTDhZNk8wTEtwdndLaFFuekplYzNfSTlvMWcwR0tFSHpDREtBOW1lRExPbmtzR3FJSlp2RFdaeVFJVXpJaGlhdHk4b3c5SW0xcnBYbk5BdGhjVHFlVmJIa1NfVEJrX2FrMDU?oc=5",
+      "date": "Wed, 13 May 2026 20:21:09 GMT"
+    },
+    {
+      "title": "How the Path of Chronic Pain Can Shift in Children",
+      "source": "Duke Today",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3RFdTdW1LcVZTV3I1Wk81NENSYnR6M2lvZUI3MzlKbWMxeFRLN3NsQ1M0ZFZWZFRsUzNxcEo3TFAzeGExUGNmUFNzdjhxTjc4NXVWSGlha25LV1Z1cTE3ZzJ4ZFNUY01lM1ZFNVZQNGI1RjZ0S3NGR0FZUQ?oc=5",
+      "date": "Fri, 15 May 2026 20:52:49 GMT"
+    },
+    {
+      "title": "ISMRM: PET/MRI-guided treatment reduces low back pain",
+      "source": "AuntMinnie",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkhNWUhMbm91cC1BMEpBT0s2OUpaaElRX1R1S1BpSjlsWjRtc3YzblRTR0xqNmM5aFJRTngwdzlFckd6Smx2ZXFCV1Q5cnk4V3N3VE02SndCblFKXzlGeWNWZ0RZM2l2d1RjS3lhaENISU1xckc5VGhIZVNvZTdIZ1dwaV8zZ1Y2WS1GRjlEa043RVdObXFGbEIxSGJZUEtWbXo1azh2eGgzRVJfcmFNNlJtOGFnU21oNEVTdlNCUVlGQkJE?oc=5",
+      "date": "Fri, 15 May 2026 13:31:12 GMT"
+    },
+    {
+      "title": "WVU Medicine helps Albright man reclaim his life from chronic pain",
+      "source": "WVU Medicine",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEV6bWtXQncxTkN1QUF6QS1fblFIYUE1Qi1Xbkd3anNkMnBhTlhHS1E2blYyUjhMVXo3OEFoNzhFRDc3dV9qRHFYNkJvanZ4WmRLeG9mX2FLdEUzcDZScVBzelB5RXM5ejB5R1hLWW1zLTRIQlVOWC1wNTdIa1o1cjFhY1h6TGc1Y2xxSkxWaHM3YWZ4clNwNzVrb3czWWRvQzdyOTR2aHBuY3Rnd19lLXJUcU9YTU1mem9HQjEzaDhpWGNZZC1qNFk4Y1JkQ2I5aDVDZTRzRQ?oc=5",
+      "date": "Tue, 12 May 2026 12:30:58 GMT"
+    },
+    {
+      "title": "Study validates accuracy of depression screening for people with chronic pain",
+      "source": "Medical Xpress",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHNkY2lhbTM0NVpJWWZWY1ZNYXNPOGlYQnBwemZVU2RldjJzdlNJSHFZNE9QbGNPaGpaSGlwQloxZWJ6TGJyUGU3NmlMenI3aFNkM0U4ek5hWnNVU2FNVXNvTXBqdWVDT1VNckpFOGRtV1FDUzU1V0NuZ2FSSzQxVkU5Ulo1eDd1Sk1taGJJQmdRNmpx?oc=5",
+      "date": "Wed, 13 May 2026 19:38:54 GMT"
+    },
+    {
+      "title": "Is your back pain more than strain?",
+      "source": "Mayo Clinic Press",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUEEweHNHajZGMzRNbTRjUjJpU2t4OFB4VTR4MlFUdm1lRkZ4SDRzWXZ1ajM0QTA5cnVIVlJaNENOdWljOXoteGNOZ1F4ako1OHNEblhmd01nVVMtZGI4ZEVJU2I4eTVoOWJyVXMyX0RMUXBIbVJwUTg4MTMwczRhY0FTYno?oc=5",
+      "date": "Tue, 12 May 2026 14:05:42 GMT"
+    }
+  ],
+  "leads": null,
+  "hn_leads": null,
+  "competitor_data": {
+    "videos": [],
+    "blog_posts": [
+      {
+        "channel": "Peter Attia",
+        "category": "longevity",
+        "title": "#391 \u2012 Colorectal cancer screening: importance of early screening, colonoscopy as a screening and preventive tool, and how to build a personalized strategy",
+        "url": "https://peterattiamd.com/colorectalcancerscreening/",
+        "published": "Mon, 11 May 2026 04:15:00 +0000",
+        "snippet": "\u201cMost cancers are something that happen to you, but colorectal cancer is one of the few that you can intercept before it even exists.\u201d \u2014Peter Attia\nThe post #391 \u2012 Colorectal cancer screening: importa",
+        "matched_keywords": [],
+        "source": "blog"
+      },
+      {
+        "channel": "Peter Attia",
+        "category": "longevity",
+        "title": "The dynamic physiology of the brain with menopause",
+        "url": "https://peterattiamd.com/menopause-and-brain-function/",
+        "published": "Sat, 09 May 2026 11:00:00 +0000",
+        "snippet": "Menopause is often framed as a reproductive milestone. Brain imaging data suggest it may also be a neurological one.\nThe post The dynamic physiology of the brain with menopause\u00a0 appeared first on Pete",
+        "matched_keywords": [
+          "aging"
+        ],
+        "source": "blog"
+      }
+    ],
+    "summary": {
+      "total_channels_checked": 15,
+      "channels_with_new_content": 0,
+      "total_new_videos": 0,
+      "relevant_videos": 0,
+      "total_blog_posts": 2,
+      "relevant_blog_posts": 1,
+      "top_topics": []
+    },
+    "by_category": {}
+  },
+  "emerging_signals": {
+    "new_rising_queries": [],
+    "new_reddit_topics": [],
+    "wikipedia_breakouts": [
+      {
+        "article": "Lordosis",
+        "current_avg": 428.29,
+        "prior_avg": 289.14,
+        "wow_pct": 48.1,
+        "title": "Lordosis",
+        "daily_views": 428
+      },
+      {
+        "article": "Patellofemoral_pain_syndrome",
+        "current_avg": 158.86,
+        "prior_avg": 126.14,
+        "wow_pct": 25.9,
+        "title": "Patellofemoral pain syndrome",
+        "daily_views": 159
+      },
+      {
+        "article": "Anterior_pelvic_tilt",
+        "current_avg": 4.86,
+        "prior_avg": 4.0,
+        "wow_pct": 21.5,
+        "title": "Anterior pelvic tilt",
+        "daily_views": 5
+      }
+    ],
+    "new_quora_questions": [],
+    "is_first_run": false,
+    "summary": "3 Wikipedia breakouts"
+  },
+  "declining_signals": [
+    {
+      "keyword": "standing desk",
+      "wow_pct": -53.2,
+      "trend_direction": "falling",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "restorative yoga",
+      "wow_pct": -33.3,
+      "trend_direction": "stable",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "joint health",
+      "wow_pct": -33.3,
+      "trend_direction": "falling",
+      "source": "google_trends"
+    },
+    {
+      "keyword": "Chronic pain",
+      "wow_pct": -21.1,
+      "trend_direction": "declining",
+      "source": "wikipedia"
+    }
+  ],
+  "seasonal_context": {
+    "season_name": "Weekend Warrior Season",
+    "context_note": "Memorial Day weekend warriors emerge \u2014 people who've been sedentary jump into hiking, running, and outdoor sports. Overuse injuries and trail-related tweaks surge.",
+    "suggested_angles": [
+      "Weekend warrior survival guide: don't let Memorial Day wreck your back",
+      "Trail running season: ankles, knees, and what to strengthen first",
+      "Hiking injury prevention \u2014 the pre-hike mobility check"
+    ],
+    "trending_keywords_boost": [
+      "weekend warrior injury",
+      "hiking knee pain",
+      "outdoor running",
+      "memorial day fitness",
+      "trail running pain",
+      "hiking injury"
+    ],
+    "month": 5,
+    "date": "2026-05-16"
+  },
+  "assessment": {
+    "assessment_name": "Overhead Squat Assessment",
+    "instructions": "Stand with feet shoulder-width apart. Raise both arms straight overhead, biceps by your ears. Slowly squat down as far as comfortable. Note where you feel limited: ankles, hips, upper back, or shoulders.",
+    "what_it_reveals": "The overhead squat reveals your body's priority compensation pattern. Heels rising = ankle mobility. Knees caving = hip weakness. Arms falling forward = thoracic stiffness. The first thing that breaks down is your starting point.",
+    "cta": "Whatever broke down first in your overhead squat, the exercises in today's video are designed to address that exact limitation.",
+    "matched_theme": "default",
+    "input_theme": "achilles tendonitis"
+  },
+  "strategy_json": {
+    "theme_narrative": "This week 'achilles tendonitis' is trending across search, social, and health forums. Based on the data we collected, this is a high-opportunity topic for Bart's audience of desk workers, athletes, and chronic-pain patients.",
+    "monday_video": {
+      "title": "Achilles Tendonitis \u2014 4 Exercises That Actually Work (2026)",
+      "hook": "'Achilles Tendonitis' searches are surging right now. Most advice online is wrong. Here's what actually works based on 15,000 hours of clinical experience.",
+      "talking_points": [
+        "Open with the data: 'achilles tendonitis' is trending because...",
+        "Explain the biomechanics: here's what's happening in the body",
+        "Common mistakes: what most people do that makes it worse",
+        "The fix: walk through 4 exercises with form cues"
+      ],
+      "exercises": [
+        {
+          "name": "Eccentric heel drops",
+          "form_cue": "[Bart: add specific form cue]"
+        },
+        {
+          "name": "Calf raises (bent knee)",
+          "form_cue": "[Bart: add specific form cue]"
+        },
+        {
+          "name": "Ankle alphabet",
+          "form_cue": "[Bart: add specific form cue]"
+        },
+        {
+          "name": "Soleus stretch",
+          "form_cue": "[Bart: add specific form cue]"
+        }
+      ],
+      "end_cta": "Try these today and tell me in the comments how you feel by Wednesday.",
+      "platforms": {
+        "youtube": {
+          "description": "Searches for achilles tendonitis are trending this week. In this video Bart Firch walks through 4 evidence-based exercises you can do at your desk or at home. Timestamps below. Full blog post: https://bartonfirch.com",
+          "tags": [
+            "achilles tendonitis",
+            "achilles tendonitis exercises",
+            "pain relief",
+            "posture correction",
+            "desk worker exercises",
+            "achilles tendonitis 2026",
+            "corrective exercise",
+            "mobility"
+          ]
+        },
+        "linkedin": "'Achilles Tendonitis' searches are surging. Most advice? Dangerously oversimplified. Here's what 15,000 hours of clinical work taught me.",
+        "instagram_reels": "'Achilles Tendonitis' is trending \u2014 here's the fix\n\n4 exercises you can do right now\n\nSave this. Try it today.\n\n#achillestendonitis #posturecorrection #painrelief #mobility",
+        "tiktok": "achilles tendonitis is blowing up rn \u2014 here's what actually works #achillestendonitis #fitness #health"
+      },
+      "thumbnail": {
+        "text_overlay": "Achilles Tendonitis Fix",
+        "pose_suggestion": "Bart demonstrating the first exercise for achilles tendonitis",
+        "color_scheme": "Bold white text on dark background"
+      },
+      "viewer_assessment": "Before starting these exercises, try this quick self-test to see where you stand. [Bart: add a 30-second assessment relevant to achilles tendonitis]"
+    },
+    "wednesday_post": {
+      "linkedin_draft": "Monday I shared a achilles tendonitis routine that resonated with a lot of you.\n\nReading through the comments, two things stood out:\n\n1. Most of you sit 8+ hours a day and feel it.\n2. You've tried stretching but nothing sticks.\n\nHere's why \u2014 and what to do instead.\n\n[Bart: add clinical detail about why static stretching alone doesn't fix achilles tendonitis]\n\nThe exercises I showed Monday work because they target the root cause, not just the symptom.\n\n[Bart: add 2-3 sentences of biomechanical explanation]\n\nIf you missed Monday's video, link in comments.",
+      "blog_title": "How to Fix Achilles Tendonitis: Evidence-Based Exercises",
+      "blog_meta_description": "Evidence-based achilles tendonitis exercises from 15K+ hours of clinical experience. Step-by-step guide with form cues.",
+      "medium_subtitle": "Data-driven exercise prescription",
+      "cross_post_note": "Blog (bartonfirch.com) -> Medium (canonical) -> Substack",
+      "study_citation": "[Bart: cite a relevant PubMed study on achilles tendonitis if available from this week's brief]"
+    },
+    "friday_card": {
+      "stat_headline": "'Achilles Tendonitis' searches are trending this month",
+      "tip": "Start with Eccentric heel drops \u2014 30 seconds, twice a day.",
+      "engagement_ask": "You've had the achilles tendonitis exercises for 4 days. How does your body feel?",
+      "platforms": {
+        "linkedin": "The data this week pointed to 'achilles tendonitis' as a breakout topic. Monday we covered the exercises. Wednesday we went deeper. Today \u2014 one stat and one tip to carry into the weekend.",
+        "pinterest": "Achilles Tendonitis exercises and stretches for pain relief. Evidence-based routine from a pain management coach with 15,000+ hours of clinical experience. Save this pin for your next desk break.",
+        "twitter": "1/ 'Achilles Tendonitis' is trending \u2014 here's one stat and one fix.\n\n2/ Tip: Eccentric heel drops, 30 sec, 2x/day.\n\n3/ Full routine \u2192 https://bartonfirch.com"
+      }
+    },
+    "seo_notes": {
+      "target_keyword": "achilles tendonitis exercises",
+      "secondary_keywords": [
+        "how to fix achilles tendonitis",
+        "achilles tendonitis stretches",
+        "best exercises for achilles tendonitis"
+      ],
+      "schema_types": [
+        "HowTo",
+        "FAQPage"
+      ],
+      "ai_findability_tips": [
+        "Use Q&A format: 'What causes achilles tendonitis?' with a direct answer paragraph so LLMs and featured snippets can extract it",
+        "Include structured data (HowTo + FAQPage schema) for search engines and AI crawlers",
+        "Write definitive statements LLMs can quote as authoritative \u2014 e.g. 'The most effective exercise for achilles tendonitis is...'"
+      ]
+    },
+    "engagement_replies": [
+      {
+        "post_title": "[Top engagement opportunity title]",
+        "suggested_reply": "Great question. From my clinical experience with achilles tendonitis, the most common mistake I see is jumping straight to stretching without addressing the underlying movement pattern. Try starting with Eccentric heel drops \u2014 it targets the root cause rather than just the symptom."
+      }
+    ]
+  },
+  "strategy_source": "fallback_template",
+  "brief_number": 15,
+  "version": "1.5"
+}
